@@ -11,6 +11,10 @@ Kaplan, Kate (2022, October 9). Personas: Study Guide. *NN/g Articles & Videos*.
 
 Hollingshead, Christy (2023, April 17). A four-step guide to building behavioral personas. *Heap*.  https://www.heap.io/blog/a-four-step-guide-to-building-behavioral-personas
 
+## Putting names to faces - Developer Personas
+
+DevRel.Agency (2023, May 28). Putting names to faces - Developer Personas. *DevRel.Agency Blog.* https://www.devrel.agency/post/personas 
+
 ## How Developers Think: A Persona Playbook
 
 Developer Marketing Alliance (2023, September). How Developers Think: A Persona Playbook. *Developer Marketing Alliance*. https://www.developermarketing.io/how-developers-think-a-persona-playbook/
@@ -27,8 +31,15 @@ Delve AI (2025). The History of Buyer Personas. *Delve AI Blog*. https://www.del
 
 ## Gitlab Handbook on Personas
 
-Gitlab (2025). Personas. *The GitLab Handbook8. https://handbook.gitlab.com/handbook/product/personas/
+Gitlab (2025). Personas. *The GitLab Handbook. https://handbook.gitlab.com/handbook/product/personas/
 
 > Identifies 18 user personas with job summary, motivations, and frustrations to help product and 8 buyer personas. (@j12y)
+
+## You're Target Developers? So Is Everyone Else.
+
+Lewko, Caroline (2022, Mar 22). You're Targeting Developers? So Is Everyone Else. *Heavybit*. https://www.heavybit.com/library/article/heres-how-to-do-segmentation-better 
+
+> Describes Developer Segmentation Framework and Canvas.
+
 
 

@@ -18,4 +18,8 @@ https://www.delve.ai/buyer-persona-template
 
 > ⚠️ This template is identified as free, but is behind a login and is otherwise a paid tool / service. (@j12y)
 
+## Developer Persona Canvas
+
+> The Developer Persona Canvas is an effective way to visualize a developer’s needs on a single sheet of paper. It is primarily used by the DevRel team, but it can also be used by the marketing and product teams as well.
+https://www.figma.com/community/file/1111933904021892623/developer-personas
 
