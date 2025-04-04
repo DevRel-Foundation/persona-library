@@ -1,0 +1,54 @@
+{
+    "description": "A collection of books that feature creating and using personas prominently in their subject matter.",
+    "data": [
+        {
+            "type": "book",
+            "title": "The Inmates Are Running the Asylum",
+            "authors": ["Cooper, Alan"],
+            "publish-date": "1998-01-01",
+            "publication": "Sams Publishing",
+            "url": "https://www.pearson.com/store/p/inmates-are-running-the-asylum-the-why-high-tech-products-drive-us-crazy-and-how-to-restore-the-sanity/P100000009834",
+            "notes": [
+                {"participant": "@j12y", "note": "This is credited with being an early uses of the term 'persona' when evaluating a user experience."}
+            ]
+        },
+        {
+            "type": "book",
+            "title": "The Persona Lifecycle",
+            "authors": ["Pruitt, John", "Adlin, Tamara"],
+            "publish-date": "2010-01-01",
+            "publication": "Morgan Kaufmann",
+            "url": "https://www.elsevier.com/books/the-persona-lifecycle/pruitt/978-0-12-566251-2"
+        },
+        {
+            "type": "book",
+            "title": "Buyer Personas: How to Gain Insight Into Your Customer's Expectations, Align Your Marketing Strategies, and Win More Business",
+            "authors": ["Revella, Adele"],
+            "publish-date": "2015-01-01",
+            "publication": "Wiley",
+            "url": "https://www.wiley.com/en-us/Buyer+Personas%3A+How+to+Gain+Insight+into+your+Customer%27s+Expectations%2C+Align+your+Marketing+Strategies%2C+and+Win+More+Business-p-9781119212461"
+        },
+        {
+            "type": "book",
+            "title": "Developer Marketing and Relations: The Essential Guide",
+            "authors": ["Lewko, Caroline", "Sauvage, Nicolas", "Constantinou, Andreas"],
+            "publish-date": "2020-01-01",
+            "publication": "SlashData",
+            "url": "https://www.developerrelations.com/books/developer-marketing-and-relations-the-essential-guide",
+            "notes": [
+                {"participant": "@j12y", "note": "Chapter 1 (Using Developer Personas to Stay Customer-Obsessed) written by Cliff Simpkins focuses on the role of personas."}
+            ]
+        },
+        {
+            "type": "book",
+            "title": "Developer Relations: How to Build and Grow a Successful Developer Program",
+            "authors": ["Lewko, Caroline", "Parton, James"],
+            "publish-date": "2021-01-01",
+            "publication": "Apress",
+            "url": "https://link.springer.com/book/10.1007/978-1-4842-6449-4",
+            "notes": [
+                {"participant": "@j12y", "note": "A few specific chapters to review include Chapter 5 (The Audience: Developers), Chapter 12 (Developer Segmentation), and Chapter 13 (Developer Personas)."}
+            ]
+        }
+    ]
+}

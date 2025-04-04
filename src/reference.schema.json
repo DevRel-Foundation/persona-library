@@ -18,10 +18,15 @@
                 "properties": {
                     "type": {
                         "description": "Type of reference material",
-                        "type": "string"
+                        "type": "string",
+                        "enum": ["blog post", "white paper", "documentation", "academic paper", "book", "video", "podcast", "slide deck"]
                     },
                     "title": {
                         "description": "Title of the reference",
+                        "type": "string"
+                    },
+                    "description": {
+                        "description": "Description or summary of the reference content",
                         "type": "string"
                     },
                     "authors": {
