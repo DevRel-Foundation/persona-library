@@ -13,7 +13,9 @@ const args = require('yargs')
     .argv;
 
 const Ajv = require("ajv/dist/2020"); // https://ajv.js.org/guide/schema-language.html#draft-2019-09-and-draft-2020-12
+const addFormats = require("ajv-formats");
 const ajv = new Ajv({ strict: false })
+addFormats(ajv);
 
 // Load schema
 const schema = JSON.parse(fs.readFileSync(args.schema, 'utf8'));
