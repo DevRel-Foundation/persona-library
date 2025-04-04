@@ -1,0 +1,78 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/DevRel-Foundation/persona-library/blob/main/src/reference.schema.json",
+    "title": "Reference Schema",
+    "description": "DevRel Foundation Persona Library References",
+    "version": "1.0",
+    "type": "object",
+    "properties": {
+        "description": {
+            "description": "Description of the reference collection",
+            "type": "string"
+        },
+        "data": {
+            "description": "Array of reference items",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "Type of reference material",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "Title of the reference",
+                        "type": "string"
+                    },
+                    "authors": {
+                        "description": "Authors of the reference",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "publish-date": {
+                        "description": "Publication date of the reference",
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "retrieval-date": {
+                        "description": "Retrieval date of the reference",
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "publication": {
+                        "description": "Website or publication where the reference appears",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "URL to access the reference",
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "notes": {
+                        "description": "Participant feedback about the resource",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "participant": {
+                                    "type": "string",
+                                    "description": "The name of the participant"
+                                },
+                                "note": {
+                                    "type": "string",
+                                    "description": "The note from the participant"
+                                }
+                            }
+                        }
+                    }
+                },
+                "required": ["type", "title", "url"],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": ["description", "data"],
+    "additionalProperties": false
+}
