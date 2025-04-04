@@ -19,7 +19,7 @@
                     "type": {
                         "description": "Type of reference material",
                         "type": "string",
-                        "enum": ["blog post", "white paper", "documentation", "academic paper", "book", "video", "podcast", "slide deck"]
+                        "enum": ["blog post", "white paper", "documentation", "book", "video", "podcast", "slide deck", "tool"]
                     },
                     "title": {
                         "description": "Title of the reference",
