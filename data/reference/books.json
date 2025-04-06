@@ -7,7 +7,7 @@
             "authors": ["Cooper, Alan"],
             "publish-date": "1998-01-01",
             "publication": "Sams Publishing",
-            "url": "https://www.pearson.com/store/p/inmates-are-running-the-asylum-the-why-high-tech-products-drive-us-crazy-and-how-to-restore-the-sanity/P100000009834",
+            "url": "",
             "notes": [
                 {"participant": "@j12y", "note": "This is credited with being an early uses of the term 'persona' when evaluating a user experience."}
             ]
@@ -18,7 +18,7 @@
             "authors": ["Pruitt, John", "Adlin, Tamara"],
             "publish-date": "2010-01-01",
             "publication": "Morgan Kaufmann",
-            "url": "https://www.elsevier.com/books/the-persona-lifecycle/pruitt/978-0-12-566251-2"
+            "url": ""
         },
         {
             "type": "book",
@@ -26,7 +26,7 @@
             "authors": ["Revella, Adele"],
             "publish-date": "2015-01-01",
             "publication": "Wiley",
-            "url": "https://www.wiley.com/en-us/Buyer+Personas%3A+How+to+Gain+Insight+into+your+Customer%27s+Expectations%2C+Align+your+Marketing+Strategies%2C+and+Win+More+Business-p-9781119212461"
+            "url": ""
         },
         {
             "type": "book",
@@ -34,7 +34,7 @@
             "authors": ["Lewko, Caroline", "Sauvage, Nicolas", "Constantinou, Andreas"],
             "publish-date": "2020-01-01",
             "publication": "SlashData",
-            "url": "https://www.developerrelations.com/books/developer-marketing-and-relations-the-essential-guide",
+            "url": "",
             "notes": [
                 {"participant": "@j12y", "note": "Chapter 1 (Using Developer Personas to Stay Customer-Obsessed) written by Cliff Simpkins focuses on the role of personas."}
             ]
