@@ -10,6 +10,16 @@ Details on how to use the resources of the persona library.
 
 * ...
 
+## Reference Material
+
+In addition to the DRF Persona System, there are reference materials to learn more about the process of creating and managing personas.
+
+- [articles](./data/reference/articles.json)
+- [books](./data/reference/books.json)
+- [video](./data/reference/videos.json)
+
+Run `json-to-md --build build --data ./data/reference/*.json` to create markdown files for a more user friendly way to review the resources.
+
 ## About the Persona Library
 
 This repository is maintained with support of the [Resource and Asset Aggregation Working Group](https://github.com/DevRel-Foundation/wg-resource-aggregation) and Developer Relations Foundation.

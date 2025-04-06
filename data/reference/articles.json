@@ -1,0 +1,68 @@
+{
+    "description": "Blog posts, tutorials, white papers, slide decks, and other written short-form content about creating personas.",
+    "data": [{
+        "type": "blog post",
+        "title": "Personas: Study Guide",
+        "authors": ["Kaplan, Kate"],
+        "publish-date": "2022-10-09",
+        "publication": "NN/g Articles & Videos",
+        "url": "https://www.nngroup.com/articles/personas-study-guide/"
+        }, {
+        "type": "blog post",
+        "title": "A four-step guide to building behavioral personas",
+        "authors": ["Hollingshead, Christy"],
+        "publish-date": "2023-04-17",
+        "publication": "Heap",
+        "url": "https://www.heap.io/blog/a-four-step-guide-to-building-behavioral-personas"
+        }, {
+        "type": "blog post",
+        "title": "Putting names to faces - Developer Personas",
+        "authors": ["DevRel.Agency"],
+        "publish-date": "2023-05-28",
+        "publication": "DevRel.Agency Blog",
+        "url": "https://www.devrel.agency/post/personas"
+        }, {
+        "type": "white paper",
+        "title": "How Developers Think: A Persona Playbook",
+        "authors": ["Developer Marketing Alliance"],
+        "publish-date": "2023-09-01",
+        "publication": "Developer Marketing Alliance",
+        "url": "https://www.developermarketing.io/how-developers-think-a-persona-playbook/"
+        }, {
+        "type": "blog post",
+        "title": "What are developer personas? Your complete guide.",
+        "authors": ["Garanhel, Teresa"],
+        "publish-date": "2024-10-22",
+        "publication": "Developer Marketing Alliance",
+        "url": "https://www.developermarketing.io/the-complete-guide-to-developer-personas/"
+        }, {
+        "type": "blog post",
+        "title": "The History of Buyer Personas",
+        "authors": ["Delve AI"],
+        "publish-date": "2025-01-01",
+        "publication": "Delve AI Blog",
+        "url": "https://www.delve.ai/blog/the-history-of-buyer-personas",
+        "retrieval-date": "2025-03-15"
+        }, {
+        "type": "documentation",
+        "title": "Personas",
+        "authors": ["Gitlab"],
+        "publish-date": "2025-03-15",
+        "publication": "The GitLab Handbook",
+        "url": "https://handbook.gitlab.com/handbook/product/personas/",
+        "notes": [
+            {"participant": "@j12y", "note": "Identifies 18 user personas with job summary, motivations, and frustrations."}
+        ]
+        }, {
+        "type": "blog post",
+        "title": "You're Targeting Developers? So Is Everyone Else.",
+        "authors": ["Lewko, Caroline"],
+        "publish-date": "2022-03-22",
+        "publication": "Heavybit",
+        "url": "https://www.heavybit.com/library/article/heres-how-to-do-segmentation-better",
+        "notes": [
+            {"participant": "@j12y", "note": "Description of Developer Segmentation Framework and Canvas."}
+        ]
+        }
+    ]
+}
