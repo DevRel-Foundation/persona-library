@@ -51,9 +51,17 @@
                         "type": "string"
                     },
                     "url": {
-                        "description": "URL to access the reference",
-                        "type": "string",
-                        "format": "uri"
+                        "description": "URL to access the reference (can be empty)",
+                        "anyOf": [
+                            {
+                                "type": "string",
+                                "format": "uri"
+                            },
+                            {
+                                "type": "string",
+                                "maxLength": 0
+                            }
+                        ]
                     },
                     "notes": {
                         "description": "Participant feedback about the resource",
@@ -71,6 +79,10 @@
                                 }
                             }
                         }
+                    },
+                    "$schema": {
+                        "description": "The schema that can be used for validation. Can be relative path or URL.",
+                        "type": "string"
                     }
                 },
                 "required": ["type", "title", "url"],
