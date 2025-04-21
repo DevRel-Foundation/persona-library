@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/DevRel-Foundation/persona-library/blob/main/src/reference.schema.json",
+    "$id": "https://github.com/DevRel-Foundation/persona-library/blob/main/src/schemas/reference.json",
     "title": "Reference Schema",
     "description": "DevRel Foundation Persona Library References",
     "version": "1.0",

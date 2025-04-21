@@ -63,6 +63,11 @@
                     "description": "The competitive environment of the ecosystem as a modifier on the persona.",
                     "enum": ["growth", "consolidation"]
                 },
+                "relationship": {
+                    "type": "string",
+                    "description": "The business relationship between the persona's organization and yours.",
+                    "enum": ["customer", "lead", "prospect", "partner"]
+                },
                 "gtm": {
                     "type": "string",
                     "description": "The go to market strategy of the organization as a modifier on the persona.",

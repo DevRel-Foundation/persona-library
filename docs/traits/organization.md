@@ -75,6 +75,36 @@ During growth companies are fighting for market share and attention in an emergi
 
 During consolidation companies are acquiring growth companies to secure their leadership position within the competitive environment.
 
+## RELATIONSHIP
+
+When thinking about personas, the relationship with the organization may also be a consideration as a dimension. You may need a persona for existing customers that is distinct from partner organizations or prospective customers.
+
+### Customer
+
+The relationship is established and the organizations have a transactional as well as a commitment to one another.
+
+### Lead
+
+The relationship is not yet committed, but there is confidence the persona is a match.
+
+This encompasses each of:
+- marketing qualified
+- sales qualified
+- devrel qualified
+
+### Prospect
+
+The relationship verges on being unknown. There may be a future transaction, but there are not enough signals to qualify the prospect as more than a persona that deserves nurturing.
+
+### Partner
+
+The partner relationship encompasses a wider range of business activities beyond a commercial transaction. Personas with this trait may be important for certain businesses to consider.
+
+- independent service vendor
+- systems integrator
+- business development
+- co-marketing
+
 ## INDUSTRY
 
 The industry in which a persona operates can have implications on their behaviors.
@@ -91,6 +121,7 @@ For each industry there may be specific interactions with other traits to better
 - transportation
 - energy
 - iot
+
 
 
 

@@ -43,6 +43,10 @@ The modality tells you what format to make content in to reach your intended aud
 
 The role of the persona and specifically their responsibilities is a good indication of what tone of voice and what to say or not say to that audience.
 
+**[relationship](../traits/organization.md)**
+
+When building content, the nature of the relationship for the persona becomes fundamental in terms of the context needed to describe your business, product, or service. If the relationship is a customer such as a newsletter sent to existing customers, you would have different communication expectations than you would when building content for the documentation or a third-party content marketing channel where you may engage with prospects who do not know anything about your brand.
+
 ### 4. Content Delivery
 
 Once you've developed content, you need to get it in front of your persona. To reach your intended audience, you should take some traits into consideration.
