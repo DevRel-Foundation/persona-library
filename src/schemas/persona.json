@@ -1,0 +1,122 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "persona.schema.json",
+    "$id": "https://github.com/DevRel-Foundation/persona-library/blob/main/src/schema/persona.json",
+    "title": "Personas",
+    "description": "Developer Relations Foundation Persona Library.",
+    "version": "1.0",
+    "$defs": {
+        "careerStages": {
+            "description": "The stage of career is an indicator for how familiar a person may be with the skills and expectations of their role. \nThis attribute is about the progression for a specific role, not a person. Somebody may have extensive professional experience, but if they've taken on a new role in a new industry for the purposes of defining the persona it has reset the clock.",
+            "oneOf": [
+                {
+                    "const": "early",
+                    "title": "Early Career",
+                    "description": "Somebody who is early career could be an entry-level junior professional, a student, or a hobbyist. Whatever their job title may be, they are still seeking guidance from other professionals to validate their work. They are commonly building or looking to acquire foundational and core skills as an individual contributor (IC). Often somebody early career is looking to demonstrate their prowess while building their portfolio of projects and experience. This may be somebody with 5 years or fewer years of experience in their role and domain."
+                },
+                {
+                    "const": "mid",
+                    "title": "Mid-Level",
+                    "description": "Somebody who recently transitioned from an IC role into a management or team leadership position. They may or may not be a player-coach who must balance hands-on work with managing others. They may have become more effient and reliable and are therefore a go-to person for implementation. Somebody mid-career is more likely to be a lead in driving the decision-making direction, balancing innovation with organizational needs. This stage has moved beyond the basics and is taking ownership of critical components and developing further specialized domain expertise. This is typically somebody with 5 to 10 years of experience in their role and domain."
+                },
+                {
+                    "const": "pro",
+                    "title": "Proficient",
+                    "description": "Somebody who has standardized their approach and has responsibility for mentoring early and mid-level team members. They will be called upon to drive inter-department and organizational strategy to foster business alignment. They will typically be consulted on architectural component level decision-making and the evaluation of performance. Likely have very limited technical hands-on work day-to-day and will delegate those tasks to others. Decision-making authority often rests with an expert, but those decisions will be driven by an analysis of the information presented from others on the team. This is commonly somebody with 10+ years of experience in their role and domain."
+                }
+            ]
+        }
+    },
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "description": "The schema that can be used for validation. Can be relative file path or URL.",
+            "type": "string"
+        },
+        "id": {
+            "description": "A unique id to help identify this persona",
+            "type": "string"
+        },
+        "label": {
+            "description": "A unique label to help identify this persona",
+            "type": "string"
+        },
+        "career-stage": {
+            "$ref": "#/$defs/careerStages"
+        },
+        "organization": {
+            "description": "See traits/organization.md for more detailed descriptions.",
+            "type": "object",
+            "properties": {
+                "maturity": {
+                    "type": "string",
+                    "description": "The maturity of the organization as a modifier on the persona behaviors.",
+                    "enum": ["startup", "legacy"]
+                },
+                "size": {
+                    "type": "string",
+                    "description": "The size of the organization as a modifier on the persona.",
+                    "enum": ["small", "mid", "enterprise"]
+                },
+                "competitive": {
+                    "type": "string",
+                    "description": "The competitive environment of the ecosystem as a modifier on the persona.",
+                    "enum": ["growth", "consolidation"]
+                },
+                "gtm": {
+                    "type": "string",
+                    "description": "The go to market strategy of the organization as a modifier on the persona.",
+                    "enum": ["b2b", "b2c", "b2d"]
+                },
+                "industry": {
+                    "description": "The industry as a modifier on the behaviors of a persona.",
+                    "type": "string",
+                    "enum": ["security", "cloud"]
+                }
+            },
+            "required": ["maturity", "industry"],
+            "additionalProperties": false
+        },
+        "learning": {
+            "description": "See traits/learning.md for more detailed descriptions.",
+            "type": "object",
+            "properties": {
+                "professional-development": {
+                    "type": "string",
+                    "enum": ["trendsetter", "minimalist", "toolsmith"]
+                },
+                "modality": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["visual", "auditory", "experiential"]
+                    }
+                }
+            },
+            "required": ["professional-development"],
+            "additionalProperties": false
+        },
+        "role": {
+            "description": "See traits/role.md for more detailed descriptions.",
+            "type": "object",
+            "properties": {
+                "hierarchy": {
+                    "type": "string",
+                    "description": "The place within an organizational hierarchy a persona sits.",
+                    "enum": ["ic", "lead"]
+                },
+                "responsibilities": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing"]
+                    }
+                }
+            },
+            "required": ["responsibilities", "hierarchy"],
+            "additionalProperties": false
+        }
+    },
+    "required": ["id", "label", "career-stage", "organization", "learning"],
+    "additionalProperties": false
+}
