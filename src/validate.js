@@ -84,7 +84,7 @@ args.data.forEach(item => {
 if (report.invalid > 0) {
     console.error(`Failed to validate:\n${report.review.join('\n')}`)
 }
-console.log(`Validated ${report.valid} out of ${args.data.length} resources checked.`)
+console.log(`Finished! Found ${report.valid} out of ${args.data.length} resources are valid.`)
 
 
 function log(msg) {
