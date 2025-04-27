@@ -1,15 +1,43 @@
 # Persona Library
 
-A **persona** represents the type of user that may or may not engage with a product or service. The value of a persona comes from using it to align a business around expectations for current and potential buyers or customers.
+The **Persona Library** is a [DevRel Foundation](https://github.com/DevRel-Foundation) initiative to collect resources related to the development of personas. A **persona** represents the type of user that may engage with a product or service. The value of a persona comes from using it to align business around expectations of current and potential buyers.
 
 * [Requirements and Use Cases](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions/46)
+* Glosary (_TODO_)
 
 ## Using the Persona Library
 
+To fully appreciate the benefits of personas, these guides explain how to apply the system to solve common operational tasks somebody who works in Developer Relations may need to accomplish.
+
 Details on how to use the resources of the persona library.
 
-* Getting Started (TODO)
-* [How-to Use Personas for Content Strategy](./docs/guides/how-to-use-personas-for-content-strategy.md)
+* [Getting Started with the DevRel Foundation Persona System](./docs/guides/getting-started.md) (_TODO_)
+* How-to Run a Persona Alignment Workshop (_TODO_)
+* [How-to Use Personas for Content Strategy](./docs/guides/content-strategy.md)
+* [How-to Use Personas for Community Management](./docs/guides/community-management.md) (_TODO_)
+* [How-to Use Personas for Event Strategy](./docs/guides/event-strategy.md) (_TODO_)
+
+### DRF Persona System Attributes
+
+Documentation explaining the various attributes that form a Persona.
+
+- [Career Traits](./docs/traits/career.md)
+- [Organization Traits](./docs/traits/organization.md)
+- [Professional Development Traits](./docs/traits/learning.md)
+- [Role Traits](./docs/traits/role.md)
+
+### DRF Persona System Indexes
+
+Mapping documenation to cross-reference personas.
+
+- Job Title Index (_TODO_)
+- Industry Index (_TODO_)
+
+### DRF Persona Sets
+
+Example sets of personas used by organizations.
+
+- DevRel Foundation Persona Sets (_TODO_)
 
 ## Reference Material
 

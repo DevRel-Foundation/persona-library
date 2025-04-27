@@ -92,9 +92,9 @@ This encompasses each of:
 - sales qualified
 - devrel qualified
 
-### Prospect
+### Lurker
 
-The relationship verges on being unknown. There may be a future transaction, but there are not enough signals to qualify the prospect as more than a persona that deserves nurturing.
+The relationship verges on being unknown. There may be a future transaction, but there are not enough signals to qualify the prospect as more than a persona that requires nurturing.
 
 ### Partner
 

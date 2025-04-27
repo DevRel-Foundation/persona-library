@@ -41,8 +41,16 @@
             "description": "A unique label to help identify this persona",
             "type": "string"
         },
+        "description": {
+            "description": "A free-form description that can be used to tell the story of the persona.",
+            "type": "string"
+        },
         "career-stage": {
             "$ref": "#/$defs/careerStages"
+        },
+        "industry": {
+            "description": "The industry as a modifier on the behaviors of a persona.",
+            "type": "string"
         },
         "organization": {
             "description": "See traits/organization.md for more detailed descriptions.",
@@ -72,14 +80,9 @@
                     "type": "string",
                     "description": "The go to market strategy of the organization as a modifier on the persona.",
                     "enum": ["b2b", "b2c", "b2d"]
-                },
-                "industry": {
-                    "description": "The industry as a modifier on the behaviors of a persona.",
-                    "type": "string",
-                    "enum": ["security", "cloud"]
                 }
             },
-            "required": ["maturity", "industry"],
+            "required": ["maturity"],
             "additionalProperties": false
         },
         "learning": {
@@ -95,6 +98,31 @@
                     "items": {
                         "type": "string",
                         "enum": ["visual", "auditory", "experiential"]
+                    }
+                },
+                "channels": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "format": {
+                                "type": "string",
+                                "enum": ["blog", "newsletter", "video", "product"]
+                            },
+                            "url": {
+                                "type": "string"
+                            },
+                            "level": {
+                                "type": "string",
+                                "enum": ["100", "200", "300"]
+                            }
+                        }
+                    }
+                },
+                "events": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
                     }
                 }
             },
@@ -114,7 +142,13 @@
                     "type": "array",
                     "items": {
                         "type": "string",
-                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing"]
+                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "business", "strategy"]
+                    }
+                },
+                "title": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
                     }
                 }
             },
@@ -122,6 +156,6 @@
             "additionalProperties": false
         }
     },
-    "required": ["id", "label", "career-stage", "organization", "learning"],
+    "required": ["id", "label", "industry", "career-stage", "organization", "learning"],
     "additionalProperties": false
 }

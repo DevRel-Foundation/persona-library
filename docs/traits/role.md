@@ -3,12 +3,21 @@
 
 The role somebody has on a team is a significant trait when it comes to understanding the persona. In some organizations, a job title may take on multiple roles and the same role may appear in various types of organizations with different labels. Typically there may be a nuance to why a different label is needed.
 
+## CORE
+
+### Dev
+
+A development role.
+
+### Biz
+
+A business role.
+
 ## HIERARCHY
 
 ### Individual Contributor (IC)
 
 An individual contributor produces value for the company through their work, but does not have any direct influence over the work of others.
-
 
 ### Lead 
 
