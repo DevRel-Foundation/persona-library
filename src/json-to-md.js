@@ -148,7 +148,7 @@ function main() {
         let bn = path.basename(item, path.extname(item));
         const md = path.join(args.build, bn + '.md')
 
-        let markdown = `# ${bn.toUpperCase()}\n`;
+        let markdown = `\nDO NOT EDIT: This file was generated from ${item}.\n\n# ${bn.toUpperCase()}\n`;
 
         if (asset.description) {
             markdown += `${asset.description}\n\n`;

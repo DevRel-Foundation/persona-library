@@ -18,7 +18,8 @@
             "authors": ["Pruitt, John", "Adlin, Tamara"],
             "publish-date": "2010-01-01",
             "publication": "Morgan Kaufmann",
-            "url": ""
+            "url": "",
+            "notes": []
         },
         {
             "type": "book",
@@ -26,7 +27,8 @@
             "authors": ["Revella, Adele"],
             "publish-date": "2015-01-01",
             "publication": "Wiley",
-            "url": ""
+            "url": "",
+            "notes": []
         },
         {
             "type": "book",
@@ -38,6 +40,24 @@
             "notes": [
                 {"participant": "@j12y", "note": "Chapter 1 (Using Developer Personas to Stay Customer-Obsessed) written by Cliff Simpkins focuses on the role of personas."}
             ]
+        },
+        {
+            "type": "book",
+            "title": "The User is Always Right: A Practical Guide to Creating and Using Personas for the Web",
+            "authors": ["Mulder, Steve", "Yaar, Ziv"],
+            "publish-date": "2006-08-21",
+            "publication": "New Riders",
+            "url": "",
+            "notes": []
+        },
+        {
+            "type": "book",
+            "title": "The World's Best Buyer Persona System: The Buyer Persona Reimagined",
+            "authors": ["Andrews, Stormie"],
+            "publish-date": "2020-07-10",
+            "publication": "Yokel Local",
+            "url": "",
+            "notes": []
         },
         {
             "type": "book",

@@ -3,7 +3,7 @@
 The **Persona Library** is a [DevRel Foundation](https://github.com/DevRel-Foundation) initiative to collect resources related to the development of personas. A **persona** represents the type of user that may engage with a product or service. The value of a persona comes from using it to align business around expectations of current and potential buyers.
 
 * [Requirements and Use Cases](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions/46)
-* Glosary (_TODO_)
+* Glossary (_TODO_)
 
 ## Using the Persona Library
 
@@ -39,16 +39,18 @@ Example sets of personas used by organizations.
 
 - DevRel Foundation Persona Sets (_TODO_)
 
+Run `./bin/validate --data data/personas/*.json --schema ./src/schemas/persona.json` to confirm the source persona data is valid.
+
 ## Reference Material
 
 In addition to the DRF Persona System, there are reference materials to learn more about the process of creating and managing personas.
 
-- [articles](./data/reference/articles.json)
-- [books](./data/reference/books.json)
-- [tools](./data/reference/tools.json)
-- [video](./data/reference/videos.json)
+- [articles](./docs/articles.md) ([src](./data/reference/articles.json))
+- [books](./docs/books.md) ([src](./data/reference/books.json))
+- [tools](./docs/tools.md) ([src](./data/reference/tools.json))
+- [video](./docs/video.md) ([src](./data/reference/videos.json))
 
-You can run `./bin/json-to-md --build output --data ./data/reference/*.json` to create markdown files for a more user friendly way to review the references.
+Run `./bin/json-to-md --build docs --data ./data/reference/*.json` to regenerate markdown files from the source data.  Run `./bin/validate --data data/reference/*.json --schema ./src/schemas/reference.json` to confirm the source data is valid.
 
 ## About the Persona Library
 
