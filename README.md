@@ -9,13 +9,19 @@ The **Persona Library** is a [DevRel Foundation](https://github.com/DevRel-Found
 
 To fully appreciate the benefits of personas, these guides explain how to apply the system to solve common operational tasks somebody who works in Developer Relations may need to accomplish.
 
-Details on how to use the resources of the persona library.
-
+Developing your personas:
 * [Getting Started with the DevRel Foundation Persona System](./docs/guides/getting-started.md) (_TODO_)
 * How-to Run a Persona Alignment Workshop (_TODO_)
+* How-to Present Personas to Your Organization (_TODO_)
+
+Using your personas:
 * [How-to Use Personas for Content Strategy](./docs/guides/content-strategy.md)
 * [How-to Use Personas for Community Management](./docs/guides/community-management.md) (_TODO_)
 * [How-to Use Personas for Event Strategy](./docs/guides/event-strategy.md) (_TODO_)
+* How-to Use Personas for Product Advocacy (_TODO_)
+* How-to Use Personas for Sales Enablement (_TODO_)
+* How-to Use Personas for Growth Marketing (_TODO_)
+* How-to Use Personas in the Software Development Process (_TODO_)
 
 ### DRF Persona System Attributes
 
