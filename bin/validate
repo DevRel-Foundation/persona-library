@@ -1,2 +1,2 @@
 #!/bin/sh
-npx node $(dirname "$0")/../src/validate.js "$@"
+npx node $(dirname "$0")/../src/scripts/validate.js "$@"

@@ -1,2 +1,2 @@
 #!/bin/sh
-npx node $(dirname "$0")/../src/json-to-md.js "$@"
+npx node $(dirname "$0")/../src/scripts/json-to-md.js "$@"
