@@ -7,7 +7,7 @@ Through the use of personas as practioners, we can accelerate day-to-day decisio
 * [Requirements and Use Cases](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions/46)
 * Glossary (_TODO_)
 
-## Using the DRF Persona Library System
+## DevRel Foundation Persona Library System
 
 The DevRel Foundation Persona Library System (DRF-PLS) is outlined in this section. It is a framework for defining personas using structured data that can follow a standardized schema. By defining personas in this way, we can establish tooling to validate, restructure, inherit, format, and exchange personas.
 
@@ -29,16 +29,17 @@ Using your personas:
 * How-to Use Personas for Growth Marketing (_TODO_)
 * How-to Use Personas in the Software Development Process (_TODO_)
 
-### Persona Sets
+### DRF-PLS Persona Sets
 
 Example sets of personas created by organizations for their use and shared as reference.
 
 - [General Collection](./data/personas)
-- DevRel Foundation Persona Sets (_TODO_)
+- DevRel Foundation Persona Set (_TODO_)
+- OpenSSF Persona Set (_TODO_)
 
 Run `./bin/validate --data data/personas/*.json --schema ./src/schemas/persona.json` to confirm the source persona data is valid.
 
-### Tools
+### DRF-PLS Tools
 
 - [validate](./bin/validate): used to validate one or more personas (JSON data) with a given schema.
 - [json-to-md](./bin/json-to-md): used to format reference library entries into a renderable markdown file.
