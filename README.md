@@ -27,7 +27,7 @@ Using your personas:
 
 Documentation explaining the various attributes that form a Persona.
 
-- [Career Traits](./docs/traits/career.md)
+- [Career Traits](./docs/traits/learning.md)
 - [Organization Traits](./docs/traits/organization.md)
 - [Professional Development Traits](./docs/traits/learning.md)
 - [Role Traits](./docs/traits/role.md)

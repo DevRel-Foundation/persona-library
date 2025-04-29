@@ -1,5 +1,5 @@
 {
-    "id": "security-dev-pro-startup-trendsetter",
+    "id": "dev-security-b2d-enterprise-pro-lead-toolsmith",
     "label": "pro-dev-startup-security-trendsetter",
     "industry": "security",
     "career-stage": "pro",
@@ -8,9 +8,10 @@
         "gtm": "b2b"
     }, 
     "role": {
-        "hierarchy": "lead",
+        "function": "dev",
+        "org-chart": "lead",
         "responsibilities": ["coding", "reviewing", "planning", "reporting"],
-        "title": [
+        "job-title": [
             "Software Engineer, Security",
             "Senior Research Engineer",
             "Application Security Engineer",

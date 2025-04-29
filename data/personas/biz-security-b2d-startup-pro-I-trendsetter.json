@@ -1,5 +1,5 @@
 {
-    "id": "security-dev-pro-startup-trendsetter",
+    "id": "biz-security-b2d-startup-pro-I-trendsetter",
     "label": "pro-dev-startup-security-trendsetter",
     "industry": "security",
     "career-stage": "pro",
@@ -8,9 +8,10 @@
         "gtm": "b2b"
     }, 
     "role": {
-        "hierarchy": "lead",
+        "function": "biz",
+        "org-chart": "lead",
         "responsibilities": ["business", "strategy"],
-        "title": [
+        "job-title": [
             "Chief Information Security Officer",
             "CISO",
             "VP, Security",

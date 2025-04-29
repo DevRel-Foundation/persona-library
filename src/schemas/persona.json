@@ -41,7 +41,7 @@
             "description": "A unique label to help identify this persona",
             "type": "string"
         },
-        "description": {
+        "narrative": {
             "description": "A free-form description that can be used to tell the story of the persona.",
             "type": "string"
         },
@@ -107,7 +107,7 @@
                         "properties": {
                             "format": {
                                 "type": "string",
-                                "enum": ["blog", "newsletter", "video", "product"]
+                                "enum": ["blog", "newsletter", "video", "product", "docs", "social"]
                             },
                             "url": {
                                 "type": "string"
@@ -126,14 +126,18 @@
                     }
                 }
             },
-            "required": ["professional-development"],
+            "required": [],
             "additionalProperties": false
         },
         "role": {
             "description": "See traits/role.md for more detailed descriptions.",
             "type": "object",
             "properties": {
-                "hierarchy": {
+                "function": {
+                    "type": "string",
+                    "enum": ["dev", "art", "biz", "mix"]
+                },
+                "org-chart": {
                     "type": "string",
                     "description": "The place within an organizational hierarchy a persona sits.",
                     "enum": ["ic", "lead"]
@@ -142,20 +146,57 @@
                     "type": "array",
                     "items": {
                         "type": "string",
-                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "business", "strategy"]
+                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "business", "strategy", "design", "writing"]
                     }
                 },
-                "title": {
+                "job-title": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "tools": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["IDE", "SCM", "CI/CD", "Ticketing", "Communications", "Creative Suite", "Test Framework", "Build Tools", "CRM", "Email Automation", "Word Processing", "Databases", "Spreadsheets"]
+                    }
+                }
+            },
+            "required": ["responsibilities", "org-chart"],
+            "additionalProperties": false
+        },
+        "motivators": {
+            "type": "object",
+            "properties": {
+                "opportunities": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "challenges": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "do": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "avoid": {
                     "type": "array",
                     "items": {
                         "type": "string"
                     }
                 }
-            },
-            "required": ["responsibilities", "hierarchy"],
-            "additionalProperties": false
+
+            }
         }
     },
-    "required": ["id", "label", "industry", "career-stage", "organization", "learning"],
+    "required": ["id", "label"],
     "additionalProperties": false
 }

@@ -6,7 +6,7 @@ Developer Relations professionals frequently build content. To accomplish this g
 - place to distribute the content
 - matching audience expectations for tone of voice, messaging, etc.
 
-Many organizations will target more than one persona through content, so personas become an effective reference point for contributors from across the organization to better define their target audience when planning individual tasks.
+Many organizations will target more than one persona through content, so personas become an effective reference point for contributors from across the organization to better define their target audience when planning individual content tasks.
 
 For example, you may break your personas up into existing customers and future customers. Some content can work for both audiences, but often you may build content to target each persona in a slightly different way. Additionally, you may be targeting both technical users and non-technical buyers, an insight that has implications in terms of messaging, level of detail, and placement of content.
 
@@ -52,11 +52,11 @@ The tracking tool should include an attribute for `personas`. This should be a c
 
 For example, you might identify the following personas to be most important for your content plans:
 
-- security-biz-lead-pro-b2b-startup-I
-- security-biz-I-pro-b2b-enterprise-toolsmith-I
-- security-dev-ic-mid-b2b-I
-- security-dev-I-pro-b2b-trendsetter-I
-- security-I
+- biz-security-b2b-startup-pro-lead-I
+- biz-security-b2b-enterprise-pro-I-toolsmith-I
+- dev-security-b2b-I-mid-ic-I
+- dev-security-b2b-I-pro-I-trendsetter-I
+- I-security-5I
 
 Each content task would map to one or more of those personas.
 
@@ -78,7 +78,7 @@ How a consumer of your content approaches problems is a decision point for how y
 
 #### Career Stage
 
-The **[experience](../traits/career.md)** your audience has influences how much context or explanation is necessary. 
+The **[experience](../traits/learning.md)** your audience has influences how much context or explanation is necessary. 
 
 Somebody who is _proficient_ has a mastery of their domain and the history of it, so introductory details and fundamentals may not resonate in terms of the content they choose to consume. You should target more niche and advanced content in order to reach this audience.
 

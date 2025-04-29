@@ -1,0 +1,48 @@
+{
+    "id": "art-6I",
+    "label": "UX Designer",
+    "narrative": "Somebody who leans more on creativity than technical skill has a strong sense for aesthetics and user experience. They often will work paired up with development oriented teams to execute on a vision, with the ability to express the desired end state to reach a creative design vision.",
+    "role": {
+        "function": "art",
+        "responsibilities": ["design", "writing"],
+        "org-chart": "ic",
+        "job-title": [
+            "UX Engineer",
+            "Creative Technologist",
+            "UI Developer",
+            "Front-end Developer",
+            "Interaction Designer"
+        ],
+        "tools": [
+            "Creative Suite",
+            "Word Processing",
+            "Ticketing",
+            "Communications"
+        ]
+    },
+    "learning": {
+        "channels": [
+                {"format": "blog", "url": "https://css-tricks.com"}
+        ],
+        "events": [ ]
+    },
+    "motivators": {
+        "opportunities": [
+            "understanding user goals"
+        ],
+        "challenges": [
+            "working within design constraints of legacy systems",
+            "communicating precision of font, colors, and other design elements to technical team",
+            "balancing creative objectives with technical constraints",
+            "non-iterative process absent frequent feedback",
+            "brand guidelines that prevent full creative control",
+            "opinion-based decision making with ambiguity over authority"
+        ],
+        "do": [
+            "include visual representations to complement text such as logos and infographics"
+
+        ],
+        "avoid": [
+        ]
+    }
+}
