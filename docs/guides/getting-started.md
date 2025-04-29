@@ -3,6 +3,24 @@
 
 The **DevRel Foundation Persona System (DRF-PS)** aims to standardize how personas can be defined for use in programs. It is a trait-based framework where personas are defined by the traits that matter most to an organization. The definition is effectively a matrix of these attributes to flush out a persona definition. When building out personas, it is like a rubix cube of picking as many colors to line up as is needed to form the identifying characteristics to accomplish a task.
 
+
+### Traits
+
+Documentation explaining the various attributes that form a Persona.
+
+- [Organization Traits](./docs/traits/organization.md)
+- [Role Traits](./docs/traits/role.md)
+- [Professional Development Traits](./docs/traits/learning.md)
+
+### Indexes
+
+Mapping documenation to cross-reference personas.
+
+- Job Title Index (_TODO_)
+- Industry Index (_TODO_)
+
+
+
 ## BENEFITS
 
 ### Quickly transfer experience to new contributors.
