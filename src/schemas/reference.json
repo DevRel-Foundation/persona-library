@@ -63,6 +63,10 @@
                             }
                         ]
                     },
+                    "votes": {
+                        "type": "integer",
+                        "description": "Vote ranking for helpful content"
+                    },
                     "notes": {
                         "description": "Participant feedback about the resource",
                         "type": "array",

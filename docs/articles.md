@@ -56,3 +56,25 @@ Lewko, Caroline (2022). You're Targeting Developers? So Is Everyone Else.. *Heav
 
 Shah, Dharnendra (1969). Why Personas are Important in Software Development. *Techblocks*. [https://tblocks.com/articles/why-personas-are-important-in-software-development/](https://tblocks.com/articles/why-personas-are-important-in-software-development/)
 
+## 10 Tips for Creating Agile Personas
+
+Pichler, Roman (2023). 10 Tips for Creating Agile Personas. *romanpichler*. [https://www.romanpichler.com/blog/10-tips-agile-personas/](https://www.romanpichler.com/blog/10-tips-agile-personas/)
+
+## Personas and Job Titles: Are You a Developer?
+
+DeLancey, Jayson (2023). Personas and Job Titles: Are You a Developer?. *dev.to/j12y*. [https://dev.to/j12y/personas-and-job-titles-are-you-a-developer-n4k](https://dev.to/j12y/personas-and-job-titles-are-you-a-developer-n4k)
+
+> *@j12y*: Challenges the idea of what a developer is based on job titles.
+
+## Threat Modeling - Start using evil personas
+
+van Stein, Dave (2020). Threat Modeling - Start using evil personas. *Xebia*. [https://xebia.com/blog/threat-modeling-start-using-evil-personas/](https://xebia.com/blog/threat-modeling-start-using-evil-personas/)
+
+> *@j12y*: Some generic examples of personas who are anti-users
+
+## Targeting your API developer relations program with personas
+
+Spence, Ted (2022). Targetingn your API developer relations program with personas. *tedspence.com*. [https://tedspence.com/marketing-personas-for-developers-a20aa3f3b1ad](https://tedspence.com/marketing-personas-for-developers-a20aa3f3b1ad)
+
+> *@j12y*: working styles with ideas to help each
+
