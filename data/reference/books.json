@@ -5,11 +5,11 @@
             "type": "book",
             "title": "The Inmates Are Running the Asylum",
             "authors": ["Cooper, Alan"],
-            "publish-date": "1998-01-01",
+            "publish-date": "1999-01-01",
             "publication": "Sams Publishing",
             "url": "",
             "notes": [
-                {"participant": "@j12y", "note": "This is credited with being an early uses of the term 'persona' when evaluating a user experience."}
+                {"source": "@j12y", "note": "This is credited with being an early uses of the term 'persona' when evaluating a user experience."}
             ]
         },
         {
@@ -38,7 +38,7 @@
             "publication": "SlashData",
             "url": "",
             "notes": [
-                {"participant": "@j12y", "note": "Chapter 1 (Using Developer Personas to Stay Customer-Obsessed) written by Cliff Simpkins focuses on the role of personas."}
+                {"source": "@j12y", "note": "Chapter 1 (Using Developer Personas to Stay Customer-Obsessed) written by Cliff Simpkins focuses on the role of personas."}
             ]
         },
         {
@@ -67,7 +67,7 @@
             "publication": "Apress",
             "url": "https://link.springer.com/book/10.1007/978-1-4842-6449-4",
             "notes": [
-                {"participant": "@j12y", "note": "A few specific chapters to review include Chapter 5 (The Audience: Developers), Chapter 12 (Developer Segmentation), and Chapter 13 (Developer Personas)."}
+                {"source": "@j12y", "note": "A few specific chapters to review include Chapter 5 (The Audience: Developers), Chapter 12 (Developer Segmentation), and Chapter 13 (Developer Personas)."}
             ]
         }
     ]
