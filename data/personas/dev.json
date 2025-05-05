@@ -1,10 +1,15 @@
 {
     "id": "dev",
     "label": "Software Developer",
+    "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
     "role": {
         "function": "dev",
+        "level": "*",
         "responsibilities": ["coding", "reviewing"],
-        "level": "ic",
         "titles": [
             "Software Engineer",
             "Software Developer",
@@ -22,5 +27,9 @@
                 {"format": "social", "url": "https://slashdot.org"}
         ],
         "events": [ ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": []
     }
 }

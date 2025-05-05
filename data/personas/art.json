@@ -2,10 +2,15 @@
     "id": "art",
     "label": "UX Designer",
     "narrative": "Somebody who leans more on creativity than technical skill has a strong sense for aesthetics and user experience. They often will work paired up with development oriented teams to execute on a vision, with the ability to express the desired end state to reach a creative design vision.",
+    "organization": {
+        "gtm": "*",
+        "maturity": "*"
+    },
     "role": {
         "function": "art",
+        "level": "*",
+        "experience": "*",
         "responsibilities": ["design", "writing"],
-        "level": "ic",
         "titles": [
             "UX Engineer",
             "Creative Technologist",

@@ -3,14 +3,15 @@
     "label": "Security Buyer",
     "segment": "security",
     "organization": {
-        "maturity": "startup",
-        "gtm": "b2b"
+        "maturity": "*",
+        "gtm": "*"
     }, 
     "role": {
         "function": "biz",
         "level": "exec",
-        "experience": "pro",
+        "experience": "*",
         "responsibilities": ["financials", "strategy"],
+        "tools": [],
         "titles": [
             "Chief Information Security Officer",
             "CISO",

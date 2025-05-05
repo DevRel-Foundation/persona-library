@@ -3,14 +3,15 @@
     "label": "Security Practitioner",
     "segment": "security",
     "organization": {
-        "maturity": "startup",
-        "gtm": "b2b"
+        "maturity": "*",
+        "gtm": "*"
     }, 
     "role": {
         "function": "dev",
         "level": "lead",
-        "experience": "pro",
+        "experience": "*",
         "responsibilities": ["coding", "reviewing", "planning", "reporting"],
+        "tools": [],
         "titles": [
             "Software Engineer, Security",
             "Senior Research Engineer",
@@ -33,7 +34,7 @@
         ]
     },
     "adoption": {
-        "curve": "early",
+        "curve": "majority",
         "modality": ["learn", "understand", "problem"]
     },
     "awareness": {
@@ -47,8 +48,8 @@
                 {"format": "blog", "url": "https://dev.to/{your product}"}
         ],
         "events": [
-            "bsides.org",
-            "blackhat.com"
+            "drf-bsides.org",
+            "drf-blackhat.com"
         ]
     },
     "motivators": {

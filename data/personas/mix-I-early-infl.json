@@ -2,10 +2,15 @@
     "id": "mix-I-early-infl",
     "label": "Andy Advocate",
     "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
     "role": {
         "function": "mix",
-        "responsibilities": ["coding", "reviewing"],
         "level": "infl",
+        "experience": "*",
+        "responsibilities": ["coding", "reviewing"],
         "titles": [
             "Developer Advocate",
             "Developer Evangelist",
