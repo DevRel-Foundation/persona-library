@@ -9,7 +9,7 @@ TODO
 
 ### 1. Pick Your Personas
 
-If you haven't already, use the [Persona Library Getting Started](https://github.com/DevRel-Foundation/persona-library) guide to explore and build the personas most important for your program.
+If you haven't already, use the [Persona Library Getting Started](./getting-started.md) guide to explore and build the personas most important for your program.
 
 
 

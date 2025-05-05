@@ -1,26 +1,28 @@
 {
-    "id": "biz-security-b2d-startup-pro-I-trendsetter",
-    "label": "pro-dev-startup-security-trendsetter",
-    "industry": "security",
-    "career-stage": "pro",
+    "id": "biz-security-early-exec",
+    "label": "Security Buyer",
+    "segment": "security",
     "organization": {
         "maturity": "startup",
         "gtm": "b2b"
     }, 
     "role": {
         "function": "biz",
-        "org-chart": "lead",
-        "responsibilities": ["business", "strategy"],
-        "job-title": [
+        "level": "exec",
+        "experience": "pro",
+        "responsibilities": ["financials", "strategy"],
+        "titles": [
             "Chief Information Security Officer",
             "CISO",
             "VP, Security",
             "Head of Security"
         ]
     },
-    "learning": {
-        "professional-development": "trendsetter",
-        "modality": ["visual", "experiential"],
+    "adoption": {
+        "curve": "early",
+        "modality": ["understand", "info"]
+    },
+    "awareness": {
         "channels": [
                 {"format": "blog", "url": "https://${your-domain}.com/blog"},
                 {"format": "product", "url": "https://${your-domain}.com/"},
@@ -30,7 +32,7 @@
                 {"format": "newsletter", "url": "https://www.returnonsecurity.com/"}
         ],
         "events": [
-            "rsaconference.com"
+            "drf-rsaconference.com"
         ]
     }
 }

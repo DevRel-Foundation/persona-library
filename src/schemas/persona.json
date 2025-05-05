@@ -5,28 +5,6 @@
     "title": "Personas",
     "description": "Developer Relations Foundation Persona Library.",
     "version": "1.0",
-    "$defs": {
-        "careerStages": {
-            "description": "The stage of career is an indicator for how familiar a person may be with the skills and expectations of their role. \nThis attribute is about the progression for a specific role, not a person. Somebody may have extensive professional experience, but if they've taken on a new role in a new industry for the purposes of defining the persona it has reset the clock.",
-            "oneOf": [
-                {
-                    "const": "early",
-                    "title": "Early Career",
-                    "description": "Somebody who is early career could be an entry-level junior professional, a student, or a hobbyist. Whatever their job title may be, they are still seeking guidance from other professionals to validate their work. They are commonly building or looking to acquire foundational and core skills as an individual contributor (IC). Often somebody early career is looking to demonstrate their prowess while building their portfolio of projects and experience. This may be somebody with 5 years or fewer years of experience in their role and domain."
-                },
-                {
-                    "const": "mid",
-                    "title": "Mid-Level",
-                    "description": "Somebody who recently transitioned from an IC role into a management or team leadership position. They may or may not be a player-coach who must balance hands-on work with managing others. They may have become more effient and reliable and are therefore a go-to person for implementation. Somebody mid-career is more likely to be a lead in driving the decision-making direction, balancing innovation with organizational needs. This stage has moved beyond the basics and is taking ownership of critical components and developing further specialized domain expertise. This is typically somebody with 5 to 10 years of experience in their role and domain."
-                },
-                {
-                    "const": "pro",
-                    "title": "Proficient",
-                    "description": "Somebody who has standardized their approach and has responsibility for mentoring early and mid-level team members. They will be called upon to drive inter-department and organizational strategy to foster business alignment. They will typically be consulted on architectural component level decision-making and the evaluation of performance. Likely have very limited technical hands-on work day-to-day and will delegate those tasks to others. Decision-making authority often rests with an expert, but those decisions will be driven by an analysis of the information presented from others on the team. This is commonly somebody with 10+ years of experience in their role and domain."
-                }
-            ]
-        }
-    },
     "type": "object",
     "properties": {
         "$schema": {
@@ -45,11 +23,8 @@
             "description": "A free-form description that can be used to tell the story of the persona.",
             "type": "string"
         },
-        "career-stage": {
-            "$ref": "#/$defs/careerStages"
-        },
-        "industry": {
-            "description": "The industry as a modifier on the behaviors of a persona.",
+        "segment": {
+            "description": "The vertical or industry segment as a modifier on the behaviors of a persona.",
             "type": "string"
         },
         "organization": {
@@ -59,46 +34,25 @@
                 "maturity": {
                     "type": "string",
                     "description": "The maturity of the organization as a modifier on the persona behaviors.",
-                    "enum": ["startup", "legacy"]
-                },
-                "size": {
-                    "type": "string",
-                    "description": "The size of the organization as a modifier on the persona.",
-                    "enum": ["small", "mid", "enterprise"]
-                },
-                "competitive": {
-                    "type": "string",
-                    "description": "The competitive environment of the ecosystem as a modifier on the persona.",
-                    "enum": ["growth", "consolidation"]
-                },
-                "relationship": {
-                    "type": "string",
-                    "description": "The business relationship between the persona's organization and yours.",
-                    "enum": ["customer", "lead", "prospect", "partner"]
+                    "enum": ["startup", "legacy", "*"]
                 },
                 "gtm": {
                     "type": "string",
                     "description": "The go to market strategy of the organization as a modifier on the persona.",
-                    "enum": ["b2b", "b2c", "b2d"]
+                    "enum": ["b2b", "b2c", "b2d", "*"]
                 }
             },
-            "required": ["maturity"],
+            "required": [],
             "additionalProperties": false
         },
-        "learning": {
+        "awareness": {
             "description": "See traits/learning.md for more detailed descriptions.",
             "type": "object",
             "properties": {
-                "professional-development": {
+                "status": {
                     "type": "string",
-                    "enum": ["trendsetter", "minimalist", "toolsmith"]
-                },
-                "modality": {
-                    "type": "array",
-                    "items": {
-                        "type": "string",
-                        "enum": ["visual", "auditory", "experiential"]
-                    }
+                    "description": "The business relationship between the persona's organization and yours.",
+                    "enum": ["pro", "user", "partner", "lead", "unaware", "ex", "*"]
                 },
                 "channels": {
                     "type": "array",
@@ -107,14 +61,14 @@
                         "properties": {
                             "format": {
                                 "type": "string",
-                                "enum": ["blog", "newsletter", "video", "product", "docs", "social"]
+                                "enum": ["blog", "newsletter", "video", "product", "docs", "social", "*"]
                             },
                             "url": {
                                 "type": "string"
                             },
                             "level": {
                                 "type": "string",
-                                "enum": ["100", "200", "300"]
+                                "enum": ["100", "200", "300", "*"]
                             }
                         }
                     }
@@ -129,28 +83,52 @@
             "required": [],
             "additionalProperties": false
         },
+        "adoption": {
+            "description": "Adoption traits",
+            "type": "object",
+            "properties": {
+                "curve": {
+                    "type": "string",
+                    "enum": ["innovator", "early", "majority", "late", "laggard", "*"]
+                },
+                "modality": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["problem", "learn", "understand", "info", "guide", "*"]
+                    }
+                }
+            }
+        },
         "role": {
             "description": "See traits/role.md for more detailed descriptions.",
             "type": "object",
             "properties": {
                 "function": {
                     "type": "string",
-                    "enum": ["dev", "art", "biz", "mix"]
+                    "enum": ["dev", "art", "biz", "mix", "*"]
                 },
-                "org-chart": {
+                "experience": {
+                    "description": "The stage of career is an indicator for how familiar a person may be with the skills and expectations of their role. \nThis attribute is about the progression for a specific role, not a person. Somebody may have extensive professional experience, but if they've taken on a new role in a new industry for the purposes of defining the persona it has reset the clock.",
                     "type": "string",
-                    "description": "The place within an organizational hierarchy a persona sits.",
-                    "enum": ["ic", "lead"]
+                    "enum": ["early", "mid", "pro", "*"]
+                },
+                "level": {
+                    "type": "string",
+                    "description": "The placement and influence this person has on the organization.",
+                    "enum": ["ic", "lead", "exec", "infl", "*"]
                 },
                 "responsibilities": {
                     "type": "array",
+                    "description": "The broad job tasks this persona must execute on as part of the duties of their role.",
                     "items": {
                         "type": "string",
-                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "business", "strategy", "design", "writing"]
+                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "financials", "strategy", "design", "writing", "*"]
                     }
                 },
-                "job-title": {
+                "titles": {
                     "type": "array",
+                    "description": "A list of typical job titles this persona may hold.",
                     "items": {
                         "type": "string"
                     }
@@ -159,11 +137,11 @@
                     "type": "array",
                     "items": {
                         "type": "string",
-                        "enum": ["IDE", "SCM", "CI/CD", "Ticketing", "Communications", "Creative Suite", "Test Framework", "Build Tools", "CRM", "Email Automation", "Word Processing", "Databases", "Spreadsheets"]
+                        "enum": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-creative", "drf-test", "drf-build", "drf-cmm", "drf-email", "drf-cms", "drf-db"]
                     }
                 }
             },
-            "required": ["responsibilities", "org-chart"],
+            "required": ["responsibilities", "level"],
             "additionalProperties": false
         },
         "motivators": {

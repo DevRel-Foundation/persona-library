@@ -1,0 +1,26 @@
+{
+    "id": "dev",
+    "label": "Software Developer",
+    "role": {
+        "function": "dev",
+        "responsibilities": ["coding", "reviewing"],
+        "level": "ic",
+        "titles": [
+            "Software Engineer",
+            "Software Developer",
+            "Full-Stack Developer",
+            "Sr. Software Engineer",
+            "Staff Software Engineer",
+            "Principal Software Engineer",
+            "Tech Lead"
+        ],
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"]
+    },
+    "awareness": {
+        "channels": [
+                {"format": "social", "url": "https://news.ycombinator.com"},
+                {"format": "social", "url": "https://slashdot.org"}
+        ],
+        "events": [ ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "id": "dev-security-majority-lead",
+    "label": "Security Practitioner",
+    "segment": "security",
+    "organization": {
+        "maturity": "startup",
+        "gtm": "b2b"
+    }, 
+    "role": {
+        "function": "dev",
+        "level": "lead",
+        "experience": "pro",
+        "responsibilities": ["coding", "reviewing", "planning", "reporting"],
+        "titles": [
+            "Software Engineer, Security",
+            "Senior Research Engineer",
+            "Application Security Engineer",
+            "DevSecOps",
+            "Network Engineer",
+            "Security Engineer",
+            "System Admin",
+            "Security Sales Engineer",
+            "Security Consultant",
+            "Director of IT",
+            "IT Security Analyst",
+            "Sr. Information Security Lead",
+            "Cyber Security Lead",
+            "Red team / Pentester",
+            "Cyber Threat Intelligence Advisor",
+            "Information Security Architect",
+            "Manager of Information Security",
+            "Security Researcher"
+        ]
+    },
+    "adoption": {
+        "curve": "early",
+        "modality": ["learn", "understand", "problem"]
+    },
+    "awareness": {
+        "channels": [
+                {"format": "blog", "url": "https://${your-domain}.com/blog"},
+                {"format": "docs", "url": "https://${your-domain}.com/docs"},
+                {"format": "blog", "url": "https://thehackernews.com/"},
+                {"format": "blog", "url": "https://www.darkreading.com/"},
+                {"format": "newsletter", "url": "https://tldrsec.com/", "level":"300"},
+                {"format": "newsletter", "url": "https://cloudseclist.com/"},
+                {"format": "blog", "url": "https://dev.to/{your product}"}
+        ],
+        "events": [
+            "bsides.org",
+            "blackhat.com"
+        ]
+    },
+    "motivators": {
+        "opportunities": [
+            "Small organized groups or clusters form to share information, tips, and tricks because of the complexity of security discoveries."
+        ],
+        "challenges": [
+            "Highly sensitive to sharing personal information that can be exploited. Won't sign up for a list."
+        ],
+        "do": [
+            "Build simulations and test environments that provide a safe place to experiment and discover security flaws without risk of negative consequences."
+        ],
+        "avoid": [
+            ""
+        ]
+    }
+}

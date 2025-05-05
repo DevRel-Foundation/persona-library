@@ -1,0 +1,26 @@
+{
+    "id": "mix-I-early-infl",
+    "label": "Andy Advocate",
+    "segment": "*",
+    "role": {
+        "function": "mix",
+        "responsibilities": ["coding", "reviewing"],
+        "level": "infl",
+        "titles": [
+            "Developer Advocate",
+            "Developer Evangelist",
+            "Head of Developer Relations"
+        ],
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"]
+    },
+    "adoption": {
+        "curve": "early"
+    },
+    "awareness": {
+        "channels": [
+                {"format": "social", "url": "https://news.ycombinator.com"},
+                {"format": "social", "url": "https://slashdot.org"}
+        ],
+        "events": ["drf-devrelcon.dev"]
+    }
+}
