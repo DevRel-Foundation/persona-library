@@ -170,31 +170,67 @@
         "motivations": {
             "type": "object",
             "properties": {
-                "opportunities": {
+                "likes": {
                     "type": "array",
                     "items": {
                         "type": "string"
                     }
                 },
-                "challenges": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                },
-                "accepts": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                },
-                "rejects": {
+                "dislikes": {
                     "type": "array",
                     "items": {
                         "type": "string"
                     }
                 }
 
+            },
+            "additionalProperties": false
+        },
+        "strategies": {
+            "type": "object",
+            "properties": {
+                "marketing": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "sales": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "finance": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "product": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "design": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "devex": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "education": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
             }
         }
     },

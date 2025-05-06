@@ -1,27 +1,21 @@
 
 # Motivations
 
-Psychographics for the attitudes, beliefs, interests, and decision-making choices individuals make. These personality behaviors can generalize commonality among personas from the general population.
+Psychographics for the attitudes, beliefs, interests, and decision-making choices a persona may make.
 
-## Opportunities
+## Likes
 
-The opportunities or benefits that the persona seeks when discovering your product or service.
+The observations that will make a persona comfortable and accepting of continued engagement. 
 
-## Challenges
+- What to say and do.
 
-The pain points and challenges that the persona must overcome that leads them to your product or service.
+These should be emphasized when working with this persona.
 
-## Accepts
+## Dislikes
 
-The observations that will make a persona comfortable with continued engagement. These should be emphasized when working with this persona.
+The tendencies that will cause this persona to reject a solution and look elsewhere.
 
-What to say and do.
+- What not to say or do.
 
-## Rejects
-
-The observations that will cause a persona to reject engagement with an action. These should be avoided
-when working with this persona.
-
-What not to say or do.
-
+These should be avoided when working with this persona.
 

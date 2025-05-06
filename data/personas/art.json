@@ -22,27 +22,45 @@
     },
     "awareness": {
         "channels": [
-                {"format": "blog", "url": "https://css-tricks.com"}
+                {"format": "blog", "url": "https://css-tricks.com"},
+                {"format": "social", "url": "https://reddit.com/r/UXDesign"}
         ],
-        "events": [ ]
+        "events": ["drf-config.figma.com", "drf-sigchi.org"]
     },
     "motivations": {
-        "opportunities": [
-            "understanding user goals"
+        "likes": [
+            "Wants to see visualizations, mockups, and designs to better understand concepts rather than text.",
+            "Iterative processes and gradual improvement.",
+            "Wants a better understanding of user goals",
+            "Will pick up on and appreciate moments of delight you add to your user interfaces."
         ],
-        "challenges": [
-            "working within design constraints of legacy systems",
-            "communicating precision of font, colors, and other design elements to technical team",
-            "balancing creative objectives with technical constraints",
-            "non-iterative process absent frequent feedback",
-            "brand guidelines that prevent full creative control",
-            "opinion-based decision making with ambiguity over authority"
+        "dislikes": [
+            "Despises working within design constraints and brand guidelines that limit creative influence.",
+            "Bad design execution, expects form prioritized over function.",
+            "Wants to achieve a balance creative objectives with technical constraints even when mutually exclusive.",
+            "Products that have not taken accessibility into consideration"
+        ]
+    },
+    "strategies": {
+        "design": [
+            "Design products or services that are more free-form and flexible.",
+            "Provide open access to brand guidelines and design systems."
         ],
-        "accepts": [
-            "include visual representations to complement text such as logos and infographics"
-
+        "product": [
+            "Play close attention to precision in fonts, colors, and other design elements."
         ],
-        "rejects": [
+        "education": [
+            "Provide open-ended inspirational examples in tutorials or creative experiential learning.",
+            "Include graphics and pictures of user interfaces that complement source code or textual descriptions."
+        ],
+        "communications": [
+            "Use visual communicaton such as infographics and guides."
+        ],
+        "sales": [
+            "Reference customers and examples that show how well designed solutions look when complete."
+        ],
+        "marketing": [
+            "Provide gallery of inspiration from finished products."
         ]
     }
 }

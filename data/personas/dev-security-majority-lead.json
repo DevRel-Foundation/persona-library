@@ -53,17 +53,17 @@
         ]
     },
     "motivations": {
-        "opportunities": [
-            "Small organized groups or clusters form to share information, tips, and tricks because of the complexity of security discoveries."
+        "likes": [
+            "Works in small groups to team up on complex security projects"
         ],
-        "challenges": [
-            "Highly sensitive to sharing personal information that can be exploited. Won't sign up for a list."
-        ],
-        "accepts": [
+        "dislikes": [
+            "Cautious of strangers and those they do not know.",
+            "Highly sensitive to sharing personal information that can be exploited. Won't easily sign up for a list."
+        ]
+    },
+    "strategies": {
+        "devex": [
             "Build simulations and test environments that provide a safe place to experiment and discover security flaws without risk of negative consequences."
-        ],
-        "rejects": [
-            ""
         ]
     }
 }
