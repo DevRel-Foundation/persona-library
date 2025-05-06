@@ -52,17 +52,17 @@
             "drf-blackhat.com"
         ]
     },
-    "motivators": {
+    "motivations": {
         "opportunities": [
             "Small organized groups or clusters form to share information, tips, and tricks because of the complexity of security discoveries."
         ],
         "challenges": [
             "Highly sensitive to sharing personal information that can be exploited. Won't sign up for a list."
         ],
-        "do": [
+        "accepts": [
             "Build simulations and test environments that provide a safe place to experiment and discover security flaws without risk of negative consequences."
         ],
-        "avoid": [
+        "rejects": [
             ""
         ]
     }

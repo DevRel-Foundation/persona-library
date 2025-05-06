@@ -139,12 +139,35 @@
                         "type": "string",
                         "enum": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-creative", "drf-test", "drf-build", "drf-cmm", "drf-email", "drf-cms", "drf-db"]
                     }
+                },
+                "technologies": {
+                    "type": "object",
+                    "properties": {
+                        "languages": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "environments": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "skills": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
                 }
             },
             "required": ["responsibilities", "level"],
             "additionalProperties": false
         },
-        "motivators": {
+        "motivations": {
             "type": "object",
             "properties": {
                 "opportunities": {
@@ -159,13 +182,13 @@
                         "type": "string"
                     }
                 },
-                "do": {
+                "accepts": {
                     "type": "array",
                     "items": {
                         "type": "string"
                     }
                 },
-                "avoid": {
+                "rejects": {
                     "type": "array",
                     "items": {
                         "type": "string"

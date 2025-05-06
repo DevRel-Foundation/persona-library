@@ -19,7 +19,12 @@
             "Principal Software Engineer",
             "Tech Lead"
         ],
-        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"]
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"],
+        "technologies": {
+            "languages": [ ],
+            "environments": [ ],
+            "skills": [ ]
+        }
     },
     "awareness": {
         "channels": [

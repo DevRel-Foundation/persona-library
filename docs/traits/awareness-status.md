@@ -14,7 +14,7 @@ Unaware is the default because we are trying to reach the persona to convince th
 
 ## Pro Customer (pro)
 
-A pro-user who is aware of all the features and capabilities of your offerings. They stay abreast of new releases.
+A pro-user who is aware of most of the features and capabilities of your offerings and are an expert user. They stay abreast of new releases.
 
 - newsletter
 - roadmap presentations
