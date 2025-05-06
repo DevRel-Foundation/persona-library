@@ -146,6 +146,16 @@
             {"source": "@j12y", "note": "working styles with ideas to help each"}
         ],
         "votes": 1
+        }, {
+        "type": "blog post",
+        "title": "How to Create Developer Personas that Actually Work",
+        "authors": ["Julien, Sam"],
+        "publish-date": "2025-02-01",
+        "publication": "samjulien.com",
+        "url": "https://www.samjulien.com/how-to-create-developer-personas/",
+        "notes": [
+        ],
+        "votes": 1
         }
 
     ]

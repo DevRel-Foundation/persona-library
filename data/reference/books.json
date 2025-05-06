@@ -61,6 +61,15 @@
         },
         {
             "type": "book",
+            "title": "Designing for the Digital Age: How to Create Human-Centered Products and Services",
+            "authors": ["Goodwin, Kim", "Cooper, Alan"],
+            "publish-date": "2009-03-03",
+            "publication": "Wiley",
+            "url": "",
+            "notes": []
+        },
+        {
+            "type": "book",
             "title": "Developer Relations: How to Build and Grow a Successful Developer Program",
             "authors": ["Lewko, Caroline", "Parton, James"],
             "publish-date": "2021-01-01",
