@@ -1,5 +1,5 @@
 {
-    "id": "biz-security-early-exec",
+    "id": "security-biz-early-exec",
     "label": "Security Buyer",
     "segment": "security",
     "organization": {
@@ -25,8 +25,6 @@
     },
     "awareness": {
         "channels": [
-                {"format": "blog", "url": "https://${your-domain}.com/blog"},
-                {"format": "product", "url": "https://${your-domain}.com/"},
                 {"format": "blog", "url": "https://www.cio.com/", "level": "200"},
                 {"format": "newsletter", "url": "https://tldrsec.com/", "level":"200"},
                 {"format": "blog", "url": "https://krebsonsecurity.com/"},

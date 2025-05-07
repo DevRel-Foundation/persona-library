@@ -1,5 +1,5 @@
 {
-    "id": "dev-security-majority-lead",
+    "id": "security-dev-majority-lead",
     "label": "Security Practitioner",
     "segment": "security",
     "organization": {
@@ -39,8 +39,6 @@
     },
     "awareness": {
         "channels": [
-                {"format": "blog", "url": "https://${your-domain}.com/blog"},
-                {"format": "docs", "url": "https://${your-domain}.com/docs"},
                 {"format": "blog", "url": "https://thehackernews.com/"},
                 {"format": "blog", "url": "https://www.darkreading.com/"},
                 {"format": "newsletter", "url": "https://tldrsec.com/", "level":"300"},

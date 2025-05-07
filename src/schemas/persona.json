@@ -61,7 +61,7 @@
                         "properties": {
                             "format": {
                                 "type": "string",
-                                "enum": ["blog", "newsletter", "video", "product", "docs", "social", "*"]
+                                "enum": ["blog", "newsletter", "video", "product", "docs", "social", "web"]
                             },
                             "url": {
                                 "type": "string"
