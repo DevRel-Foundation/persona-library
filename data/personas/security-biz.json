@@ -1,0 +1,37 @@
+{
+    "id": "security-biz-early-exec",
+    "label": "Security Buyer",
+    "segment": "security",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    }, 
+    "role": {
+        "function": "biz",
+        "level": "exec",
+        "experience": "*",
+        "responsibilities": ["financials", "strategy"],
+        "tools": [],
+        "titles": [
+            "Chief Information Security Officer",
+            "CISO",
+            "VP, Security",
+            "Head of Security"
+        ]
+    },
+    "adoption": {
+        "curve": "early",
+        "modality": ["understand", "info"]
+    },
+    "awareness": {
+        "channels": [
+                {"format": "blog", "url": "https://www.cio.com/", "level": "200"},
+                {"format": "newsletter", "url": "https://tldrsec.com/", "level":"200"},
+                {"format": "blog", "url": "https://krebsonsecurity.com/"},
+                {"format": "newsletter", "url": "https://www.returnonsecurity.com/"}
+        ],
+        "events": [
+            "drf-rsaconference.com"
+        ]
+    }
+}
