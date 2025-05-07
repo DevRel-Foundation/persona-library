@@ -38,18 +38,15 @@
         "modality": []
     },
     "motivations": {
-        "likes": [
-            "Automation of development workflows that speed up time to delivery without hassle."
-
-        ],
+        "likes": [],
         "dislikes": [
-            "White papers or other content that is email gated when trying to learn something new.",
-            "Repetitive tasks that lack mental stimulation."
         ]
     },
     "strategies": {
         "design": [],
-        "product": [],
+        "product": [
+            "Will be concerned with compliance around privacy and data protection in service of regulatory requirements."
+        ],
         "education": [],
         "communications": [],
         "sales": [],
