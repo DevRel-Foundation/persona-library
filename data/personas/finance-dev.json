@@ -1,0 +1,55 @@
+{
+    "id": "dev",
+    "label": "Finance Developer",
+    "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "dev",
+        "level": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "Software Engineer",
+            "Software Developer",
+            "Full-Stack Developer",
+            "Sr. Software Engineer",
+            "Staff Software Engineer",
+            "Principal Software Engineer",
+        ],
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"],
+        "technologies": {
+            "languages": [ ],
+            "environments": [ ],
+            "skills": [ ]
+        }
+    },
+    "awareness": {
+        "channels": [
+                {"format": "social", "url": "https://news.ycombinator.com"},
+                {"format": "social", "url": "https://slashdot.org"},
+                {"format": "social", "url": "https://stackoverflow.com"}
+        ],
+        "events": [ ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": []
+    },
+    "motivations": {
+        "likes": [],
+        "dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [],
+        "product": [
+            "Will look closely at security compliance with any financial regulation implications when evaluating solutions."
+        ],
+        "education": [],
+        "communications": [],
+        "sales": [],
+        "marketing": []
+    }
+}

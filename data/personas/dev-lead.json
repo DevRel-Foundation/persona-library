@@ -1,0 +1,84 @@
+{
+    "id": "dev-lead",
+    "label": "Larry Lead",
+    "segment": "*",
+    "narrative": "Somebody who has transitioned into a leadership role with previous software engineering experience. They have not only strong foundations for software syntax and design patterns but have broadened their skillset to include people management, project management, and other business concerns.",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "dev",
+        "level": "lead",
+        "responsibilities": ["reviewing", "planning", "reporting"],
+        "titles": [
+            "Tech Lead",
+            "Engineering Manager",
+            "Director, Engineering",
+            "Director, IT",
+            "VP, Engineering",
+            "Software Development Manager",
+            "Head of Engineering"
+        ],
+        "tools": ["drf-ticketing", "drf-comms"],
+        "technologies": {
+            "languages": [ ],
+            "environments": [ ],
+            "skills": [ ]
+        }
+    },
+    "awareness": {
+        "channels": [
+                {"format": "social", "url": "https://news.ycombinator.com"},
+                {"format": "social", "url": "https://slashdot.org"}
+        ],
+        "events": ["drf-leaddev.com"]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": []
+    },
+    "motivations": {
+        "likes": [
+            "Making technical decisions that can drive business impact through new revenue-generating products",
+            "Mentoring and growing new engineers by sharing their experiences",
+            "Often thinks in terms of efficiency, not just speed, but a conservation of resources to achieve a goal.",
+            "Choosing safe choices that have available talent on the market to support, extend, and use.",
+            "Solutions that do not require their existing teams to ramp up on too many new technologies.",
+            "View into implementation timelines and resource requirements on the team",
+            "Architectural view of who owns which services/components",
+        ],
+        "dislikes": [
+            "Low tolerance for fluff and sales approaches that over-promise or are factually incorrect.",
+            "Vendor lock-in that restricts solution choice later."
+        ]
+    },
+    "strategies": {
+        "design": [],
+        "product": [
+            "Will be interested in integrations with other systems in use.",
+            "Will be interested in maintenance and operational concerns of running the solution.",
+            "Will want to understand disaster recovery procedures and plans to insure reliability"
+        ],
+        "education": [
+            "Will want to understand learning curve and ramp-up time for engineering teams.",
+            "Content such as white papers, will be ok if content is gated.",
+            "Panels or roundtable discussions sharing lessons learned."
+        ],
+        "communications": [
+            "Provide both technical and business context to aid with decision-making",
+            "Will want to understand the size of the community so may check forums such as StackOverflow, Quora, etc. for questions and responses."
+        ],
+        "sales": [
+            "Insure operational concerns around reliability, uptime, and support are all addressed.",
+            "Be prepared for security, privacy, data retention, and other compliance considerations.",
+            "May often need to work through a provisioning team or other agents who negotiate on their behalf.",
+            "Demonstrate an understanding of their complete technical environment and compatibility for how solution fits in.",
+        ],
+        "marketing": [
+            "Metrics and proof points that back up scalability and performance claims.",
+            "ROI and pricing calculators to work out total cost of ownership",
+            "Case studies of other respected organizations that have had successful adoption and usage"
+        ]
+    }
+}
