@@ -13,22 +13,32 @@
         "titles": [
             "Software Engineer",
             "Software Developer",
-            "Full-Stack Developer",
+            "Full-Stack Engineer",
             "Sr. Software Engineer",
             "Staff Software Engineer",
             "Principal Software Engineer",
+            "Database Administrator",
+            "Site Reliability Engineer",
+            "Software Engineer Intern"
         ],
         "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"],
         "technologies": {
             "languages": [ ],
-            "environments": [ ],
-            "skills": [ ]
+            "environments": [
+             ],
+            "skills": [
+                "B.S. Computer Science",
+                "B.S. Data Science",
+                "B.S. Management Information Systems"
+            ]
         }
     },
     "awareness": {
         "channels": [
                 {"format": "social", "url": "https://news.ycombinator.com"},
                 {"format": "social", "url": "https://slashdot.org"},
+                {"format": "blog", "url": "https://dzone.com"},
+                {"format": "blog", "url": "https://thenewstack.io"},
                 {"format": "social", "url": "https://stackoverflow.com"}
         ],
         "events": [ ]
@@ -39,20 +49,53 @@
     },
     "motivations": {
         "likes": [
-            "Automation of development workflows that speed up time to delivery without hassle."
-
+            "Developers seek automation of development workflows that speed up time to delivery without hassle.",
+            "Developers tend toward scientific and engineering pursuits with a structured problem-solving mindset.",
+            "Developers vary in choice of operating system but more likely to be on macOS or linux.",
+            "Developers seek to build new skills with technology trends and approaches to increase future job prospects or for use on future projects.",
+            "Developers prefer clear and helpful documentation is key to success, though would prefer to not have to read it when technology is intuitive to use.",
+            "Developers will trust peer recommendations over vendor claims.",
+            "Developers seek the existence of a vibrant community is an indicator of technology that will remain longer term.",
+            "Developers in technology industries tend to be playful and participate in internet pop culture with a sci-fi or fantasy influences (stereotype).",
+            "Developers want control over their destiny, so transparency is preferred over black-box solutions that do not provide an escape hatch should a new requirement emerge."
         ],
         "dislikes": [
-            "White papers or other content that is email gated when trying to learn something new.",
-            "Repetitive tasks that lack mental stimulation."
+            "Developers distrust sensational claims using language that is perceived as empty or markety making sensational hyperbolic statements using business jargon.",
+            "Developers skip White papers or other gated content that requires signing up for spam email when motivated to learn something new.",
+            "Developers avoid repetitive tasks that lack mental stimulation.",
+            "Developers will identify errors in documentation or code samples and is a common pet peeve that leads to a lack of trust of the product overall.",
+            "Developers dislike adding complexity (that they don't build themselves), slowing performance, introducing risk of on-time delivery, or other unreliable behavior",
+            "Developers are wary of a lack of community activity, unresolved/unresponded tickets, etc. will discourage from use of tools from that community.",
+            "Developers despise wasting time on frivilous or tasks that are deemed not worth mental energy. Would rather solve interesting problems than file paperwork."
         ]
     },
     "strategies": {
         "design": [],
-        "product": [],
-        "education": [],
-        "communications": [],
-        "sales": [],
-        "marketing": []
+        "product": [
+            "Troubleshooting guides for any difficult to understand or new features earn trust that team knows and is working on it."
+        ],
+        "education": [
+            "The learning modality influences the types of educational content in tutorials, reference, etc.",
+            "Share technical details to prove a claim is valid. Focus is on the how for learning and will often match that tool to various whys themselves.",
+            "An onboarding checklist that can be given to developers can go a long way to showing them a path."
+        ],
+        "communications": [
+            "Direct and concise is a better communication style."
+        ],
+        "sales": [
+            "An inherent laziness is a common virtue of developers, will appreciate logic on how a problem is less busy work for them",
+            "Will rigorously evaluate and likely kick the tires trying to make the product fail before considering for adoption.",
+            "May want to self-service initially before engaging with meetings because of the immediate gratification that comes from learning right away.",
+            "If only option is to speak to a salesperson, will likely evaluate other solutions or open-source alternatives first and may pick those before giving an alternative a chance.",
+            "Proof of value explorations may often compare three similar products in order to select the best fit among the options.",
+            "Partner with a technical resource like a solutions engineer or developer advocate to be able to address any questions or objections when engaging",
+            "Generally devs will not want to negotiate and just want to be able to use the product for a transparent price"
+        ],
+        "marketing": [
+            "Skeptical of any claims and language that sound sensational hyperbole.",
+            "Role often has chaning requirements so emphasis on flexibility, speed and performance, and customization are often good points",
+            "Avoid buzzwords and try to use appropriate terminology that removes ambiguity",
+            "How something is made, behind the scenes, earns respect for the value of a solution. That helps convince a developer to use rather than build it themselves."
+        ]
     }
 }

@@ -15,6 +15,13 @@
             "description": "A unique id to help identify this persona",
             "type": "string"
         },
+        "parent": {
+            "type": "array",
+            "description": "Definition of a persona that this one extends with additional specific attributes",
+            "items": {
+                "type": "string"
+            }
+        },
         "label": {
             "description": "A unique label to help identify this persona",
             "type": "string"
@@ -178,6 +185,20 @@
                 },
                 "dislikes": {
                     "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "x-likes": {
+                    "type": "array",
+                    "description": "Additional extended likes that do not replace inherited definitions.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "x-dislikes": {
+                    "type": "array",
+                    "description": "Additional extended dislikes that do not replace inherited definitions.",
                     "items": {
                         "type": "string"
                     }

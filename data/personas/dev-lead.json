@@ -1,5 +1,6 @@
 {
     "id": "dev-lead",
+    "parent": ["dev"],
     "label": "Larry Lead",
     "segment": "*",
     "narrative": "Somebody who has transitioned into a leadership role with previous software engineering experience. They have not only strong foundations for software syntax and design patterns but have broadened their skillset to include people management, project management, and other business concerns.",
@@ -39,22 +40,24 @@
         "modality": []
     },
     "motivations": {
-        "likes": [
-            "Making technical decisions that can drive business impact through new revenue-generating products",
-            "Mentoring and growing new engineers by sharing their experiences",
-            "Often thinks in terms of efficiency, not just speed, but a conservation of resources to achieve a goal.",
-            "Choosing safe choices that have available talent on the market to support, extend, and use.",
-            "Solutions that do not require their existing teams to ramp up on too many new technologies.",
-            "View into implementation timelines and resource requirements on the team",
-            "Architectural view of who owns which services/components",
+        "x-likes": [
+            "Lead Devs make technical decisions that can drive business impact through new revenue-generating products",
+            "Lead Devs mentor and growing new engineers by sharing their experiences",
+            "Lead Devs often think in terms of efficiency, not just speed, but a conservation of resources to achieve a goal.",
+            "Lead Devs choose safe options that have available talent on the market to support, extend, and use.",
+            "Lead Devs look for solutions that do not require their existing teams to ramp up on too many new technologies.",
+            "Lead Devs view into implementation timelines and resource requirements on the team",
+            "Lead Devs prefer an architectural view of who owns which services/components"
         ],
-        "dislikes": [
-            "Low tolerance for fluff and sales approaches that over-promise or are factually incorrect.",
-            "Vendor lock-in that restricts solution choice later."
+        "x-dislikes": [
+            "Lead Devs have very low tolerance for fluff and sales approaches that over-promise or are factually incorrect.",
+            "Lead Devs are wary of vendor lock-in that restricts solution choice later.",
+            "Lead Devs are concerned about integration issues and long-term maintenance ramifications after a project completes. They can become burdened by ongoing technical debt."
         ]
     },
     "strategies": {
-        "design": [],
+        "design": [
+        ],
         "product": [
             "Will be interested in integrations with other systems in use.",
             "Will be interested in maintenance and operational concerns of running the solution.",
@@ -73,7 +76,7 @@
             "Insure operational concerns around reliability, uptime, and support are all addressed.",
             "Be prepared for security, privacy, data retention, and other compliance considerations.",
             "May often need to work through a provisioning team or other agents who negotiate on their behalf.",
-            "Demonstrate an understanding of their complete technical environment and compatibility for how solution fits in.",
+            "Demonstrate an understanding of their complete technical environment and compatibility for how solution fits in."
         ],
         "marketing": [
             "Metrics and proof points that back up scalability and performance claims.",
