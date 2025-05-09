@@ -1,153 +1,111 @@
 
-# PERSONAS FOR CONTENT STRATEGY
+# HOW-TO USE PERSONAS FOR CONTENT STRATEGY
 
-Developer Relations professionals frequently build content. To accomplish this goal, decisions must be made on:
-- the format/type of content
-- place to distribute the content
-- matching audience expectations for tone of voice, messaging, etc.
+The purpose of this guide is to demonstrate how to use the **DevRel Foundation Persona Library System** (DEVREL-PLS) within the context of your content strategy. A vibrant program will incorporate many contributors, so to maintain consistency there should be a common understanding of who the audience is.
 
-Many organizations will target more than one persona through content, so personas become an effective reference point for contributors from across the organization to better define their target audience when planning individual content tasks.
+Given organizations will target different types of personas through content at different stages of their adoption journey can also aid with categorizing and tracking the effectiveness of the content.
 
-For example, you may break your personas up into existing customers and future customers. Some content can work for both audiences, but often you may build content to target each persona in a slightly different way. Additionally, you may be targeting both technical users and non-technical buyers, an insight that has implications in terms of messaging, level of detail, and placement of content.
+## Benefits
 
-## Benefits of Using Personas for Content
+There are a number of benefits to using personas more directly when planning content.
 
-The identification of personas becomes a convenient short-hand notation when trying to achieve content goals.
+- cross-functional contributors will better understand nuances of the audience even if their primary role is not developer relations
+- choice of format and type of content is made to match what will resonate with the persona more deliberately
+- distribution of content will more appropriately be placed where the target persona will consume it
+- the tone of voice and key messages will have a framing best suited to achieve the awareness or activation goals of the persona
+- third-party contributors to content (guest authors, freelancers, agencies, content marketers, etc.) can leverage the public open-source persona resources to understand your audience better
+- can help junior content creators ramp up to better understand the audience of "developer" that takes others years to comprehend
+- communication techniques are included in the persona definition
+- better alignment around the role content plays in campaigns
+- helps content reviewers share an understanding of the persona to deliver valuable and actionable relevant feedback
 
-### Help creators to focus their work.
+Since many organizations will target more than one persona through content, this segmentation can evaluate the effectiveness of content more precisely.
 
-The who, what, and where of a topic can be concisely expressed through the identification of a persona for each task.
+## 1. Setting Up
 
-### Transfers experience to new contributors.
+There are a few pre-requisites for using personas in your content system that you should do before rolling out a change to your organization.
 
-A less experienced content creator may not fully understand the audience. Getting participation from multiple functions across the organization including DevRel, Product, Engineering, and Marketing can benefit from using personas to bridge the knowledge gap when participating in content activities and trying to understand the expectations of the audience.
+### 1.1 Pick Your Personas
 
-### Facilitates working with third-party contributors.
+If you haven't already, use the [Getting Started Guide](./getting-started.md) to explore available personas, branch as necessary to capture the most important personas for your program.
 
-Using the personas built within the [DevRel Foundation Persona System (DRF-PS)](https://github.com/DevRel-Foundation/persona-library) helps give a common form of communication when working with agencies, freelancers, and distributors. Typically, third-party contributors do not understand the organization's customers, program, or goals. Using the persona library however shares the fundamental essence of personas to speed up the process of discovery.
+For example, you may break your personas up into existing customers and future customers. The content you create for awareness, activation, and retention would vary pretty wildly and should be reflected in the variety of personas you are targeting. Similarly, you may be targeting technical practitioners ("developers") and non-technical business decision-makers ("buyers"). This insight has implications on your content strategy.
 
-### Effective proven communication techniques.
+Your persona set might include:
+- security-dev-early
+- security-dev-laggard
+- security-biz
+- security-all-pro
 
-New members of the DevRel profession may not know effective approaches to communicate with a persona. The training material and guides from the persona library help share better practices to improve the effectiveness of the work done.
+These are used as examples in the next steps.
 
-The materials can help other functions of an organization or provide the training needed to hit the ground running.
+### 1.2 Configure Your Project Management Tool
 
-### Efficient collaboration for a team.
+It is common to use a tool for tracking who is working on what content topics. This may be a simple spreadsheet, database, template, or some other system. The specifics are beyond the scope of this document.
 
-Organizations can struggle with making decisions when there is not an alignment on who the audience is or may use terminology like "developer" but have very different ideas about what that means.
+> See [Tools Catalog](https://github.com/DevRel-Foundation/tools-catalog) for example content tracking solutions that are used such as AirTable, SmartSheet, Notion, Sheets, Excel, etc.
 
-By using a persona, there is a more precise definition and implication to making sure everybody is on the same page. A content reviewer giving feedback will know with increased certainty how to help the content creator assess whether their work is effective because they will have a concise way of understanding the target audience and which feedback is relevant.
+Whether it is a column or data field, for each content task identify one or more personas that the content should target. The fewer the better for more specific targeting, but some content may be able to reach multiple personas. Constrain the values to the 5-7 target personas for your content program.
 
-## Planning Content
+## 2. Produce Content
 
-### 1. Pick Your Personas
+When it is time to produce content, the persona provides definition to the traits of your target audience. When speaking or writing content, you'll use the frame of reference of each persona to gauge whether or not your content is appropriate. The most relevant persona attributes for content are discussed.
 
-If you haven't already, use the [Persona Library Getting Started](https://github.com/DevRel-Foundation/persona-library) guide to explore and build the personas most important for your program.
+### 2.1 Adoption Curve
 
-### 2. Setup Your Content Tracking Tool
+The [adoption curve](../traits/adoption-curve.md) of your audience can be quite important trait to understand.
 
-Creating a workflow for tracking your content program is beyond the scope of this document to describe. It is common however to use a tool like a spreadsheet, template or database that defines tasks for each piece of content. You can review the [DevRel Foundation Tools Catalog](https://github.com/DevRel-Foundation/tools-catalog) for examples such as AirTable, SmartSheet, Notion, Google Sheets, Excel, Google Docs and more.
+If you are targeting an _early adopter_ such as **security-dev-early** then you would approach content development to suit. These individuals have the tendency to seek new trends they can apply to their work. This means you may want to develop a blog post that talks about a new technology trend in the context of your organization. Conversely, if you are targeting a _laggard_ such as the **security-dev-laggard** you are writing content for somebody who is looking to get a job done. A more problem-oriented short article like a FAQ or KB article would be a great fit. The _laggard_ does not want fluff.
 
-The tracking tool should include an attribute for `personas`. This should be a constrained list to include the 5-7 target personas relevant for your content strategy to focus. 
+The _innovator_ may be more interested in hearing about problems than solutions because they are motivated by opportunities. The _majority_ are dismissive of new fads, but maturing tools and technology are valuable and they want lasting value from the time they put in to learn. The _late-comer_ is being encouraged by management, so a workshop or training that really force-feeds content is a great fit.
 
-For example, you might identify the following personas to be most important for your content plans:
+### 2.2 Career Stage
 
-- biz-security-b2b-startup-pro-lead-I
-- biz-security-b2b-enterprise-pro-I-toolsmith-I
-- dev-security-b2b-I-mid-ic-I
-- dev-security-b2b-I-pro-I-trendsetter-I
-- I-security-5I
+The [experience](../traits/role-experience.md) somebody has in their role also is an important trait in understanding content.
 
-Each content task would map to one or more of those personas.
+Your persona set may not differentiate, but if you are authoring content for somebody who is _proficient_ then explaining definitions of common industry terms may not be helpful. If you are educating somebody who is _early_ the familiarity with the entire history of computing would make your content difficult to understand. The reality of a lot of content may be that you have one persona that encompasses both alternatives so you'll need to consider both in your structure, tone, explanation, and humor. You may also consider breaking the content up into a part 1 and part 2 where a more _mid-level_ experienced person can choose to read one or both.
 
-### 3. Content Production
+### 2.3 Modality
 
-When it is time to produce content, the persona provides definition to the traits of your target audience. When speaking or writing content, you'll use the frame of reference of each persona to gauge whether or not your content is appropriate.
+The [modality](../traits/adoption-modality.md) focuses in on the media type that is most important. While any particular individual may have preferences it may not be common to split your personas by modality but rather try to accomodate them all.
 
-#### Professional Development
+You may want to setup your content tracking system to include a second column for the modality.
 
-Review the **[learning style](../traits/learning-style.md)** of your audience as it applies to their professional development is an important factor.
+- security-dev + learn
+- security-dev + problem
 
-A _trendsetter_ would be more likely to look for content that helps them to learn new trends and topics for use on future projects. You might create content that really is topical and cutting edge for early adoption.
+The _learner_ wants a better understanding so is looking for tutorials, audio/video presentations such as podcasts or videos, and they are more likely to read the nurture emails. The audience who is looking to _problem-solve_ wants a quick how-to guide or a debugging guide as part of their content need.
 
-A _minimalist_ on the other hand is looking for content that gets straight to the point and explains only what is necessary to solve a problem or accomplish a task. They aren't looking at your content to learn, they want an answer and then will move on.
+This modality could help you decide on segmenting your audience based on likelihood to read documentation versus watching a youtube video.
 
-A _toolsmith_ wants to be an expert. They may dismiss new fads, but the maturing tools and techniques that have lasting value is where they want to invest their time. The conceptual explanations may be more valued along with tradeoffs as for why a product, service, or tool is beneficial over alternatives helps build their understanding.
+### 2.4 Role
 
-How a consumer of your content approaches problems is a decision point for how you craft the messages and structure.
+The [role](../traits/role.md) can be used to judge different tendencies or hone your call to action.
 
-#### Career Stage
+- an _individual contributor_ versus a _lead_ suggests do versus tell CTAs of a practitioner looking for code samples or a thought-leadership piece for how an organizational problem is addressed
+- the _tools_ that your persona uses or their _responsibilities_ when it differentiates your segmentation could have content implications
 
-The **[experience](../traits/learning.md)** your audience has influences how much context or explanation is necessary. 
+Each trait that is meaningful becomes a constrained set of choices for your content even if the root definition of your persona set doesn't change.
 
-Somebody who is _proficient_ has a mastery of their domain and the history of it, so introductory details and fundamentals may not resonate in terms of the content they choose to consume. You should target more niche and advanced content in order to reach this audience.
+- security-biz + _finance_ responsibility who may care about pricing and billing content
+- security-biz + _marketing_ responsibility who may care about partnership content
+- etc.
 
-Conversely, somebody who is _early_ in their career may not be familiar with all the history and past decisions that are prevalent in their industry and role. They may want a bit of background on past learnings and mistakes that led to the current state when building content.
+### 2.5 Funnel Stage
 
-#### Learning Modality
+The nature of the relationship with a persona is an important consideration and may be represented in your persona set or a combination of the [awareness status](../traits/awareness-status.md).
 
-The **[modality](../traits/learning.md)** a persona prefers is another important attribute to consider. If you are only creating video content, the persona of somebody who prefers written content in documentation will not be likely to engage with your content. 
+The example of a **security-all-pro** represents somebody who understands your product very deeply. To engage this audience, release notes, product updates, roadmap input, etc. become the right types of content to engage with somebody already involved with your program.
 
-In most cases, you'll want to create a balanced mix to really emphasize which type of learner will consume your content. An _early_ career consumer may be more likely to seek visual content like videos and infographics, whereas somebody who is _proficient_ may be more likely to consume something experiential like a tutorial with exploration steps.
+That differs greatly from the _lead_ or _unaware_ who may stumble upon content through a search engine or link and has no context about your brand. For these types of content, you need a path for your persona to discover more.
 
-You might have different personas for each learning modality but mostly commonly they'll be derived. That might mean your organization overall has a set of personas but for content purposes you might segment it to highlight this distinction:
+## 3. Distribute Content
 
-- security-I-visual-I
-- security-I-experiential-I
+The most valuable personas will represent the [segment](../traits/segment.md), the vertical or industry, in which your persona resides. Some of the other [organization](../traits/organization.md) traits like _maturity_ and _gtm_ may also come into play with where the persona engages.
 
-#### Role
+As are customizing your personas, take time to add specific [awareness](../traits/awareness.md) channels and events that represent the persona. Some newsletters may really be more appropriate for somebody new to a topic than the more academic user who has specialized.
 
-The **[role](../traits/role.md)** of a person gets us closer to understanding their specific content needs.
+You can include these directly in the persona or track the most important ones in your tracking tool. On-brand properties or in third-party locations is an important characteristic for tracking because it suggests how much assumed knowledge belongs in your content.
 
-The core of the role bifurcates the world into _development_ and _business_ concerns. Additionally, the hierachical role within an organization includes _ICs_ who tend to be more practiioners that require deeply technical solutions and _Leads_ who consume more typically known as thought leadership and organization principles from their content. The _responsibilities_ of the role can be used to further sub-divide content creation but the core role often maps cleanly to planning, coding, reporting, etc. day-to-day responsibilities.
-
-#### Funnel Stage
-
-The **[relationship](../traits/organization.md)** of a persona comes into play when building content because we may have a shared channel that distributes content to multiple types of relationship. An existing _customer_ for example doesn't need to know what your organization does in a blog post or newsletter because they have already been engaged. That same blog post or newsletter however may go to a _lurker_ who is curious but does not yet understand all elements of your business or brand. A _lead_ may further need not just an explanation, but insights that help close a deal where content should be more persuasive in achieving a last touch call to action.
-
-Providing links to content that helps each type of relationship type find more targeted content is a good practice to follow.
-
-### 4. Content Delivery
-
-Once you've developed content, you need to get it in front of your persona. To reach your intended audience, you should take some traits into consideration.
-
-#### Learning Style
-
-You'll want to create a variety of content that maps to the **[learning style](../traits/learning.md)** of your most important personas. You may focus on one style at first, but achieving a balance will help you reach the most consumers possible.
-
-#### Industry
-
-The **[company industry](../traits/organization.md)** is a foundational element for distribution. When customizing your personas, the resources can be expanded upon so that you reach your target audience more effectively on both owned and third-party channels.
-
-* use `format` to filter channels that map to learning modality
-* use `level` to filter channels by career stage, an early career professional might be more common to consume 100 level channels
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+If you've produced 101 level content, make sure it maps to 100 level channels. If you've produced something very niche and deep, target 300 level channels.
 
