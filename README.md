@@ -1,6 +1,6 @@
 # Persona Library
 
-The **Persona Library** is a [DevRel Foundation](https://github.com/DevRel-Foundation) (DRF) initiative to collect resources related to the development of personas. A **persona** represents the type of user that may engage with a product or service. The value of defining personas comes from using them to align an organization around expectations of current and potential consumers.
+The **Persona Library** is a [DevRel Foundation](https://github.com/DevRel-Foundation) (DRF) initiative to collect resources related to the development of personas. A **persona** represents the type of user that may engage with a product, service, project or organization. The value of defining personas comes from using them to align an organization around expectations of current and potential consumers and plan a strategy for their tactics.
 
 Through the use of personas, as DevRel practioners, we can accelerate day-to-day decision-making for common operational activities.
 
@@ -9,11 +9,11 @@ Through the use of personas, as DevRel practioners, we can accelerate day-to-day
 
 ## DevRel Foundation Persona Library System
 
-The **Developer Relation Foundation Persona Library System (DEVREL-PLS)** is outlined in this section. It is an opinionated configuration framework for defining personas using JSON data that and follows a standardized schema. 
+The **Developer Relation Foundation Persona Library System (DEVREL-PLS)** is outlined in this section. It is an opinionated configuration framework for defining personas using a structured language (JSON) that adheres to an agreed upon standard schema.
 
 By defining personas in this way, we can establish tooling to validate, restructure, inherit, format, and exchange personas between organizations and departments. 
 
-A LLM, user-interfaces, etc. are not currently within the scope of v1.0 of this project, but will be a valuable addition to allow for more user-friendly and less technical methods of working with persona and related reference resources.
+Ease of use tools such as LLMs, user-interfaces, etc. are not currently within the scope of v1.0 of this project, but will be a valuable addition to allow for more user-friendly and less technical methods of working with persona and related reference resources.
 
 ### Learning the DEVREL-PLS
 

@@ -1,0 +1,48 @@
+{
+    "id": "biz",
+    "label": "Product Marketing Pete",
+    "narrative": "",
+    "organization": {
+        "gtm": "*",
+        "maturity": "*"
+    },
+    "role": {
+        "function": "biz",
+        "level": "*",
+        "experience": "*",
+        "responsibilities": ["design", "writing"],
+        "titles": [
+            "Product Marketing Manager",
+            "VP, Marketing"
+        ],
+        "tools": ["drf-cms", "drf-comms"]
+    },
+    "awareness": {
+        "channels": [
+                {"format": "blog", "url": "https://techcrunch.com"}
+        ],
+        "events": ["drf-techcrunch.com"]
+    },
+    "motivations": {
+        "likes": [
+            "Wants a clear understanding of why something is valuable or interesting."
+        ],
+        "dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+            "A narrow case study or product page helps contextualize the problems and opportunities when not getting lost in the details."
+        ],
+        "communications": [
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

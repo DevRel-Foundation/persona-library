@@ -13,22 +13,35 @@
         "titles": [
             "Software Engineer",
             "Software Developer",
-            "Full-Stack Developer",
+            "Full-Stack Engineer",
             "Sr. Software Engineer",
             "Staff Software Engineer",
             "Principal Software Engineer",
+            "Database Administrator",
+            "Site Reliability Engineer",
+            "Software Engineer Intern"
         ],
         "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"],
         "technologies": {
             "languages": [ ],
-            "environments": [ ],
-            "skills": [ ]
+            "environments": [
+             ],
+            "skills": [ ],
+            "education": [
+                "B.S. Computer Science",
+                "B.S. Data Science",
+                "B.S. Information Systems",
+                "B.S. Management Information Systems",
+                "Coding Boot Camp"
+            ]
         }
     },
     "awareness": {
         "channels": [
                 {"format": "social", "url": "https://news.ycombinator.com"},
                 {"format": "social", "url": "https://slashdot.org"},
+                {"format": "blog", "url": "https://dzone.com"},
+                {"format": "blog", "url": "https://thenewstack.io"},
                 {"format": "social", "url": "https://stackoverflow.com"}
         ],
         "events": [ ]
@@ -39,20 +52,58 @@
     },
     "motivations": {
         "likes": [
-            "Automation of development workflows that speed up time to delivery without hassle."
-
+            "Seek automation of development workflows that speed up time to delivery without hassle.",
+            "Tend toward scientific and engineering pursuits with a structured problem-solving mindset.",
+            "Vary in choice of operating system but more likely to be on macOS or linux.",
+            "Seek to build new skills with technology trends and approaches to increase future job prospects or for use on future projects.",
+            "Prefer clear and helpful documentation is key to success, though would prefer to not have to read it when technology is intuitive to use.",
+            "Will trust peer recommendations over vendor claims.",
+            "Seek the existence of a vibrant community is an indicator of technology that will remain longer term.",
+            "Tend to be playful and participate in internet pop culture with a sci-fi or fantasy influences (stereotype).",
+            "Want control over their destiny, so transparency is preferred over black-box solutions that do not provide an escape hatch should a new requirement emerge."
         ],
         "dislikes": [
-            "White papers or other content that is email gated when trying to learn something new.",
-            "Repetitive tasks that lack mental stimulation."
+            "Distrust sensational claims using language that is perceived as empty or markety making sensational hyperbolic statements using business jargon.",
+            "Skip White papers or other gated content that requires signing up for spam email when motivated to learn something new.",
+            "Avoid repetitive tasks that lack mental stimulation.",
+            "Will identify errors in documentation or code samples and is a common pet peeve that leads to a lack of trust of the product overall.",
+            "Dislike adding complexity (that they don't build themselves), slowing performance, introducing risk of on-time delivery, or other unreliable behavior",
+            "Are wary of a lack of community activity, unresolved/unresponded tickets, etc. will discourage from use of tools from that community.",
+            "Despise wasting time on frivilous or tasks that are deemed not worth mental energy. Would rather solve interesting problems than file paperwork."
         ]
     },
     "strategies": {
-        "design": [],
-        "product": [],
-        "education": [],
-        "communications": [],
-        "sales": [],
-        "marketing": []
+        "design": [
+            "Through simplicity and elegance of functional purpose."
+        ],
+        "product": [
+            "With troubleshooting guides for any difficult to understand or new features earn trust that team knows and is working on it.",
+            "Through self-service and product-led-growth tactics that allow them to experiment and learn immediately on day 1 rather than waiting for a meeting to enable access.",
+            "Get to a wow moment quickly since they may be evaluating multiple alternatives with a finite amount of time for onboarding."
+        ],
+        "education": [
+            "Base content on learning modality with types of educational content in tutorials, reference, etc.",
+            "Share technical details to prove a claim is valid. Focus is on the how for learning and will often match that tool to various whys themselves.",
+            "Onboard with a checklist that can be given to developers can go a long way to showing them a path."
+        ],
+        "communications": [
+            "Communicate to devs with direct and concise messages rather than overly verbose communication styles."
+        ],
+        "sales": [
+            "Appeal to laziness as a common virtue of developers who will appreciate logic on how a problem is less busy work for them.",
+            "Accept they will rigorously evaluate and want to kick the tires for themselves first before considering for adoption.",
+            "Acknowledge repeated attempts will be met with dismay as they may want to self-service initially before engaging with meetings",
+            "Let them evaluate, if only path is through sales they will prioritize competitors who let them start right away first or to consider open-source alternatives.",
+            "When they have success so they can stop their search for a solution.",
+            "Cllaborate with a technical resource like a solutions engineer or developer advocate to be able to address any technical questions or objections when engaging.",
+            "Sell to devs through transparency and predictably, they often don't want to negotiate and will pay sticker price."
+        ],
+        "marketing": [
+            "Market to devs with care because they are a skeptical audience for any claims and language that sound like sensational hyperbole.",
+            "Market to devs through flexibility, speed and performance, or customization because of frequent requirements changes in their role favor adaptability.",
+            "Market to devs by avoiding buzzwords and try to use appropriate terminology that remove ambiguity",
+            "Market to devs by sharing how something is made, behind the scenes, which earns respect for the value of a solution. That helps convince a developer to use rather than build it themselves.",
+            "Market to devs after first engaging in non-threatening, non-sales types of events. Educational content and fun community social experiences can make the relationship more comfortable first."
+        ]
     }
 }

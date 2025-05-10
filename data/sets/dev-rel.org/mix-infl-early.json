@@ -1,0 +1,37 @@
+{
+    "id": "mix-infl-early",
+    "parent": ["mix-infl"],
+    "label": "Wally Wantswork",
+    "narrative": "This persona has a history of working in developer relations roles but is looking to change opportunities either to find something new or because of a change in employment. They may have some extra time on their hands for awhile but finding a role is the primary reason for joining the community.",
+    "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "mix",
+        "level": "infl",
+        "experience": "*",
+        "titles": [
+            "Developer Advocate",
+            "Community Manager",
+            "Head of Developer Relations"
+        ]
+    },
+    "adoption": {
+        "curve": "*"
+    },
+    "awareness": {
+        "channels": [
+            {"type": "social", "url": "https://linkedin.com"},
+            {"type": "social", "url": "https://devrelcollective.fun"}
+        ],
+        "events": []
+    },
+    "motivations": {
+        "x-likes": [
+        ],
+        "x-dislikes": [
+        ]
+    }
+}
