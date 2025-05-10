@@ -1,8 +1,8 @@
 {
     "label": "Selly Sally",
     "id": "biz-sales",
-    "parent": "biz-marketing",
-    "narrative": "Selly Sally joined the DevRel Foundation because she has a product that is intended for developer community organizers or events staff. She's hoping to build relationships that can turn into deals one day.",
+    "parent": ["biz-marketing"],
+    "narrative": "This persona joined the Developer Relations Foundation because they believe their customer is here. They have a sales background orintention. A consultant who is offering services or trying to sell a SaaS tool, event planner trying to sell sponsorships, research organization selling data, etc. fall into this persona.",
     "organization": {
         "gtm": "*",
         "maturity": "*"
@@ -15,6 +15,7 @@
         "titles": [
             "Account Director",
             "VP, Sales",
+            "Strategic Partnerships",
             "Sponsorship Director"
         ],
         "tools": []
@@ -33,10 +34,15 @@
     },
     "motivations": {
         "x-likes": [
-            "Meeting people in buying decision roles."
+            "Share many of the same likes as a marketer",
+            "Meeting people who are in buying decision roles."
         ],
         "x-dislikes": [
-            "Communities that do not allow sales or marketing people to join."
+            "Share many of the same dislikes as a marketer",
+            "Communities that are unwelcoming of sales or marketing people even when they play by the rules."
+        ],
+        "goals": [
+            "Persuade somebody to purchase a product or service from them."
         ]
     },
     "strategies": {
@@ -47,8 +53,11 @@
         "education": [
         ],
         "communications": [
+            "Before promoting your activity, evaluate whether there are norms or conventions where it would be welcome to the majority of folks who may be sensitive to noise and distractions."
         ],
         "sales": [
+            "Listen to the norms of the community before engaging.",
+            "Develop a relationship first to understand if your product or service is valuable before trying to make a transaction."
         ],
         "marketing": [
         ]

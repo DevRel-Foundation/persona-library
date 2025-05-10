@@ -1,7 +1,8 @@
 {
     "id": "mix-lead",
+    "label": "Harry Head",
     "parent": ["dev", "biz"],
-    "label": "Henry Head",
+    "narrative": "This persona joined the DevRel Foundation because they've done a lot of it before and have knowleddge to share. They may be recruiting, but otherwise have been an IC within DevRel in the past but now have broader program and business goals for the entire function. They may or may not have direct reports.",
     "segment": "*",
     "organization": {
         "maturity": "*",
@@ -11,14 +12,17 @@
         "function": "mix",
         "level": "infl",
         "experience": "*",
-        "responsibilities": ["coding", "reviewing"],
+        "responsibilities": ["strategy"],
         "titles": [
-            "Head of Developer Relations"
+            "Head of Developer Relations",
+            "Director of Developer Relations",
+            "Director of Developer Experience"
         ],
-        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"]
+        "tools": []
     },
     "adoption": {
-        "curve": "early"
+        "curve": "*",
+        "modality": ["social"]
     },
     "awareness": {
         "channels": [
@@ -28,9 +32,28 @@
         "events": ["drf-devrelcon.dev"]
     },
     "motivations": {
-        "x-likes": [
+        "likes": [
         ],
-        "x-dislikes": [
+        "dislikes": [
+        ],
+        "goals": [
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+            "Provide resources that work in a variety of contexts."
+        ],
+        "education": [
+        ],
+        "communications": [
+        ],
+        "sales": [
+            "The foundation working groups provide value in sourcing new candidates for their team."
+        ],
+        "marketing": [
+            "Inform leaders they have resources that would allow their team to execute on a program faster."
         ]
     }
 }

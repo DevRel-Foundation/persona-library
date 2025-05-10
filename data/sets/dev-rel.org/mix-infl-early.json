@@ -1,8 +1,8 @@
 {
+    "label": "Barbara Breakin",
     "id": "mix-infl-early",
     "parent": ["mix-infl"],
-    "label": "Wally Wantswork",
-    "narrative": "This persona has a history of working in developer relations roles but is looking to change opportunities either to find something new or because of a change in employment. They may have some extra time on their hands for awhile but finding a role is the primary reason for joining the community.",
+    "narrative": "This persona joined the DevRel Foundation because they are looking for employment. They believe they have enough skills and desire to find their first role as an advocate. They hope to find resources for their job search, network to make connections that could help later, and have some desire to get mentorship or advice for what they need to learn to succeed. They are considered a mixed function because some may be engineers transitioning or social content creators with light technical skills. Somebody who stepped into their first DevRel program leadership role could also be considered similar to this persona.",
     "segment": "*",
     "organization": {
         "maturity": "*",
@@ -11,11 +11,12 @@
     "role": {
         "function": "mix",
         "level": "infl",
-        "experience": "*",
+        "experience": "early",
+        "responsibilities": ["coding", "writing"],
         "titles": [
-            "Developer Advocate",
-            "Community Manager",
-            "Head of Developer Relations"
+            "Software Engineer",
+            "Support Engineer",
+            "Vlogger"
         ]
     },
     "adoption": {
@@ -29,9 +30,24 @@
         "events": []
     },
     "motivations": {
-        "x-likes": [
+        "likes": [
+            "Wants to be seen as an influencer who is popular on social media, youtube, newsletters, and other forms of communication."
         ],
-        "x-dislikes": [
+        "dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+        ],
+        "communications": [
+        ],
+        "sales": [
+        ],
+        "marketing": [
         ]
     }
 }

@@ -5,43 +5,43 @@ The Developer Relations Foundation has personas that can help guide decisions ab
 
 ## Markety Mark (biz-mktg)
 
-This persona represents somebody with a marketing backgroud who works for a developer product. They may want to promote a campaign they are working on or to learn more about success acting with developers.
+This persona joined the DevRel Foundation because the developer segment is important for their role. They have a marketing background and contribute to marketing campaigns that are aimed at developers.
 
 [more about biz-mktg](./biz-mktg.json)
 
 ## Selly Sally (biz-sales)
 
-This persona represents somebody with a sales background. They may be involved with the Foundation because they want to succeed when reaching out to developers and hope to learn more. They may also be a consultant who is trying to sell their services and expertise to others in the community or have a platform/service to offer.
+This persona joined the Developer Relations Foundation because they believe their customer is here. They have a sales background orintention. A consultant who is offering services or trying to sell a SaaS tool, event planner trying to sell sponsorships, research organization selling data, etc. fall into this persona.
 
 [more about biz-sales](./biz-sales.json)
 
 ## Andy Advocate (dev-infl)
 
-This persona is a developer influencer, somebody with a technical background that has turned to a role similar to being an advocate. They'd like to support the foundation initiative, but are lurking in order to pick up tips as they are busy with their own program.
+This persona joined the DevRel Foundation to be in the community with other like-minded individuals. They are a developer influencer who has a technical background but transitioned into a business role and developed those skills too. They like to listen for tips & tricks that may help them do their job better.
 
 [more about dev-infl](./dev-infl.json)
 
 ## Carl Community (mix-infl)
 
-This persona is similar to a community manager, somebody who has some technology experience but primarily is interested in connecting people within the community. They value community so are likely to participate in social interactions and conversations but may not have much more involvement.
+This persona joined the DevRel Foundation because they want to participate in communities to connect with others. They may not have as technical a background or just may no longer focus on that skillset and instead leverage social skills to connect others and extend their network.
 
 [more about mix-infl](./mix-infl.json)
 
 ## Barbara Breakin (mix-infl-early)
 
-This persona might be rooted in dev-infl or mix-infl but is primarily differentiated through being early into their role. They are seeking information to help them transition or get started. Even somebody stepping into their first leadership role could be considered as this persona.
+This persona joined the DevRel Foundation because they are looking for employment. They believe they have enough skills and desire to find their first role as an advocate. They hope to find resources for their job search, network to make connections that could help later, and have some desire to get mentorship or advice for what they need to learn to succeed. They are considered a mixed function because some may be engineers transitioning or social content creators with light technical skills. Somebody who stepped into their first DevRel program leadership role could also be considered similar to this persona.
 
 [more about mix-infl-early](./mix-infl-early.json)
 
 ## Wally Wantswork (mix-infl-pro)
 
-This persona is in transition. Potentially rooted in dev-infl or mix-infl they are proficient with a successful track record within developer relations. They find themselves looking for a new role, either to seek new growth opportunities or because of a forced transition.
+This persona is part of the DevRel Foundation because they want to find work. This may be because they are looking for a better opportunity for growth, want to pick up side-project freelance gigs, or were part of an involuntary transition. They are proficient and skilled for what they do and are trying to build their portfolio for what's next.
 
 [more about mix-infl-pro](./mix-infl-pro.json)
 
-## Henry Head (mix-lead)
+## Harry Head (mix-lead)
 
-This person leads their program. They may still have a title such as Developer Advocate but are being asked to lead the entire function. They may or may not have direct reports.
+This persona joined the DevRel Foundation because they've done a lot of it before and have knowleddge to share. They may be recruiting, but otherwise have been an IC within DevRel in the past but now have broader program and business goals for the entire function. They may or may not have direct reports.
 
 [more about mix-lead](./mix-lead.json)
 

@@ -1,7 +1,8 @@
 {
     "id": "mix-early-infl",
-    "parent": ["dev", "biz"],
     "label": "Carl Community",
+    "narrative": "This persona joined the DevRel Foundation because they want to participate in communities to connect with others. They may not have as technical a background or just may no longer focus on that skillset and instead leverage social skills to connect others and extend their network.",
+    "parent": ["dev", "biz"],
     "segment": "*",
     "organization": {
         "maturity": "*",
@@ -11,12 +12,12 @@
         "function": "mix",
         "level": "infl",
         "experience": "*",
-        "responsibilities": ["coding", "reviewing"],
+        "responsibilities": ["relations", "reviewing"],
         "titles": [
             "Developer Evangelist",
             "Community Manager"
         ],
-        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"]
+        "tools": []
     },
     "adoption": {
         "curve": "early"
@@ -29,11 +30,25 @@
         "events": ["drf-devrelcon.dev"]
     },
     "motivations": {
-        "x-likes": [
-            "Sharing knowledge to build their personal reputation and brand in technical communities"
+        "likes": [
         ],
-        "x-dislikes": [
-            "Often overwhelmed with cross-functional asks from a community with more members than hours in the day."
+        "dislikes": [
+        ],
+        "goals": []
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+            "Provide opportunities to have synchronous conversations with others to bring up topics of interest to them."
+        ],
+        "education": [
+        ],
+        "communications": [
+        ],
+        "sales": [
+        ],
+        "marketing": [
         ]
     }
 }

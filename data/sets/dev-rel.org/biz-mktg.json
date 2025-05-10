@@ -1,7 +1,7 @@
 {
     "label": "Markety Mark",
     "id": "biz-mktg",
-    "narrative": "Markety Mark joined the DevRel Foundation because his product considers the developer segment an important role to consider in marketing campaigns. He wants to better understand what developers are looking for and how to market to them and heard that Developer Relations was a way to grow the marketing pipeline.",
+    "narrative": "This persona joined the DevRel Foundation because the developer segment is important for their role. They have a marketing background and contribute to marketing campaigns that are aimed at developers.",
     "organization": {
         "gtm": "*",
         "maturity": "*"
@@ -46,7 +46,7 @@
             "Doing a good job in their role and want to find new skills and techniques to deliver their messages to market."
         ],
         "dislikes": [
-            "Using tools like GitHub or Discord that are intended for a more technical audience."
+            "Using tools like GitHub or Discord that feel like they are made for a more technical audience."
         ]
     },
     "strategies": {
@@ -55,13 +55,15 @@
         "product": [
         ],
         "education": [
-            "A narrow case study or product page helps contextualize the problems and opportunities when not getting lost in the details."
+            "Show case studies and examples of how to successfully target developer campaigns effectively."
         ],
         "communications": [
+            "Want to promote a campaign they are working on to this community, so give them a space to share where it would be welcome."
         ],
         "sales": [
         ],
         "marketing": [
+            "Reach out to marketers specifically who target developers to let them know they are invited to participate and join."
         ]
     }
 }
