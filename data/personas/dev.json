@@ -26,10 +26,13 @@
             "languages": [ ],
             "environments": [
              ],
-            "skills": [
+            "skills": [ ],
+            "education": [
                 "B.S. Computer Science",
                 "B.S. Data Science",
-                "B.S. Management Information Systems"
+                "B.S. Information Systems",
+                "B.S. Management Information Systems",
+                "Coding Boot Camp"
             ]
         }
     },
@@ -49,53 +52,58 @@
     },
     "motivations": {
         "likes": [
-            "Developers seek automation of development workflows that speed up time to delivery without hassle.",
-            "Developers tend toward scientific and engineering pursuits with a structured problem-solving mindset.",
-            "Developers vary in choice of operating system but more likely to be on macOS or linux.",
-            "Developers seek to build new skills with technology trends and approaches to increase future job prospects or for use on future projects.",
-            "Developers prefer clear and helpful documentation is key to success, though would prefer to not have to read it when technology is intuitive to use.",
-            "Developers will trust peer recommendations over vendor claims.",
-            "Developers seek the existence of a vibrant community is an indicator of technology that will remain longer term.",
-            "Developers in technology industries tend to be playful and participate in internet pop culture with a sci-fi or fantasy influences (stereotype).",
-            "Developers want control over their destiny, so transparency is preferred over black-box solutions that do not provide an escape hatch should a new requirement emerge."
+            "Seek automation of development workflows that speed up time to delivery without hassle.",
+            "Tend toward scientific and engineering pursuits with a structured problem-solving mindset.",
+            "Vary in choice of operating system but more likely to be on macOS or linux.",
+            "Seek to build new skills with technology trends and approaches to increase future job prospects or for use on future projects.",
+            "Prefer clear and helpful documentation is key to success, though would prefer to not have to read it when technology is intuitive to use.",
+            "Will trust peer recommendations over vendor claims.",
+            "Seek the existence of a vibrant community is an indicator of technology that will remain longer term.",
+            "Tend to be playful and participate in internet pop culture with a sci-fi or fantasy influences (stereotype).",
+            "Want control over their destiny, so transparency is preferred over black-box solutions that do not provide an escape hatch should a new requirement emerge."
         ],
         "dislikes": [
-            "Developers distrust sensational claims using language that is perceived as empty or markety making sensational hyperbolic statements using business jargon.",
-            "Developers skip White papers or other gated content that requires signing up for spam email when motivated to learn something new.",
-            "Developers avoid repetitive tasks that lack mental stimulation.",
-            "Developers will identify errors in documentation or code samples and is a common pet peeve that leads to a lack of trust of the product overall.",
-            "Developers dislike adding complexity (that they don't build themselves), slowing performance, introducing risk of on-time delivery, or other unreliable behavior",
-            "Developers are wary of a lack of community activity, unresolved/unresponded tickets, etc. will discourage from use of tools from that community.",
-            "Developers despise wasting time on frivilous or tasks that are deemed not worth mental energy. Would rather solve interesting problems than file paperwork."
+            "Distrust sensational claims using language that is perceived as empty or markety making sensational hyperbolic statements using business jargon.",
+            "Skip White papers or other gated content that requires signing up for spam email when motivated to learn something new.",
+            "Avoid repetitive tasks that lack mental stimulation.",
+            "Will identify errors in documentation or code samples and is a common pet peeve that leads to a lack of trust of the product overall.",
+            "Dislike adding complexity (that they don't build themselves), slowing performance, introducing risk of on-time delivery, or other unreliable behavior",
+            "Are wary of a lack of community activity, unresolved/unresponded tickets, etc. will discourage from use of tools from that community.",
+            "Despise wasting time on frivilous or tasks that are deemed not worth mental energy. Would rather solve interesting problems than file paperwork."
         ]
     },
     "strategies": {
-        "design": [],
+        "design": [
+            "Through simplicity and elegance of functional purpose."
+        ],
         "product": [
-            "Troubleshooting guides for any difficult to understand or new features earn trust that team knows and is working on it."
+            "With troubleshooting guides for any difficult to understand or new features earn trust that team knows and is working on it.",
+            "Through self-service and product-led-growth tactics that allow them to experiment and learn immediately on day 1 rather than waiting for a meeting to enable access.",
+            "Get to a wow moment quickly since they may be evaluating multiple alternatives with a finite amount of time for onboarding."
         ],
         "education": [
-            "The learning modality influences the types of educational content in tutorials, reference, etc.",
+            "Base content on learning modality with types of educational content in tutorials, reference, etc.",
             "Share technical details to prove a claim is valid. Focus is on the how for learning and will often match that tool to various whys themselves.",
-            "An onboarding checklist that can be given to developers can go a long way to showing them a path."
+            "Onboard with a checklist that can be given to developers can go a long way to showing them a path."
         ],
         "communications": [
-            "Direct and concise is a better communication style."
+            "Communicate to devs with direct and concise messages rather than overly verbose communication styles."
         ],
         "sales": [
-            "An inherent laziness is a common virtue of developers, will appreciate logic on how a problem is less busy work for them",
-            "Will rigorously evaluate and likely kick the tires trying to make the product fail before considering for adoption.",
-            "May want to self-service initially before engaging with meetings because of the immediate gratification that comes from learning right away.",
-            "If only option is to speak to a salesperson, will likely evaluate other solutions or open-source alternatives first and may pick those before giving an alternative a chance.",
-            "Proof of value explorations may often compare three similar products in order to select the best fit among the options.",
-            "Partner with a technical resource like a solutions engineer or developer advocate to be able to address any questions or objections when engaging",
-            "Generally devs will not want to negotiate and just want to be able to use the product for a transparent price"
+            "Appeal to laziness as a common virtue of developers who will appreciate logic on how a problem is less busy work for them.",
+            "Accept they will rigorously evaluate and want to kick the tires for themselves first before considering for adoption.",
+            "Acknowledge repeated attempts will be met with dismay as they may want to self-service initially before engaging with meetings",
+            "Let them evaluate, if only path is through sales they will prioritize competitors who let them start right away first or to consider open-source alternatives.",
+            "When they have success so they can stop their search for a solution.",
+            "Cllaborate with a technical resource like a solutions engineer or developer advocate to be able to address any technical questions or objections when engaging.",
+            "Sell to devs through transparency and predictably, they often don't want to negotiate and will pay sticker price."
         ],
         "marketing": [
-            "Skeptical of any claims and language that sound sensational hyperbole.",
-            "Role often has chaning requirements so emphasis on flexibility, speed and performance, and customization are often good points",
-            "Avoid buzzwords and try to use appropriate terminology that removes ambiguity",
-            "How something is made, behind the scenes, earns respect for the value of a solution. That helps convince a developer to use rather than build it themselves."
+            "Market to devs with care because they are a skeptical audience for any claims and language that sound like sensational hyperbole.",
+            "Market to devs through flexibility, speed and performance, or customization because of frequent requirements changes in their role favor adaptability.",
+            "Market to devs by avoiding buzzwords and try to use appropriate terminology that remove ambiguity",
+            "Market to devs by sharing how something is made, behind the scenes, which earns respect for the value of a solution. That helps convince a developer to use rather than build it themselves.",
+            "Market to devs after first engaging in non-threatening, non-sales types of events. Educational content and fun community social experiences can make the relationship more comfortable first."
         ]
     }
 }

@@ -25,6 +25,10 @@
         "technologies": {
             "languages": [ ],
             "environments": [ ],
+            "education": [
+                "M.S. Computer Science",
+                "M.B.A."
+             ],
             "skills": [ ]
         }
     },
@@ -41,18 +45,18 @@
     },
     "motivations": {
         "x-likes": [
-            "Lead Devs make technical decisions that can drive business impact through new revenue-generating products",
-            "Lead Devs mentor and growing new engineers by sharing their experiences",
-            "Lead Devs often think in terms of efficiency, not just speed, but a conservation of resources to achieve a goal.",
-            "Lead Devs choose safe options that have available talent on the market to support, extend, and use.",
-            "Lead Devs look for solutions that do not require their existing teams to ramp up on too many new technologies.",
-            "Lead Devs view into implementation timelines and resource requirements on the team",
-            "Lead Devs prefer an architectural view of who owns which services/components"
+            "Make technical decisions that can drive business impact through new revenue-generating products.",
+            "Mentor and growing new engineers by sharing their experiences.",
+            "Think in terms of efficiency, not just speed, but a conservation of resources to achieve a goal.",
+            "Choose safe options that have available talent on the market to support, extend, and use.",
+            "Look for solutions that do not require their existing teams to ramp up on too many new technologies.",
+            "View into implementation timelines and resource requirements on the team.",
+            "Prefer an architectural view of who owns which services/components."
         ],
         "x-dislikes": [
-            "Lead Devs have very low tolerance for fluff and sales approaches that over-promise or are factually incorrect.",
-            "Lead Devs are wary of vendor lock-in that restricts solution choice later.",
-            "Lead Devs are concerned about integration issues and long-term maintenance ramifications after a project completes. They can become burdened by ongoing technical debt."
+            "Have very low tolerance for fluff and sales approaches that over-promise or are factually incorrect.",
+            "Are wary of vendor lock-in that restricts solution choice later.",
+            "Are concerned about integration issues and long-term maintenance ramifications after a project completes. They can become burdened by ongoing technical debt."
         ]
     },
     "strategies": {

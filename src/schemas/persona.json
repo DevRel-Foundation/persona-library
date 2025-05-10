@@ -140,8 +140,23 @@
                         "type": "string"
                     }
                 },
+                "x-titles": {
+                    "type": "array",
+                    "description": "Extended set of titles for this persona. Merges instead of replaces.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
                 "tools": {
                     "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-creative", "drf-test", "drf-build", "drf-cmm", "drf-email", "drf-cms", "drf-db"]
+                    }
+                },
+                "x-tools": {
+                    "type": "array",
+                    "description": "Extended set of tools for this persona. Merges instead of replaces.",
                     "items": {
                         "type": "string",
                         "enum": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-creative", "drf-test", "drf-build", "drf-cmm", "drf-email", "drf-cms", "drf-db"]
@@ -157,6 +172,12 @@
                             }
                         },
                         "environments": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "education": {
                             "type": "array",
                             "items": {
                                 "type": "string"
