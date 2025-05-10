@@ -1,0 +1,38 @@
+{
+    "id": "mix-early-infl",
+    "parent": ["dev", "biz"],
+    "label": "Henry Head of Program",
+    "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "mix",
+        "level": "infl",
+        "experience": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "Head of Developer Relations",
+        ],
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"]
+    },
+    "adoption": {
+        "curve": "early"
+    },
+    "awareness": {
+        "channels": [
+                {"format": "social", "url": "https://news.ycombinator.com"},
+                {"format": "social", "url": "https://slashdot.org"}
+        ],
+        "events": ["drf-devrelcon.dev"]
+    },
+    "motivations": {
+        "x-likes": [
+            "Sharing knowledge to build their personal reputation and brand in technical communities"
+        ],
+        "x-dislikes": [
+            "Often overwhelmed with cross-functional asks from a community with more members than hours in the day."
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": "all-early",
+    "parent": ["mix-infl", "dev-infl"],
+    "label": "Joey Job-Seeker",
+    "narrative": "Experienced in Developer Relations roles but is looking for a new opportunity or to demonstrate their expertise.",
+    "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "mix",
+        "level": "infl",
+        "experience": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "Developer Evangelist",
+            "Community Manager",
+            "Head of Developer Relations"
+        ],
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"]
+    },
+    "adoption": {
+        "curve": "early"
+    },
+    "awareness": {
+        "channels": [
+                {"format": "social", "url": "https://news.ycombinator.com"},
+                {"format": "social", "url": "https://slashdot.org"}
+        ],
+        "events": ["drf-devrelcon.dev"]
+    },
+    "motivations": {
+        "x-likes": [
+            "Sharing knowledge to build their personal reputation and brand in technical communities"
+        ],
+        "x-dislikes": [
+            "Often overwhelmed with cross-functional asks from a community with more members than hours in the day."
+        ]
+    }
+}

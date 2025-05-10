@@ -1,0 +1,56 @@
+{
+    "id": "biz",
+    "parent": "biz-marketing",
+    "label": "Selly Sally",
+    "narrative": "Selly Sally joined the DevRel Foundation because she has a product that is intended for developer community organizers or events staff. She's hoping to build relationships that can turn into deals one day.",
+    "organization": {
+        "gtm": "*",
+        "maturity": "*"
+    },
+    "role": {
+        "function": "biz",
+        "level": "*",
+        "experience": "*",
+        "responsibilities": ["sales"],
+        "titles": [
+            "Account Director",
+            "VP, Sales",
+            "Sponsorship Director"
+        ],
+        "tools": []
+    },
+    "awareness": {
+        "channels": [
+                {"format": "web", "url": "https://evansdata.com"},
+                {"format": "web", "url": "https://developermarketing.io"},
+                {"format": "social", "url": "https://linkedin.com"}
+        ],
+        "events": [
+            "drf-devrelcon.com", 
+            "drf-developerweek.com", 
+            "drf-events.productmarketingalliance.com"
+        ]
+    },
+    "motivations": {
+        "x-likes": [
+            "Meeting people in buying decision roles."
+        ],
+        "x-dislikes": [
+            "Communities that do not allow sales or marketing people to join."
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+        ],
+        "communications": [
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}
