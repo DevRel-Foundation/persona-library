@@ -40,6 +40,8 @@ Good ways to reach this persona include:
 - talks at events
 - blog posts
 
+For the majority adopter, they need a bit more convincing of the pros/cons and explanations for the tradeoffs and why their time is best invested on this content over alternatives.
+
 ## Latecomer (late)
 
 The latecomer wants to adopt new tools, but is more of a 9 to 5 persona who does not often come into contact with industry trends until they are well established.
@@ -59,5 +61,6 @@ It can be difficult to reach this type of adopter. Some techniques include:
 - workshops
 - reference documentation
 
+A laggard is not motivated purely by learning but by the shortest path to a solution. You can cut out the story-telling and narrative to a piece and focus on pragmatic advice.
 
 
