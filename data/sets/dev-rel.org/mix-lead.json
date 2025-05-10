@@ -1,7 +1,7 @@
 {
-    "id": "mix-early-infl",
+    "id": "mix-lead",
     "parent": ["dev", "biz"],
-    "label": "Henry Head of Program",
+    "label": "Henry Head",
     "segment": "*",
     "organization": {
         "maturity": "*",
@@ -13,7 +13,7 @@
         "experience": "*",
         "responsibilities": ["coding", "reviewing"],
         "titles": [
-            "Head of Developer Relations",
+            "Head of Developer Relations"
         ],
         "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"]
     },
@@ -29,10 +29,8 @@
     },
     "motivations": {
         "x-likes": [
-            "Sharing knowledge to build their personal reputation and brand in technical communities"
         ],
         "x-dislikes": [
-            "Often overwhelmed with cross-functional asks from a community with more members than hours in the day."
         ]
     }
 }

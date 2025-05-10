@@ -1,7 +1,7 @@
 {
-    "id": "biz",
-    "parent": "biz-marketing",
     "label": "Selly Sally",
+    "id": "biz-sales",
+    "parent": "biz-marketing",
     "narrative": "Selly Sally joined the DevRel Foundation because she has a product that is intended for developer community organizers or events staff. She's hoping to build relationships that can turn into deals one day.",
     "organization": {
         "gtm": "*",

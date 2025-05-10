@@ -1,8 +1,8 @@
 {
-    "id": "all-early",
+    "id": "mix-infl-pro",
     "parent": ["mix-infl", "dev-infl"],
-    "label": "Wally Wants-to-Advocate",
-    "narrative": "Early to a developer relations role and wants to learn from more experienced.",
+    "label": "Wally Wantswork",
+    "narrative": "Experienced in Developer Relations roles but is looking for a new opportunity or to demonstrate their expertise.",
     "segment": "*",
     "organization": {
         "maturity": "*",

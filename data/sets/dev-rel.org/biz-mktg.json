@@ -1,6 +1,6 @@
 {
-    "id": "biz",
     "label": "Markety Mark",
+    "id": "biz-mktg",
     "narrative": "Markety Mark joined the DevRel Foundation because his product considers the developer segment an important role to consider in marketing campaigns. He wants to better understand what developers are looking for and how to market to them and heard that Developer Relations was a way to grow the marketing pipeline.",
     "organization": {
         "gtm": "*",
