@@ -7,6 +7,18 @@ Through the use of personas, as DevRel practioners, we can accelerate day-to-day
 * [Requirements and Use Cases](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions/46)
 * Glossary (_TODO_)
 
+## Persona Reference Library
+
+The reference library contains links to third-party resources that may help in a deeper study of the process of creating and managing personas.
+
+- [articles](./docs/reference/articles.md) ([src](./data/reference/articles.json))
+- [books](./docs/reference/books.md) ([src](./data/reference/books.json))
+- [tools](./docs/reference/tools.md) ([src](./data/reference/tools.json))
+- [video](./docs/reference/video.md) ([src](./data/reference/videos.json))
+
+Run `./bin/pls-json-to-md --build docs/reference --data ./data/reference/*.json` to regenerate markdown files from the source data.  Run `./bin/pls-validate --data data/reference/*.json --schema ./src/schemas/reference.json` to confirm the source data is valid.
+
+
 ## DevRel Foundation Persona Library System
 
 The **Developer Relation Foundation Persona Library System (DEVREL-PLS)** is outlined in this section. It is an opinionated configuration framework for defining personas using a structured language (JSON) that adheres to an agreed upon standard schema.
@@ -48,17 +60,6 @@ Run `./bin/pls-validate --data data/personas/*.json --schema ./src/schemas/perso
 
 - [pls-validate](./bin/pls-validate): used to validate one or more personas (JSON data) with a given schema.
 - [pls-json-to-md](./bin/pls-json-to-md): used to format reference library entries into a renderable markdown file.
-
-## Persona Reference Library
-
-The reference library contains links to third-party resources that may help in a deeper study of the process of creating and managing personas.
-
-- [articles](./docs/reference/articles.md) ([src](./data/reference/articles.json))
-- [books](./docs/reference/books.md) ([src](./data/reference/books.json))
-- [tools](./docs/reference/tools.md) ([src](./data/reference/tools.json))
-- [video](./docs/reference/video.md) ([src](./data/reference/videos.json))
-
-Run `./bin/pls-json-to-md --build docs/reference --data ./data/reference/*.json` to regenerate markdown files from the source data.  Run `./bin/pls-validate --data data/reference/*.json --schema ./src/schemas/reference.json` to confirm the source data is valid.
 
 ## License
 
