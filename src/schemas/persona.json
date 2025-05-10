@@ -102,7 +102,7 @@
                     "type": "array",
                     "items": {
                         "type": "string",
-                        "enum": ["problem", "learn", "understand", "info", "guide", "*"]
+                        "enum": ["problem", "learn", "understand", "info", "guide", "social", "*"]
                     }
                 }
             }
@@ -130,7 +130,7 @@
                     "description": "The broad job tasks this persona must execute on as part of the duties of their role.",
                     "items": {
                         "type": "string",
-                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "financials", "strategy", "design", "writing", "*"]
+                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "financials", "strategy", "design", "writing", "sales", "relations", "*"]
                     }
                 },
                 "titles": {
@@ -198,6 +198,13 @@
         "motivations": {
             "type": "object",
             "properties": {
+                "goals": {
+                    "type": "array",
+                    "description": "The goals and objectives this persona has for engaging with your offerings.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
                 "likes": {
                     "type": "array",
                     "items": {
@@ -206,6 +213,13 @@
                 },
                 "dislikes": {
                     "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "x-goals": {
+                    "type": "array",
+                    "description": "Additional goals to extend and don't replace parent goals",
                     "items": {
                         "type": "string"
                     }
