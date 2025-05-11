@@ -16,7 +16,7 @@
             "Full-Stack Developer",
             "Sr. Software Engineer",
             "Staff Software Engineer",
-            "Principal Software Engineer",
+            "Principal Software Engineer"
         ],
         "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"],
         "technologies": {

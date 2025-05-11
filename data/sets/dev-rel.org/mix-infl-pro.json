@@ -1,0 +1,60 @@
+{
+    "label": "Wally Wantswork",
+    "id": "mix-infl-pro",
+    "parent": ["mix-infl", "dev-infl"],
+    "narrative": "This persona is part of the DevRel Foundation because they want to find work. This may be because they are looking for a better opportunity for growth, want to pick up side-project freelance gigs, or were part of an involuntary transition. They are proficient and skilled for what they do and are trying to build their portfolio for what's next.",
+    "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "mix",
+        "level": "infl",
+        "experience": "*",
+        "responsibilities": ["relations"],
+        "titles": [
+            "Developer Evangelist",
+            "Developer Advocate",
+            "Community Manager",
+            "Head of Developer Relations"
+        ],
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"]
+    },
+    "adoption": {
+        "curve": "early"
+    },
+    "awareness": {
+        "channels": [
+                {"format": "social", "url": "https://news.ycombinator.com"},
+                {"format": "social", "url": "https://slashdot.org"}
+        ],
+        "events": ["drf-devrelcon.dev"]
+    },
+    "motivations": {
+        "x-likes": [
+            "Like what they do and are seeking a similar environment in which to do it for somebody else.",
+            "To feel validated that their influence makes a difference for business outcomes."
+        ],
+        "x-dislikes": [
+            "Being asked to justify their activities when there is no easy measurement of impact."
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+        ],
+        "communications": [
+            "Convince them that by giving to the Foundation they build their personal reputation and experience while on the job hunt."
+        ],
+        "sales": [
+            "Make small asks because their job search is a priority but doing work that can be shared is helpful.",
+            "Emphasize that contributions to the DevRel Foundation are more meaningful than individual brand because it highlights the peer review and governance required to participate over being an isolated opinion of an influencer."
+        ],
+        "marketing": [
+        ]
+    }
+}

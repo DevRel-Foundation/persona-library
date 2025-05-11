@@ -15,6 +15,13 @@
             "description": "A unique id to help identify this persona",
             "type": "string"
         },
+        "parent": {
+            "type": "array",
+            "description": "Definition of a persona that this one extends with additional specific attributes",
+            "items": {
+                "type": "string"
+            }
+        },
         "label": {
             "description": "A unique label to help identify this persona",
             "type": "string"
@@ -95,7 +102,7 @@
                     "type": "array",
                     "items": {
                         "type": "string",
-                        "enum": ["problem", "learn", "understand", "info", "guide", "*"]
+                        "enum": ["problem", "learn", "understand", "info", "guide", "social", "*"]
                     }
                 }
             }
@@ -123,7 +130,7 @@
                     "description": "The broad job tasks this persona must execute on as part of the duties of their role.",
                     "items": {
                         "type": "string",
-                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "financials", "strategy", "design", "writing", "*"]
+                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "financials", "strategy", "design", "writing", "sales", "relations", "*"]
                     }
                 },
                 "titles": {
@@ -133,8 +140,23 @@
                         "type": "string"
                     }
                 },
+                "x-titles": {
+                    "type": "array",
+                    "description": "Extended set of titles for this persona. Merges instead of replaces.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
                 "tools": {
                     "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-creative", "drf-test", "drf-build", "drf-cmm", "drf-email", "drf-cms", "drf-db"]
+                    }
+                },
+                "x-tools": {
+                    "type": "array",
+                    "description": "Extended set of tools for this persona. Merges instead of replaces.",
                     "items": {
                         "type": "string",
                         "enum": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-creative", "drf-test", "drf-build", "drf-cmm", "drf-email", "drf-cms", "drf-db"]
@@ -155,6 +177,12 @@
                                 "type": "string"
                             }
                         },
+                        "education": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
                         "skills": {
                             "type": "array",
                             "items": {
@@ -170,6 +198,13 @@
         "motivations": {
             "type": "object",
             "properties": {
+                "goals": {
+                    "type": "array",
+                    "description": "The goals and objectives this persona has for engaging with your offerings.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
                 "likes": {
                     "type": "array",
                     "items": {
@@ -178,6 +213,27 @@
                 },
                 "dislikes": {
                     "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "x-goals": {
+                    "type": "array",
+                    "description": "Additional goals to extend and don't replace parent goals",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "x-likes": {
+                    "type": "array",
+                    "description": "Additional extended likes that do not replace inherited definitions.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "x-dislikes": {
+                    "type": "array",
+                    "description": "Additional extended dislikes that do not replace inherited definitions.",
                     "items": {
                         "type": "string"
                     }

@@ -1,0 +1,53 @@
+{
+    "label": "Barbara Breakin",
+    "id": "mix-infl-early",
+    "parent": ["mix-infl"],
+    "narrative": "This persona joined the DevRel Foundation because they are looking for employment. They believe they have enough skills and desire to find their first role as an advocate. They hope to find resources for their job search, network to make connections that could help later, and have some desire to get mentorship or advice for what they need to learn to succeed. They are considered a mixed function because some may be engineers transitioning or social content creators with light technical skills. Somebody who stepped into their first DevRel program leadership role could also be considered similar to this persona.",
+    "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "mix",
+        "level": "infl",
+        "experience": "early",
+        "responsibilities": ["coding", "writing"],
+        "titles": [
+            "Software Engineer",
+            "Support Engineer",
+            "Vlogger"
+        ]
+    },
+    "adoption": {
+        "curve": "*"
+    },
+    "awareness": {
+        "channels": [
+            {"type": "social", "url": "https://linkedin.com"},
+            {"type": "social", "url": "https://devrelcollective.fun"}
+        ],
+        "events": []
+    },
+    "motivations": {
+        "likes": [
+            "Wants to be seen as an influencer who is popular on social media, youtube, newsletters, and other forms of communication."
+        ],
+        "dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+        ],
+        "communications": [
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

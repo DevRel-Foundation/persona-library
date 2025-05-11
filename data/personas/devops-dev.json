@@ -1,6 +1,7 @@
 {
-    "id": "dev",
-    "label": "Software Developer",
+    "id": "devops-dev",
+    "parent": ["dev"],
+    "label": "DevOps Dot",
     "segment": "*",
     "organization": {
         "maturity": "*",
@@ -11,12 +12,7 @@
         "level": "*",
         "responsibilities": ["coding", "reviewing"],
         "titles": [
-            "Software Engineer",
-            "Software Developer",
-            "Full-Stack Developer",
-            "Sr. Software Engineer",
-            "Staff Software Engineer",
-            "Principal Software Engineer"
+            "DevOps Engineer"
         ],
         "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"],
         "technologies": {
@@ -28,7 +24,6 @@
     "awareness": {
         "channels": [
                 {"format": "social", "url": "https://news.ycombinator.com"},
-                {"format": "social", "url": "https://slashdot.org"},
                 {"format": "social", "url": "https://stackoverflow.com"}
         ],
         "events": [ ]
@@ -38,15 +33,13 @@
         "modality": []
     },
     "motivations": {
-        "likes": [],
-        "dislikes": [
+        "x-likes": [],
+        "x-dislikes": [
         ]
     },
     "strategies": {
         "design": [],
-        "product": [
-            "Will be concerned with compliance around privacy and data protection in service of regulatory requirements."
-        ],
+        "product": [],
         "education": [],
         "communications": [],
         "sales": [],

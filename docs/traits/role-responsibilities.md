@@ -12,6 +12,7 @@ The broad job tasks this persona must execute on as part of the duties of their 
 - strategy
 - design
 - writing
+- relations
 
 ## Coding
 
@@ -49,18 +50,9 @@ A person who has creative responsibility over the direction of the product or se
 
 A person who composes prose to communicate about a product or service;
 
+## Relations
+
+A person who has a public-relations element to their role. This may involve speaking and giving presentations, talking to media, or representing the organization at tradeshows and working groups.
 
 
 
-
-
-
-
-
-### Designing
-
-A person with responsibility to apply creative decision-making to the creative elements.
-
-### Writing
-
-A person with responsibility for writing as part of their contributions.

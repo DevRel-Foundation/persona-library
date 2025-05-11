@@ -1,5 +1,6 @@
 {
     "id": "dev-exec",
+    "parent": ["dev-lead"],
     "label": "Ed Exec",
     "narrative": "Deep technical experience over a long career. Has advanced their business understanding, but still rely on other experts for marketing, sales, finance, and other disciplines. Their decisions have major consequences for an entire organization.",
     "segment": "*",
@@ -38,14 +39,16 @@
         "modality": []
     },
     "motivations": {
-        "likes": [
+        "x-likes": [
         ],
-        "dislikes": []
+        "x-dislikes": []
     },
     "strategies": {
         "design": [],
         "product": [],
-        "education": [],
+        "education": [
+            "Clarity on skills and resources the team will need to succeed."
+        ],
         "communications": [],
         "sales": [
             "Ask about their goals and strategy for their technical choices in the next year."

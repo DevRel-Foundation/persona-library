@@ -1,15 +1,14 @@
 
 # Modality
 
-The modality speaks to the style of resource that is most effective for the experience the persona seeks. You may
-also want to take into consideration the multimedia preferences as audio/video lends itself better to some modes better
-than text.
+The modality speaks to the style of resource that is most effective for the experience the persona seeks. You may also want to take into consideration the multimedia preferences as audio/video lends itself better to some modes better than text.
 
 - problem
 - learn
 - understand
 - info
 - guide
+- social
 
 ## Problem Oriented (problem)
 
@@ -62,4 +61,9 @@ Motivated to use the product rather than learn how to build with it. Adoption is
 - AI assistants
 
 Guidance-oriented may be more likely to sign up for a demo with sales.
+
+## Socratic (social)
+
+Learn by working with others and asking questions. The interaction with others in dialogue is how they develop a fully understanding of concepts and ideas.
+
 
