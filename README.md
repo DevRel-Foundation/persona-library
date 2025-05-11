@@ -18,7 +18,6 @@ The reference library contains links to third-party resources that may help in a
 
 Run `./bin/pls-json-to-md --build docs/reference --data ./data/reference/*.json` to regenerate markdown files from the source data.  Run `./bin/pls-validate --data data/reference/*.json --schema ./src/schemas/reference.json` to confirm the source data is valid.
 
-
 ## DevRel Foundation Persona Library System
 
 The **Developer Relation Foundation Persona Library System (DEVREL-PLS)** is outlined in this section. It is an opinionated configuration framework for defining personas using a structured language (JSON) that adheres to an agreed upon standard schema.
@@ -51,7 +50,7 @@ Using your personas:
 Example sets of personas created by organizations for their use and shared as reference.
 
 - [General Collection](./data/personas)
-- DevRel Foundation Persona Set (_TODO_)
+- [DevRel Foundation Persona Set](./data/sets/dev-rel.org/README.md)
 - OpenSSF Persona Set (_TODO_)
 
 Run `./bin/pls-validate --data data/personas/*.json --schema ./src/schemas/persona.json` to confirm the source persona data is valid.
