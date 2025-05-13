@@ -40,7 +40,7 @@ Delve AI (1969). The History of Buyer Personas. *Delve AI Blog*. [https://www.de
 
 Gitlab (1969). Personas. *The GitLab Handbook*. [https://handbook.gitlab.com/handbook/product/personas/](https://handbook.gitlab.com/handbook/product/personas/)
 
-> *@j12y*: Identifies 18 user personas with job summary, motivations, and frustrations.
+> *undefined*: Identifies 18 user personas with job summary, motivations, and frustrations.
 
 ## How to create actionable developer personas
 
@@ -50,7 +50,7 @@ Czakon, Jakub (1969). How to create actionable developer personas. *Developer Ma
 
 Lewko, Caroline (2022). You're Targeting Developers? So Is Everyone Else.. *Heavybit*. [https://www.heavybit.com/library/article/heres-how-to-do-segmentation-better](https://www.heavybit.com/library/article/heres-how-to-do-segmentation-better)
 
-> *@j12y*: Description of Developer Segmentation Framework and Canvas.
+> *undefined*: Description of Developer Segmentation Framework and Canvas.
 
 ## Why Personas are Important in Software Development
 
@@ -64,17 +64,25 @@ Pichler, Roman (2023). 10 Tips for Creating Agile Personas. *romanpichler*. [htt
 
 DeLancey, Jayson (2023). Personas and Job Titles: Are You a Developer?. *dev.to/j12y*. [https://dev.to/j12y/personas-and-job-titles-are-you-a-developer-n4k](https://dev.to/j12y/personas-and-job-titles-are-you-a-developer-n4k)
 
-> *@j12y*: Challenges the idea of what a developer is based on job titles.
+> *undefined*: Challenges the idea of what a developer is based on job titles.
 
 ## Threat Modeling - Start using evil personas
 
 van Stein, Dave (2020). Threat Modeling - Start using evil personas. *Xebia*. [https://xebia.com/blog/threat-modeling-start-using-evil-personas/](https://xebia.com/blog/threat-modeling-start-using-evil-personas/)
 
-> *@j12y*: Some generic examples of personas who are anti-users
+> *undefined*: Some generic examples of personas who are anti-users
 
 ## Targeting your API developer relations program with personas
 
-Spence, Ted (2022). Targetingn your API developer relations program with personas. *tedspence.com*. [https://tedspence.com/marketing-personas-for-developers-a20aa3f3b1ad](https://tedspence.com/marketing-personas-for-developers-a20aa3f3b1ad)
+Spence, Ted (2022). Targeting your API developer relations program with personas. *tedspence.com*. [https://tedspence.com/marketing-personas-for-developers-a20aa3f3b1ad](https://tedspence.com/marketing-personas-for-developers-a20aa3f3b1ad)
 
-> *@j12y*: working styles with ideas to help each
+> *undefined*: working styles with ideas to help each
+
+## How to Create Developer Personas that Actually Work
+
+Julien, Sam (2025). How to Create Developer Personas that Actually Work. *samjulien.com*. [https://www.samjulien.com/how-to-create-developer-personas/](https://www.samjulien.com/how-to-create-developer-personas/)
+
+## Persona (user experience)
+
+(2025). Persona (user experience). *Wikipedia*. [https://en.wikipedia.org/wiki/Persona_(user_experience)](https://en.wikipedia.org/wiki/Persona_(user_experience))
 
