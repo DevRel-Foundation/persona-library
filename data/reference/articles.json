@@ -156,7 +156,18 @@
         "notes": [
         ],
         "votes": 1
+        },
+        {
+        "type": "documentation",
+        "title": "Persona (user experience)",
+        "authors": [],
+        "publish-date": "2025-05-11",
+        "retrieval-date": "2025-05-11",
+        "publication": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Persona_(user_experience)",
+        "notes": [
+        ],
+        "votes": 1
         }
-
     ]
 }

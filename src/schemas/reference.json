@@ -92,8 +92,42 @@
                 "required": ["type", "title", "url"],
                 "additionalProperties": false
             }
+        },
+        "terms": {
+            "description": "Array of terminology items",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "term": {
+                        "description": "The terminology word or phrase",
+                        "type": "string"
+                    },
+                    "definitions": {
+                        "description": "Definition of the term",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "see": {
+                        "description": "See another term for the definition",
+                        "type": "string"
+                    }
+                },
+                "required": ["term"], 
+                "anyOf": [
+                    { "required": ["definitions"] },
+                    { "required": ["see"] }
+                ],
+                "additionalProperties": false
+            }
         }
     },
-    "required": ["description", "data"],
+    "required": ["description"],
+    "oneOf": [
+        { "required": ["data"] },
+        { "required": ["terms"] }
+    ],
     "additionalProperties": false
 }

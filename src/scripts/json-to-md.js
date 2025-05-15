@@ -112,20 +112,61 @@ function processItem(item) {
   // Add notes if available
   if (item.notes && item.notes.length > 0) {
     item.notes.forEach(note => {
-      markdown += `> *${note.participant}*: ${note.note}\n\n`;
+      markdown += `> *${note.source}*: ${note.note}\n\n`;
     });
   }
   
   return markdown;
 }
 
+/**
+ * Process glossary terms into markdown
+ * @param {Object[]} terms - Array of term objects
+ * @returns {string} Markdown representation of the glossary
+ */
+function processTerms(terms) {
+  if (!terms || !Array.isArray(terms) || terms.length === 0) {
+    return '';
+  }
 
-
-
-
-
-
-
+  let markdown = '';
+  
+  // Sort terms alphabetically by term name
+  terms.sort((a, b) => a.term.localeCompare(b.term));
+  
+  terms.forEach(term => {
+    // Term as header
+    markdown += `## ${term.term}\n\n`;
+    
+    // If it has definitions
+    if (term.definitions && Array.isArray(term.definitions)) {
+      term.definitions.forEach((def, index) => {
+        if (term.definitions.length > 1) {
+          markdown += `${index + 1}. `
+        }
+        markdown += `${def}\n`;
+      });
+      markdown += '\n';
+    }
+    
+    // If it references another term
+    if (term.see) {
+      markdown += `*See also: [${term.see}](#${term.see.toLowerCase().replace(/\s+/g, '-')})*\n\n`;
+    }
+    
+    // Add source if available
+    if (term.source) {
+      markdown += `*Source: ${term.source}*\n\n`;
+    }
+    
+    // Add URL if available
+    if (term.url && term.url.length > 0) {
+      markdown += `*[Learn more](${term.url})*\n\n`;
+    }
+  });
+  
+  return markdown;
+}
 
 function main() {
 
@@ -154,12 +195,18 @@ function main() {
             markdown += `${asset.description}\n\n`;
         }
 
-        // Process each item
+        // Process each reference item
         if (asset.data && Array.isArray(asset.data)) {
             asset.data.forEach(item => {
                 markdown += processItem(item);
                 report.valid++;
             });
+        }
+        
+        // Process glossary terms
+        if (asset.terms && Array.isArray(asset.terms)) {
+            markdown += processTerms(asset.terms);
+            report.valid += asset.terms.length;
         }
         
         // Extract the basename (filename without path) and remove the extension
