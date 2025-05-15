@@ -5,7 +5,7 @@ The **Persona Library** is a [DevRel Foundation](https://github.com/DevRel-Found
 Through the use of personas, as DevRel practioners, we can accelerate day-to-day decision-making for common operational activities.
 
 * [Requirements and Use Cases](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions/46)
-* [Glossary](./doc/reference/glossary.md) ([src](./data/reference/glossary.json))
+* [Glossary](./docs/reference/glossary.md) ([src](./data/reference/glossary.json))
 
 ## Persona Reference Library
 
