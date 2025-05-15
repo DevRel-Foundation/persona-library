@@ -1,0 +1,83 @@
+{
+    "description": "A collection of books that feature creating and using personas prominently in their subject matter.",
+    "data": [
+        {
+            "type": "book",
+            "title": "The Inmates Are Running the Asylum",
+            "authors": ["Cooper, Alan"],
+            "publish-date": "1999-01-01",
+            "publication": "Sams Publishing",
+            "url": "",
+            "notes": [
+                {"source": "@j12y", "note": "This is credited with being an early uses of the term 'persona' when evaluating a user experience."}
+            ]
+        },
+        {
+            "type": "book",
+            "title": "The Persona Lifecycle",
+            "authors": ["Pruitt, John", "Adlin, Tamara"],
+            "publish-date": "2010-01-01",
+            "publication": "Morgan Kaufmann",
+            "url": "",
+            "notes": []
+        },
+        {
+            "type": "book",
+            "title": "Buyer Personas: How to Gain Insight Into Your Customer's Expectations, Align Your Marketing Strategies, and Win More Business",
+            "authors": ["Revella, Adele"],
+            "publish-date": "2015-01-01",
+            "publication": "Wiley",
+            "url": "",
+            "notes": []
+        },
+        {
+            "type": "book",
+            "title": "Developer Marketing and Relations: The Essential Guide",
+            "authors": ["Lewko, Caroline", "Sauvage, Nicolas", "Constantinou, Andreas"],
+            "publish-date": "2020-01-01",
+            "publication": "SlashData",
+            "url": "",
+            "notes": [
+                {"source": "@j12y", "note": "Chapter 1 (Using Developer Personas to Stay Customer-Obsessed) written by Cliff Simpkins focuses on the role of personas."}
+            ]
+        },
+        {
+            "type": "book",
+            "title": "The User is Always Right: A Practical Guide to Creating and Using Personas for the Web",
+            "authors": ["Mulder, Steve", "Yaar, Ziv"],
+            "publish-date": "2006-08-21",
+            "publication": "New Riders",
+            "url": "",
+            "notes": []
+        },
+        {
+            "type": "book",
+            "title": "The World's Best Buyer Persona System: The Buyer Persona Reimagined",
+            "authors": ["Andrews, Stormie"],
+            "publish-date": "2020-07-10",
+            "publication": "Yokel Local",
+            "url": "",
+            "notes": []
+        },
+        {
+            "type": "book",
+            "title": "Designing for the Digital Age: How to Create Human-Centered Products and Services",
+            "authors": ["Goodwin, Kim", "Cooper, Alan"],
+            "publish-date": "2009-03-03",
+            "publication": "Wiley",
+            "url": "",
+            "notes": []
+        },
+        {
+            "type": "book",
+            "title": "Developer Relations: How to Build and Grow a Successful Developer Program",
+            "authors": ["Lewko, Caroline", "Parton, James"],
+            "publish-date": "2021-01-01",
+            "publication": "Apress",
+            "url": "https://link.springer.com/book/10.1007/978-1-4842-6449-4",
+            "notes": [
+                {"source": "@j12y", "note": "A few specific chapters to review include Chapter 5 (The Audience: Developers), Chapter 12 (Developer Segmentation), and Chapter 13 (Developer Personas)."}
+            ]
+        }
+    ]
+}

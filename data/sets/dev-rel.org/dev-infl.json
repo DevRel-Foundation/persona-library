@@ -1,0 +1,70 @@
+{
+    "label": "Andy Advocate",
+    "id": "mix-early-infl",
+    "parent": ["dev", "biz"],
+    "narrative": "This persona joined the DevRel Foundation to be in the community with other like-minded individuals. They are a developer influencer who has a technical background but transitioned into a business role and developed those skills too. They like to listen for tips & tricks that may help them do their job better.",
+    "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "mix",
+        "level": "infl",
+        "experience": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "Developer Advocate",
+            "Developer Evangelist",
+            "Technical Writer",
+            "Public Speakeer",
+            "Author",
+            "Developer Educator",
+            "Developer Relations Engineer"
+        ],
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"]
+    },
+    "adoption": {
+        "curve": "early",
+        "modality": ["social", "problem", "info"]
+    },
+    "awareness": {
+        "channels": [
+                {"format": "social", "url": "https://news.ycombinator.com"},
+                {"format": "social", "url": "https://slashdot.org"},
+                {"format": "social", "url": "https://stackoverflow.com"}
+        ],
+        "events": ["drf-devrelcon.dev"]
+    },
+    "motivations": {
+        "x-likes": [
+            "Share many of the same likes as a dev.",
+            "Sharing knowledge to build their personal reputation and brand in technical communities",
+            "Travel to events are one of the perks that motivate people in this role.",
+            "Like to engage in conversation (socratic method) as a modality for learning about ideas and topics through Q&A and activity.",
+            "Have an underlying desire for recognition and want to stand out from the crowd by building their own indvidual brand."
+        ],
+        "x-dislikes": [
+            "Share many of the same dislikes as a dev.",
+            "Often overwhelmed with cross-functional asks from a community with more members than hours in the day."
+        ],
+        "goals": [
+            "Wants to learn new tips and tricks to be more effective.",
+            "Wants to learn about tools or events to match their search criteria and looking for help."
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+        ],
+        "communications": [
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

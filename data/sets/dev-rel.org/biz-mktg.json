@@ -1,0 +1,69 @@
+{
+    "label": "Markety Mark",
+    "id": "biz-mktg",
+    "narrative": "This persona joined the DevRel Foundation because the developer segment is important for their role. They have a marketing background and contribute to marketing campaigns that are aimed at developers.",
+    "organization": {
+        "gtm": "*",
+        "maturity": "*"
+    },
+    "role": {
+        "function": "biz",
+        "level": "*",
+        "experience": "*",
+        "responsibilities": ["marketing", "design", "writing", "planning", "strategy"],
+        "titles": [
+            "Product Marketing Manager",
+            "Developer Marketing Manager",
+            "Field Marketing Manager",
+            "Events Manager",
+            "Content Marketing Manager",
+            "Social Media Manager",
+            "Marketing Operations Manager",
+            "Growth Marketing Manager",
+            "General Manager",
+            "Developer Ecosystem Strategy",
+            "Digital Marketing",
+            "Account Director",
+            "VP, Sales",
+            "VP, Marketing"
+        ],
+        "tools": []
+    },
+    "awareness": {
+        "channels": [
+                {"format": "web", "url": "https://evansdata.com"},
+                {"format": "web", "url": "https://developermarketing.io"},
+                {"format": "social", "url": "https://linkedin.com"}
+        ],
+        "events": [
+            "drf-devrelcon.com", 
+            "drf-developerweek.com", 
+            "drf-events.productmarketingalliance.com"
+        ]
+    },
+    "motivations": {
+        "likes": [
+            "Doing a good job in their role and want to find new skills and techniques to deliver their messages to market."
+        ],
+        "dislikes": [
+            "Using tools like GitHub or Discord that feel like they are made for a more technical audience."
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+            "Show case studies and examples of how to successfully target developer campaigns effectively."
+        ],
+        "communications": [
+            "Want to promote a campaign they are working on to this community, so give them a space to share where it would be welcome."
+        ],
+        "sales": [
+        ],
+        "marketing": [
+            "Reach out to marketers specifically who target developers to let them know they are invited to participate and join."
+        ]
+    }
+}
