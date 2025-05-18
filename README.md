@@ -24,8 +24,6 @@ The **Developer Relation Foundation Persona Library System (DEVREL-PLS)** is out
 
 By defining personas in this way, we can establish tooling to validate, restructure, inherit, format, and exchange personas between organizations and departments. 
 
-Ease of use tools such as LLMs, user-interfaces, etc. are not currently within the scope of v1.0 of this project, but will be a valuable addition to allow for more user-friendly and less technical methods of working with persona and related reference resources.
-
 ### Learning the DEVREL-PLS
 
 The following guides explain how to build and extend a custom persona set for your organization and then how to apply them to solve common operational tasks to the Developer Relations and related roles.
@@ -57,6 +55,8 @@ Run `./bin/pls-validate --data data/personas/*.json --schema ./src/schemas/perso
 
 ### DEVREL-PLS Tools
 
+Ease of use tools such as LLMs, user-interfaces, etc. are not currently within the scope of v1.0 of this project, but will be a valuable addition to allow for more user-friendly and less technical methods of working with persona and related reference resources.
+
 - [pls-validate](./bin/pls-validate): used to validate one or more personas (JSON data) with a given schema.
 - [pls-json-to-md](./bin/pls-json-to-md): used to format reference library entries into a renderable markdown file.
 
@@ -66,7 +66,7 @@ All material contributed to the DRF Resources and Asset Aggregation Work Group i
 
 See the [License and Intellectual Property](https://github.com/DevRel-Foundation/.github/blob/main/profile/README.md#license-and-intellectual-property) statement for instructions on how to reuse and adapt content from this repository, discussions, and issues with proper attribution to the Developer Relations Foundation.
 
-## About the Persona Library Project
+## About the Persona Library
 
 This project repository is maintained with support of the [Resource and Asset Aggregation Working Group](https://github.com/DevRel-Foundation/wg-resource-aggregation) and Developer Relations Foundation.
 

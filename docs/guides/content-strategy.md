@@ -51,6 +51,25 @@ Whether it is a column or data field, for each content task identify one or more
 
 When it is time to produce content, the persona provides definition to the traits of your target audience. When speaking or writing content, you'll use the frame of reference of each persona to gauge whether or not your content is appropriate. The most relevant persona attributes for content are discussed.
 
+Here's an example:
+```json
+...,
+"adoption": {
+    "curve": "majority",
+    "modality": ["learn", "understand", "problem"]
+},
+"role": {
+    "function": "dev",
+    "level": "lead",
+    "experience": "mid",
+    ...
+},
+"awareness": {
+    "status": "unaware" 
+}
+...
+```
+
 ### 2.1 Adoption Curve
 
 The [adoption curve](../traits/adoption-curve.md) of your audience can be quite important trait to understand.
@@ -69,10 +88,10 @@ Your persona set may not differentiate, but if you are authoring content for som
 
 The [modality](../traits/adoption-modality.md) focuses in on the media type that is most important. While any particular individual may have preferences it may not be common to split your personas by modality but rather try to accomodate them all.
 
-You may want to setup your content tracking system to include a second column for the modality.
+You may want to setup your content tracking system to include a second column for the modality instead of trying to track each persona variation which could become unwieldly.
 
-- security-dev + learn
-- security-dev + problem
+- security-dev-learn
+- security-dev-problem
 
 The _learner_ wants a better understanding so is looking for tutorials, audio/video presentations such as podcasts or videos, and they are more likely to read the nurture emails. The audience who is looking to _problem-solve_ wants a quick how-to guide or a debugging guide as part of their content need.
 
@@ -105,7 +124,22 @@ The most valuable personas will represent the [segment](../traits/segment.md), t
 
 As are customizing your personas, take time to add specific [awareness](../traits/awareness.md) channels and events that represent the persona. Some newsletters may really be more appropriate for somebody new to a topic than the more academic user who has specialized.
 
-You can include these directly in the persona or track the most important ones in your tracking tool. On-brand properties or in third-party locations is an important characteristic for tracking because it suggests how much assumed knowledge belongs in your content.
+You can include these directly in the persona or track the most important ones in your tracking tool. Here's what that looks like in the persona definition:
+
+```json
+"awareness": {
+    "channels": [
+            {"format": "blog", "url": "https://thehackernews.com/"},
+            {"format": "blog", "url": "https://www.darkreading.com/"},
+            {"format": "newsletter", "url": "https://tldrsec.com/", "level":"300"},
+            {"format": "newsletter", "url": "https://cloudseclist.com/"},
+            {"format": "blog", "url": "https://dev.to/{your product}"}
+    ],
+    ...
+}
+```
+
+On-brand properties or in third-party locations is an important characteristic for tracking because it suggests how much assumed knowledge belongs in your content.
 
 If you've produced 101 level content, make sure it maps to 100 level channels. If you've produced something very niche and deep, target 300 level channels.
 
