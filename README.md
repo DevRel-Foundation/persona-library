@@ -31,7 +31,7 @@ Ease of use tools such as LLMs, user-interfaces, etc. are not currently within t
 The following guides explain how to build and extend a custom persona set for your organization and then how to apply them to solve common operational tasks to the Developer Relations and related roles.
 
 Developing your personas:
-* [Getting Started with the DevRel Foundation Persona System](./docs/guides/getting-started.md) (_TODO_)
+* [Getting Started with the DevRel Foundation Persona System](./docs/guides/getting-started.md)
 * How-to Run a Persona Alignment Workshop (_TODO_)
 * How-to Present Personas to Your Organization (_TODO_)
 
@@ -70,7 +70,7 @@ See the [License and Intellectual Property](https://github.com/DevRel-Foundation
 
 This project repository is maintained with support of the [Resource and Asset Aggregation Working Group](https://github.com/DevRel-Foundation/wg-resource-aggregation) and Developer Relations Foundation.
 
-* Contributing (_TODO_)
+* [Contributing](./CONTRIBUTING.md)
 * [Report Issues](https://github.com/DevRel-Foundation/wg-resource-aggregation/issues)
 * [Questions & Feedback](https://github.com/DevRel-Foundation/wg-resource-aggregation/discussions/categories/persona-library)
 * [Project Roadmap](https://github.com/orgs/DevRel-Foundation/projects/12)
