@@ -14,7 +14,7 @@ The reference library contains links to third-party resources that may help in a
 - [articles](./docs/reference/articles.md) ([src](./data/reference/articles.json))
 - [books](./docs/reference/books.md) ([src](./data/reference/books.json))
 - [tools](./docs/reference/tools.md) ([src](./data/reference/tools.json))
-- [video](./docs/reference/video.md) ([src](./data/reference/videos.json))
+- [video](./docs/reference/videos.md) ([src](./data/reference/videos.json))
 
 Run `./bin/pls-json-to-md --build docs/reference --data ./data/reference/*.json` to regenerate markdown files from the source data.  Run `./bin/pls-validate --data data/reference/*.json --schema ./src/schemas/reference.json` to confirm the source data is valid.
 
