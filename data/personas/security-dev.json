@@ -1,6 +1,7 @@
 {
     "id": "security-dev-majority-lead",
     "label": "Security Practitioner",
+    "parent": ["dev"],
     "segment": "security",
     "organization": {
         "maturity": "*",

@@ -10,7 +10,7 @@
         {
             "term": "buyer persona",
             "definitions": [
-                "A persona that focuses on the commercial decision-making traits that can aid marketing and sales activities by emphasizing purchasing decisions and buying behaviors. The focus on this type of persona is more on market research and synthesizing knowledge about existing customer or developers."
+                "A persona that focuses on the commercial decision-making traits that can aid marketing and sales activities by emphasizing purchasing decisions and buying behaviors. The focus on this type of persona is more on market research and synthesizing knowledge about existing customer or developers. The buyer at a smaller company may be an individual contributing engineer or at an enterprise may be reserved for a purchasing or accounts payable team."
             ]
         },
         {
@@ -69,6 +69,19 @@
             "see": "Persona Library System"
         },
         {
+            "term": "JTBD",
+            "definitions": [
+                "Acronym sometimes used for jobs to be done"
+            ],
+            "see": "jobs to be done"
+        },
+        {
+            "term": "CTA",
+            "definitions": [
+                "Acronym used for call to action."
+            ]
+        },
+        {
             "term": "user story",
             "definitions": [
                 "A concise description of a feature told from the perspective of a persona, typically following the format: 'As a [persona], I want [goal or job to be done] so that [reason].'"
@@ -77,7 +90,7 @@
         {
             "term": "ideal customer profile",
             "definitions": [
-                "A detailed description of a company or organization that would derive the most value from your product or service, become a long-term customer, and potentially advocate for your brand. Unlike personas which focus on individuals, ICPs typically describe the organizational characteristics such as industry, company size, revenue, geography, and business challenges."
+                "A detailed description of a company or organization that would derive the most value from your product or service, become a long-term customer, and potentially advocate for your brand. Unlike personas which focus on individuals, ICPs typically describe the organizational characteristics such as industry, company size, revenue, geography, number of engineers, presence of a department, partner technology choices (such as cloud IaaS), and business challenges."
             ]
         }
     ]

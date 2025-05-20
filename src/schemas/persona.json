@@ -130,7 +130,7 @@
                     "description": "The broad job tasks this persona must execute on as part of the duties of their role.",
                     "items": {
                         "type": "string",
-                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "financials", "strategy", "design", "writing", "sales", "relations", "*"]
+                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "finance", "strategy", "design", "writing", "sales", "relations", "*"]
                     }
                 },
                 "titles": {
