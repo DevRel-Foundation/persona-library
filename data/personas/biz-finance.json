@@ -1,0 +1,56 @@
+{
+    "id": "biz-finance",
+    "label": "Vendor Val",
+    "narrative": "This persona has a Finance background but is required for sign-off of any purchase. Typical for larger enterprises there is separation with this role and the champion who makes the decision on which solution.",
+    "organization": {
+        "gtm": "*",
+        "maturity": "*"
+    },
+    "role": {
+        "function": "biz",
+        "level": "*",
+        "experience": "*",
+        "responsibilities": ["finance"],
+        "titles": [
+            "Chief Finance Officer (CFO)",
+            "Manager, Accounts Payable",
+            "Operations Manager",
+            "Purchasing Manager",
+            "Procurement Manager",
+            "Vendor Manager",
+            "Supply Chain Manager"
+        ],
+        "tools": ["drf-comms"]
+    },
+    "awareness": {
+        "channels": [
+        ],
+        "events": []
+    },
+    "motivations": {
+        "likes": [
+            "Wants a clear understanding of why something is valuable or interesting.",
+            "Decisions that are clear about value and risk.",
+            "Believes in the statement nobody ever got fired for buying IBM (or Salesforce, or...)"
+        ],
+        "dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+            "Educate on the cost savings impact in other ways after purchase to justify a return on investment."
+        ],
+        "communications": [
+        ],
+        "sales": [
+            "Provide a champion with a fact sheet they can share with purchaser to expedite the justification of an expense."
+        ],
+        "marketing": [
+            "Build a marketing page that provides all of the compliance, financial reporting (W-9) and other details that are necessary to close."
+        ]
+    }
+}

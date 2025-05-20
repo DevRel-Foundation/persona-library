@@ -1,0 +1,48 @@
+{
+    "id": "devops-dev",
+    "parent": ["dev"],
+    "label": "DevOps Dot",
+    "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "dev",
+        "level": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "DevOps Engineer"
+        ],
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"],
+        "technologies": {
+            "languages": [ ],
+            "environments": [ ],
+            "skills": [ ]
+        }
+    },
+    "awareness": {
+        "channels": [
+                {"format": "social", "url": "https://news.ycombinator.com"},
+                {"format": "social", "url": "https://stackoverflow.com"}
+        ],
+        "events": [ ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": []
+    },
+    "motivations": {
+        "x-likes": [],
+        "x-dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [],
+        "product": [],
+        "education": [],
+        "communications": [],
+        "sales": [],
+        "marketing": []
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "id": "dev",
+    "label": "Software Developer",
+    "parent": ["dev"],
+    "narrative": "A Python developer is a persona that has attached part of their professional identity to the Python community. They exhibit most of the same behaviors as the base developer persona but may consume additional channels, specific events, and have other motivations.",
+    "segment": "*",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "dev",
+        "level": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "x-titles": [
+            "Python Developer"
+        ],
+        "x-tools": [],
+        "technologies": {
+            "languages": ["python"],
+            "environments": [
+             ],
+            "skills": [ ],
+            "education": [
+                "B.S. Data Science"
+            ]
+        }
+    },
+    "awareness": {
+        "channels": [
+                {"format": "newsletter", "url": "https://pythonweekly.com"},
+                {"format": "web", "url": "https://python.org"}
+        ],
+        "events": ["drf-pycon.org" ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": []
+    },
+    "motivations": {
+        "x-likes": [
+            "Machine Laarning and Data Science professionals gravitate to languages like Python, Julia, and R."
+        ],
+        "x-dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+            "Make sure any code samples provide appropriate indentation and formatting. Use a linter and PEP 8 style guide."
+        ],
+        "communications": [
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

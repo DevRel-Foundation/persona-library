@@ -1,0 +1,66 @@
+{
+    "id": "art",
+    "label": "UX Designer",
+    "narrative": "Somebody who leans more on creativity than technical skill has a strong sense for aesthetics and user experience. They often will work paired up with development oriented teams to execute on a vision, with the ability to express the desired end state to reach a creative design vision.",
+    "organization": {
+        "gtm": "*",
+        "maturity": "*"
+    },
+    "role": {
+        "function": "art",
+        "level": "*",
+        "experience": "*",
+        "responsibilities": ["design", "writing"],
+        "titles": [
+            "UX Engineer",
+            "Creative Technologist",
+            "UI Developer",
+            "Front-end Developer",
+            "Interaction Designer"
+        ],
+        "tools": ["drf-creative", "drf-cms", "drf-ticketing", "drf-comms"]
+    },
+    "awareness": {
+        "channels": [
+                {"format": "blog", "url": "https://css-tricks.com"},
+                {"format": "social", "url": "https://reddit.com/r/UXDesign"}
+        ],
+        "events": ["drf-config.figma.com", "drf-sigchi.org"]
+    },
+    "motivations": {
+        "likes": [
+            "Wants to see visualizations, mockups, and designs to better understand concepts rather than text.",
+            "Iterative processes and gradual improvement.",
+            "Wants a better understanding of user goals",
+            "Will pick up on and appreciate moments of delight you add to your user interfaces."
+        ],
+        "dislikes": [
+            "Despises working within design constraints and brand guidelines that limit creative influence.",
+            "Bad design execution, expects form prioritized over function.",
+            "Wants to achieve a balance creative objectives with technical constraints even when mutually exclusive.",
+            "Products that have not taken accessibility into consideration"
+        ]
+    },
+    "strategies": {
+        "design": [
+            "Design products or services that are more free-form and flexible.",
+            "Provide open access to brand guidelines and design systems."
+        ],
+        "product": [
+            "Play close attention to precision in fonts, colors, and other design elements."
+        ],
+        "education": [
+            "Provide open-ended inspirational examples in tutorials or creative experiential learning.",
+            "Include graphics and pictures of user interfaces that complement source code or textual descriptions."
+        ],
+        "communications": [
+            "Use visual communicaton such as infographics and guides."
+        ],
+        "sales": [
+            "Reference customers and examples that show how well designed solutions look when complete."
+        ],
+        "marketing": [
+            "Provide gallery of inspiration from finished products."
+        ]
+    }
+}
