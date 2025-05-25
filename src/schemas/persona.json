@@ -1,0 +1,295 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "persona.schema.json",
+    "$id": "https://github.com/DevRel-Foundation/persona-library/blob/main/src/schema/persona.json",
+    "title": "Personas",
+    "description": "Developer Relations Foundation Persona Library.",
+    "version": "1.0",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "description": "The schema that can be used for validation. Can be relative file path or URL.",
+            "type": "string"
+        },
+        "id": {
+            "description": "A unique id to help identify this persona",
+            "type": "string"
+        },
+        "parent": {
+            "type": "array",
+            "description": "Definition of a persona that this one extends with additional specific attributes",
+            "items": {
+                "type": "string"
+            }
+        },
+        "label": {
+            "description": "A unique label to help identify this persona",
+            "type": "string"
+        },
+        "narrative": {
+            "description": "A free-form description that can be used to tell the story of the persona.",
+            "type": "string"
+        },
+        "segment": {
+            "description": "The vertical or industry segment as a modifier on the behaviors of a persona.",
+            "type": "string"
+        },
+        "organization": {
+            "description": "See traits/organization.md for more detailed descriptions.",
+            "type": "object",
+            "properties": {
+                "maturity": {
+                    "type": "string",
+                    "description": "The maturity of the organization as a modifier on the persona behaviors.",
+                    "enum": ["startup", "legacy", "*"]
+                },
+                "gtm": {
+                    "type": "string",
+                    "description": "The go to market strategy of the organization as a modifier on the persona.",
+                    "enum": ["b2b", "b2c", "b2d", "*"]
+                }
+            },
+            "required": [],
+            "additionalProperties": false
+        },
+        "awareness": {
+            "description": "See traits/learning.md for more detailed descriptions.",
+            "type": "object",
+            "properties": {
+                "status": {
+                    "type": "string",
+                    "description": "The business relationship between the persona's organization and yours.",
+                    "enum": ["pro", "user", "partner", "lead", "unaware", "ex", "*"]
+                },
+                "channels": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "format": {
+                                "type": "string",
+                                "enum": ["blog", "newsletter", "video", "product", "docs", "social", "web"]
+                            },
+                            "url": {
+                                "type": "string"
+                            },
+                            "level": {
+                                "type": "string",
+                                "enum": ["100", "200", "300", "*"]
+                            }
+                        }
+                    }
+                },
+                "events": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            },
+            "required": [],
+            "additionalProperties": false
+        },
+        "adoption": {
+            "description": "Adoption traits",
+            "type": "object",
+            "properties": {
+                "curve": {
+                    "type": "string",
+                    "enum": ["innovator", "early", "majority", "late", "laggard", "*"]
+                },
+                "modality": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["problem", "learn", "understand", "info", "guide", "social", "*"]
+                    }
+                }
+            }
+        },
+        "role": {
+            "description": "See traits/role.md for more detailed descriptions.",
+            "type": "object",
+            "properties": {
+                "function": {
+                    "type": "string",
+                    "enum": ["dev", "art", "biz", "mix", "*"]
+                },
+                "experience": {
+                    "description": "The stage of career is an indicator for how familiar a person may be with the skills and expectations of their role. \nThis attribute is about the progression for a specific role, not a person. Somebody may have extensive professional experience, but if they've taken on a new role in a new industry for the purposes of defining the persona it has reset the clock.",
+                    "type": "string",
+                    "enum": ["early", "mid", "pro", "*"]
+                },
+                "level": {
+                    "type": "string",
+                    "description": "The placement and influence this person has on the organization.",
+                    "enum": ["ic", "lead", "exec", "infl", "*"]
+                },
+                "responsibilities": {
+                    "type": "array",
+                    "description": "The broad job tasks this persona must execute on as part of the duties of their role.",
+                    "items": {
+                        "type": "string",
+                        "enum": ["coding", "reviewing", "planning", "reporting", "marketing", "finance", "strategy", "design", "writing", "sales", "relations", "*"]
+                    }
+                },
+                "titles": {
+                    "type": "array",
+                    "description": "A list of typical job titles this persona may hold.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "x-titles": {
+                    "type": "array",
+                    "description": "Extended set of titles for this persona. Merges instead of replaces.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "tools": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-creative", "drf-test", "drf-build", "drf-cmm", "drf-email", "drf-cms", "drf-db"]
+                    }
+                },
+                "x-tools": {
+                    "type": "array",
+                    "description": "Extended set of tools for this persona. Merges instead of replaces.",
+                    "items": {
+                        "type": "string",
+                        "enum": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-creative", "drf-test", "drf-build", "drf-cmm", "drf-email", "drf-cms", "drf-db"]
+                    }
+                },
+                "technologies": {
+                    "type": "object",
+                    "properties": {
+                        "languages": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "environments": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "education": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "skills": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            },
+            "required": ["responsibilities", "level"],
+            "additionalProperties": false
+        },
+        "motivations": {
+            "type": "object",
+            "properties": {
+                "goals": {
+                    "type": "array",
+                    "description": "The goals and objectives this persona has for engaging with your offerings.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "likes": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "dislikes": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "x-goals": {
+                    "type": "array",
+                    "description": "Additional goals to extend and don't replace parent goals",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "x-likes": {
+                    "type": "array",
+                    "description": "Additional extended likes that do not replace inherited definitions.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "x-dislikes": {
+                    "type": "array",
+                    "description": "Additional extended dislikes that do not replace inherited definitions.",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+
+            },
+            "additionalProperties": false
+        },
+        "strategies": {
+            "type": "object",
+            "properties": {
+                "marketing": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "sales": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "finance": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "product": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "design": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "devex": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "education": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    },
+    "required": ["id", "label"],
+    "additionalProperties": false
+}
