@@ -1,6 +1,6 @@
 {
     "label": "Andy Advocate",
-    "id": "mix-early-infl",
+    "id": "drf-dev-infl",
     "parent": ["dev", "biz"],
     "narrative": "This persona joined the DevRel Foundation to be in the community with other like-minded individuals. They are a developer influencer who has a technical background but transitioned into a business role and developed those skills too. They like to listen for tips & tricks that may help them do their job better.",
     "segment": "*",

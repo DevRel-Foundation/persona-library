@@ -1,7 +1,7 @@
 {
     "label": "Wally Wantswork",
-    "id": "mix-infl-pro",
-    "parent": ["mix-infl", "dev-infl"],
+    "id": "drf-mix-infl-pro",
+    "parent": ["drf-mix-infl", "drf-dev-infl"],
     "narrative": "This persona is part of the DevRel Foundation because they want to find work. This may be because they are looking for a better opportunity for growth, want to pick up side-project freelance gigs, or were part of an involuntary transition. They are proficient and skilled for what they do and are trying to build their portfolio for what's next.",
     "segment": "*",
     "organization": {
