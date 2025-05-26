@@ -65,7 +65,8 @@
         ],
         "communications": [
             "Clear enterprise-facing communication on tool adoption and compliance is helpful.",
-            "Software security development courses should have messaging for what to do if a vulnerability is dislosed."
+            "Software security development courses should have messaging for what to do if a vulnerability is dislosed.",
+            "Provide filters for communication so that there is a high signal to noise ratio to ensure valuable critical information is seen while suppressing some engagement opportunities."
         ],
         "sales": [
             "Organize a Security Incident Response Team (SIRT) to be in place and provide support to projects when high profile vulnerabilities are discovered to offset any lack of prioritization by maintainers.",

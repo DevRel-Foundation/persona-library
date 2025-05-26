@@ -15,6 +15,9 @@ Review the [case-study.md](./case-study.md) for this persona set.
 
 # Personas
 
+The personas as defined are independent of membership level.
+
+- [awareness status](../../../docs/traits/awareness-status.md) may be valuable to differentiate premiere members, general members, associate members, unaffiliated project leads, and prospective members.
 
 ## Software Developer / Maintainer
 

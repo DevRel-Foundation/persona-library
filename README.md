@@ -60,6 +60,14 @@ Ease of use tools such as LLMs, user-interfaces, etc. are not currently within t
 - [pls-validate](./bin/pls-validate): used to validate one or more personas (JSON data) with a given schema.
 - [pls-json-to-md](./bin/pls-json-to-md): used to format reference library entries into a renderable markdown file.
 
+### DEVREL-PLS Out of Scope
+
+**Product Requirements Definitions**
+
+A persona is not intended to be a requirements document.
+
+User stories, use cases, user journey, and jobs to be done are best captured by tools for that purpose. Integrating your list of personas into those systems is more appropriate.
+
 ## License
 
 All material contributed to the DRF Resources and Asset Aggregation Work Group is under [CC-BY-4.0 Licensing](https://creativecommons.org/licenses/by/4.0/deed.en).
