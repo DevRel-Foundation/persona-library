@@ -1,0 +1,82 @@
+{
+    "id": "ssf-dev",
+    "label": "Software Developer / Maintainer",
+    "segment": "security",
+    "narrative": "I am a developer, contributor, or maintainer of open source software.",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "dev",
+        "level": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "Software Engineer",
+            "Software Developer",
+            "Full-Stack Engineer",
+            "Sr. Software Engineer",
+            "Staff Software Engineer",
+            "Principal Software Engineer",
+            "Database Administrator",
+            "Site Reliability Engineer",
+            "Software Engineer Intern"
+        ],
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"],
+        "technologies": {
+            "languages": [ ],
+            "environments": [
+             ],
+            "skills": [ ],
+            "education": [
+                "B.S. Computer Science",
+                "B.S. Data Science",
+                "B.S. Information Systems",
+                "B.S. Management Information Systems",
+                "Coding Boot Camp"
+            ]
+        }
+    },
+    "awareness": {
+        "channels": [
+                {"format": "social", "url": "https://news.ycombinator.com"},
+                {"format": "social", "url": "https://slashdot.org"},
+                {"format": "blog", "url": "https://dzone.com"},
+                {"format": "blog", "url": "https://thenewstack.io"},
+                {"format": "social", "url": "https://stackoverflow.com"}
+        ],
+        "events": [
+            "drf-allthingsopen.org", "drf-linuxfoundation.org_security_summit_na", "drf-linuxfoundation.org_openssf_community_day"
+         ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": []
+    },
+    "motivations": {
+        "goals": [
+            "Technical growth, contributing to security projects.",
+            "Onboarding to projects and finding clear good first issues."
+        ],
+        "likes": [
+        ],
+        "dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+            "Beginner-friendly contribution pathways, enhanced documentation, and mentorship."
+        ],
+        "education": [
+            "Hands-on projects, contributor guides, GitHub issues."
+        ],
+        "communications": [
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

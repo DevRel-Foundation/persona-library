@@ -46,7 +46,7 @@
                 "gtm": {
                     "type": "string",
                     "description": "The go to market strategy of the organization as a modifier on the persona.",
-                    "enum": ["b2b", "b2c", "b2d", "*"]
+                    "enum": ["b2b", "b2c", "b2d", "oss", "*"]
                 }
             },
             "required": [],

@@ -1,0 +1,82 @@
+{
+    "id": "ssf-dev-user",
+    "label": "Carl the Consumer",
+    "segment": "security",
+    "parent": ["ssf-dev"],
+    "narrative": "A 9-5 software engineer at a company (bank, healthcare, etc.). Utilizes open-source software to create software and/or other products which include open-source as building blocks. He does not make open-source contributions but consumes software as part of her job. Spends most of the day in an IDE writing software and on occasion gets a report from security about dependency vulnerabilities in the software.",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "dev",
+        "level": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "Software Engineer",
+            "Software Developer",
+            "Full-Stack Engineer",
+            "Sr. Software Engineer",
+            "Staff Software Engineer",
+            "Principal Software Engineer",
+            "Database Administrator",
+            "Site Reliability Engineer",
+            "Software Engineer Intern"
+        ],
+        "tools": [],
+        "technologies": {
+            "languages": [ ],
+            "environments": [ ],
+            "skills": [ ],
+            "education": [ ]
+        }
+    },
+    "awareness": {
+        "channels": [
+        ],
+        "events": [
+         ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": []
+    },
+    "motivations": {
+        "goals": [
+            "Release features to hit business deadlines is priority, but understands need to follow compliance and policy requirements.",
+            "Wants to make security team satisfied with project by resolving any security vulnerabilities which have remediation deadlines, security control implementations, etc.",
+            "Wants to determine and understand security posture of the open source software consumed to manage risks and compliance."
+        ],
+        "likes": [
+            "Policy and compliance feedback or requirements earlier in the SDLC loop so that it isn't discovered right before the deadline."
+        ],
+        "dislikes": [
+            "Inability to drive meaningful change within the larger organization so is at the whims of policies and processes such as security requirements.",
+            "Inconsistency and wide variances in security quality of project dependencies. Wide range of development practices in open-source make it difficult to assess and understand."
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+            "Would like to see information about compliance (security, EOL, etc.) in the tools and workflows already using (IDE, CLI, etc.).",
+            "Create forward-thinking best practices and standards to help developers make decisions proactively in securing software rather than reactive.",
+            "Provide data (sources) which provide insight into security qualities of various open-source projects.",
+            "Create environment for developing tools to automatically assess and/or improve the security quality of open-source projects."
+        ],
+        "education": [
+            "Outside of basic annual or quarterly security training, does not have access to learning materials for identifying common attacks (sql injection, etc.).",
+            "Interpretation of complicated jargon and requirements to help create issues in open source dependencies for improvements to security and compliance.",
+            "Provide guidelines and recommendations for methods of exchanging information, fostering adoption through interoperable methods."
+        ],
+        "communications": [
+            "Provide ammunition and materials to help developer push for change.",
+            "OpenSSF through its work inhelping define and collaborate on controls, standards, best practices, and regulations drive industry and community change to be adopted at larger and often slower moving enterprises.",
+            "Can help facilitate where a supply chain inherently involves multiple entities which need to interact and utilize "
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

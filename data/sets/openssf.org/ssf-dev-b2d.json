@@ -1,0 +1,73 @@
+{
+    "id": "ssf-dev-b2d",
+    "label": "Siddharth the Supplier",
+    "segment": "security",
+    "parent": ["ssf-dev-oss"],
+    "narrative": "The company creates a commercial product that heavily uses open-source software with a many members who contribute to the open-source project. This is an open-core business model that consumes a lot of open-source and/or makes some projects available to others while contributing upstream.",
+    "organization": {
+        "maturity": "*",
+        "gtm": "b2d"
+    },
+    "role": {
+        "function": "dev",
+        "level": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [ ],
+        "tools": [ ],
+        "technologies": {
+            "languages": [ ],
+            "environments": [ ],
+            "skills": [ ],
+            "education": [ ]
+        }
+    },
+    "awareness": {
+        "channels": [
+        ],
+        "events": [
+         ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": [ ]
+    },
+    "motivations": {
+        "x-goals": [
+            "May contribute to Common Vulnerability Disclosure (CVD) and security advisories for any upstream supply chain dependencies.",
+            "May provide support or professional services for a platform or licensed product so include security maintenance as part of the offering.",
+            "Will need to act quickly on customer inquiries and demands for updates to any components within my solutions."
+        ],
+        "likes": [
+            "Wants to be included in the circle of trust to receive pre-embargo disclosures in order to help support their customers.",
+            "Freedom to implement their own Security Development Lifecycle (SDL) on their own terms.",
+            "Leveraging the open-source community to extend engineering capabilities and spread the burden of support across participants.",
+            "Meeting minimum requirements to meet legal and regulatory obligations with flexibility to not be completely transparent about practices and components."
+        ],
+        "dislikes": [
+            "Upstream dependencies that no longer support security updates or other issues with projects that I'm contractually obligated to continue supporting.",
+            "Bearing the brunt of maintenance and contributions when others who benefit are not making contributions back themselves.",
+            "Upstream components that release bug fixes and vulnerability patches too frequently are not aligned with my release cadence. Sometimes these upstream releases break backward compatibility barring me from quickly accepting them.",
+            "Increasing burden to comply with laws, evidentiary requirements, and vulnerability fixes take time away from innovating."
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+            "Builds that do not require effort to troubleshoot, research issues, and adjust to change.",
+            "Scorecard can help evaluate the OSS components I use in my solution more quickly.",
+            "Frameworks like SLSA & S2C2F help to understand my upstream components are developed, composed, delivered, and other requirements to ingest them."
+        ],
+        "education": [
+            "Does not seek out security-oriented materials and just needs to know what has to be done.",
+            "Developers on team need to understand secure application development and secure supply chain practices so we can follow expected industry best practices."
+        ],
+        "communications": [
+            "Clarity to understand when fixes and vulnerability patches provided upstream will impact my specific implementation or customers."
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

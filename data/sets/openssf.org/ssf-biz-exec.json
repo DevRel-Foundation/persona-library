@@ -1,0 +1,49 @@
+{
+    "id": "ssf-biz-exec",
+    "label": "Charli CEO",
+    "narrative": "Leadership role for an enterprise or organization.",
+    "organization": {
+        "gtm": "*",
+        "maturity": "*"
+    },
+    "role": {
+        "function": "biz",
+        "level": "exec",
+        "experience": "*",
+        "responsibilities": [],
+        "titles": [
+            "CISO",
+            "CTO",
+            "CEO"
+        ],
+        "tools": [ ]
+    },
+    "awareness": {
+        "channels": [ ],
+        "events": [ ]
+    },
+    "motivations": {
+        "likes": [
+            "Networking, business development, and collaborating on enterprise engagement."
+        ],
+        "dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+            "Policy summits and case studies are valuable."
+        ],
+        "communications": [
+            "Integration with other Linux Foundation projects the organization also relies upon.",
+            "Cross-project engagement and enterprise adoption messaging."
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

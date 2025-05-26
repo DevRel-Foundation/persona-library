@@ -1,0 +1,76 @@
+{
+    "id": "ssf-dev-enterprise",
+    "label": "Debbie the Downstream Contributor",
+    "parent": ["ssf-dev"],
+    "segment": "security",
+    "narrative": "Debbie writes open source software for a large tech firm. She has had both jobs focused on open source software as well as closed source software. She is responsible for maintaining a popular open source project. Her maintainer status on the project is not tied to her job, but she is paid by her company to work on the project.",
+    "organization": {
+        "maturity": "enterprise",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "dev",
+        "level": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "Software Engineer",
+            "Software Developer",
+            "Full-Stack Engineer",
+            "Sr. Software Engineer",
+            "Staff Software Engineer",
+            "Principal Software Engineer"
+        ],
+        "tools": ["drf-ide", "drf-scm", "drf-cicd", "drf-ticketing", "drf-comms", "drf-test", "drf-build"],
+        "technologies": {
+            "languages": [ ],
+            "environments": [ ],
+            "skills": [ ],
+            "education": [ ]
+        }
+    },
+    "awareness": {
+        "channels": [ ],
+        "events": [ ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": [ ]
+    },
+    "motivations": {
+        "goals": [
+            "Avoid becoming too overloaded with work.",
+            "To be seen as a good member of the open-source community.",
+            "Driven to see the open-source project become successful, popular and safe for adoption by the public and employer.",
+            "Align open-source work with company goals.",
+            "Ensure open-source work in community reflects well on the company."
+        ],
+        "likes": [
+        ],
+        "dislikes": [
+            "Conflicting requirements between company and open-source project that must be reconciled.",
+            "Prioritization between internal company work and community requests.",
+            "Open-source work has unclear and fuzzy metrics to gauge success unlike business objectives.",
+            "Unable to utilize commercial tools with financial commitments for performing common security tasks on the open-source project (SCA, Fuzzers, etc.)."
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+            "Alpha-Omega project may support any projects deemed critical to the safety of the overall community.",
+            "Scorecard can help with gathering metrics on security health of open-source projects.",
+            "Allstar helps ensure adherence to security best practices."
+        ],
+        "education": [
+            "Best practices, frameworks, and standards like SLSA and S2C2F can better protect projects being maintained."
+        ],
+        "communications": [
+            "OpenSSF governance allows open-source maintainers to leverage foundation support like security audit and review.",
+            "OpenSSF benefits software supply chain for downstream consumers by helping them use the tools and follow best practices."
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

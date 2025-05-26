@@ -1,0 +1,76 @@
+{
+    "id": "ssf-dev-oss",
+    "label": "Ursula the Upstream Maintainer",
+    "parent": ["ssf-dev"],
+    "segment": "security",
+    "narrative": "She created an open-source project on the weekend to learn a new programming language or technology. The project became popular and continue to maintain it after work hours and on weekends. Some volunteers have also joined in to provide support. For employment, she is at a tech company but the project is unrelated to her day job so there is no implied or explicit affiliation with her job.",
+    "organization": {
+        "maturity": "*",
+        "gtm": "oss"
+    },
+    "role": {
+        "function": "dev",
+        "level": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "Software Engineer",
+            "Software Developer",
+            "Site Reliability Engineer"
+        ],
+        "tools": [ ],
+        "technologies": {
+            "languages": [ ],
+            "environments": [
+             ],
+            "skills": [ ],
+            "education": [ ]
+        }
+    },
+    "awareness": {
+        "channels": [
+        ],
+        "events": [
+         ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": []
+    },
+    "motivations": {
+        "goals": [
+            "Wants to follow any rules or policies so that she doesn't get fired from her job for supporting the open-source project.",
+            "Wants to learn new tech and create something cool / stimulating. Adoption of the project by others is not the primary motivation."
+        ],
+        "likes": [
+            "Potential for making project a side job or source of income."
+        ],
+        "dislikes": [
+            "Regulatory requirements requested by downstream consumers because that is not a personal objective for creating and maintaining the project.",
+            "Getting burned out from working on both a day job and after hours for an open-source project.",
+            "Extra work that may be required to put project into a foundation while just a side project.",
+            "Does not get paid for the work so requests from individuals and large organizations demanding addtional features or assurances around security.",
+            "Legal requirements that may require expensive (time and money) security or compliance tasks.",
+            "Maintenance and updates on existing functinoality that require large blocks of contiguous time.",
+            "Triaging jargon related to improvements for security and compliance."
+        ]
+    },
+    "strategies": {
+        "design": [
+            "Modular bite-sized tasks that require less than an hour instead of half a day or more to complete."
+        ],
+        "product": [
+            "Automated tools that can be integrated into Github to enforce project security.",
+            "OpenSSF needs to create projects that are easy to consume. Merge/Pull requests where work is already done. Contributing guides, issue templates."
+
+        ],
+        "education": [
+        ],
+        "communications": [
+            "Already benefiting from using dependencies that are helped by the OpenSSF."
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

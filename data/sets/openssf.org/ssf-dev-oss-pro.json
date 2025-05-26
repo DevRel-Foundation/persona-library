@@ -1,0 +1,67 @@
+{
+    "id": "ssf-dev-oss-pro",
+    "label": "Diana the Weeekend Warrior",
+    "segment": "security",
+    "parent": ["ssf-dev"],
+    "narrative": "Only work in open-source on occasion and in spare time. Started out as a way to learn new things for fun. I contribute to a couple of small packages and impactful features in other projects related to my underlying ecosystem. I have niche knowledge and experience where I'm highly proficient.",
+    "organization": {
+        "maturity": "*",
+        "gtm": "oss"
+    },
+    "role": {
+        "function": "dev",
+        "level": "pro",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [ ],
+        "tools": [ ],
+        "technologies": {
+            "languages": [ ],
+            "environments": [ ],
+            "skills": [ ],
+            "education": [ ]
+        }
+    },
+    "awareness": {
+        "channels": [
+        ],
+        "events": [
+         ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": [ ]
+    },
+    "motivations": {
+        "goals": [
+            "Make contributions within constraints of budget, time, and resources."
+        ],
+        "likes": [
+            "Contributing something in the 4h or so per month that can be spared.",
+            "Having a life outside of technology is a priority (family, job, friends)."
+        ],
+        "dislikes": [
+            "Keeping toolchain up-to-date and running since infrequent contributor.",
+            "Packaging ecosystem and dependencies, fight with them all the time and consumes as much effort as the impactful contribution to be made.",
+            "Maintaining a project, handling dependencies, and keeping things up to date.",
+            "Writing tests and other quality control measures, a known gap, but don't want to spend time on it.",
+            "Reviewing and reacting to user reports can be challenging.",
+            "A minor version bump that is a surprise breaking change."
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+            "Builds that do not require effort to troubleshoot, research issues, and adjust to change."
+        ],
+        "education": [
+            "Does not seek out security-oriented materials and just needs to know what has to be done."
+        ],
+        "communications": [
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}
