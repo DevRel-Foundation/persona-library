@@ -106,6 +106,16 @@
             ]
         },
         {
+            "term": "assumptive persona", 
+            "definitions": [
+                "A persona that is created based on assumptions or generalizations rather than direct research or data, often used as a placeholder until more accurate personas can be developed. This type of persona may be based on stereotypes or common industry practices and should be validated with real user data. Lean UX methodologies often use this type of ad-hoc persona to get started with product development without deeper research."
+            ]
+        },
+        {
+            "term": "proto-persona",
+            "see": "assumptive persona"
+        },
+        {
             "term": "user story",
             "definitions": [
                 "A concise description of a feature told from the perspective of a persona, typically following the format: 'As a [persona], I want [goal or job to be done] so that [reason].'"
