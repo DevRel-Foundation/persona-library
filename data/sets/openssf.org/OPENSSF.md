@@ -11,7 +11,7 @@ This persona set is a case study for applying the concepts of the Persona Librar
 
 > **Attribution:** The details created here were inspired by the work of the OpenSSF projects and in particular the Developer Relations Community within OpenSSF. The project falls under the Creative Commons Attribution 4.0 License.
 
-Review the [case-study.md](./case-study.md) for this persona set.
+Review the [case-study.md](./docs/case-study.md) for this persona set.
 
 # Personas
 

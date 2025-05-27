@@ -48,8 +48,8 @@ Using your personas:
 Example sets of personas created by organizations for their use and shared as reference.
 
 - [General Collection](./data/personas)
-- [DevRel Foundation Persona Set](./data/sets/dev-rel.org/README.md)
-- OpenSSF Persona Set (_TODO_)
+- [DevRel Foundation Persona Set](./data/sets/dev-rel.org/DEVREL-FOUNDATION.md)
+- [OpenSSF Persona Set](./data/sets/openssf.org/OPENSSF.md)
 
 Run `./bin/pls-validate --data data/personas/*.json --schema ./src/schemas/persona.json` to confirm the source persona data is valid.
 
