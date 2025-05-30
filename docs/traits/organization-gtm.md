@@ -23,3 +23,9 @@ The company has products or services that are intended for use by somebody who i
 
 It is not always very clear what role Developer Relations has in making this type of business successful.
 
+### Open-source Development (oss)
+
+The company has an open-core model or an open-source software office so that employees may make contributions to open-source office that benefits the organization goals or fulfills the individual's growth objectives.
+
+
+

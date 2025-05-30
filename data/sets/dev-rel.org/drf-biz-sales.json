@@ -1,6 +1,6 @@
 {
     "label": "Selly Sally",
-    "id": "biz-sales",
+    "id": "drf-biz-sales",
     "parent": ["biz-marketing"],
     "narrative": "This persona joined the Developer Relations Foundation because they believe their customer is here. They have a sales background orintention. A consultant who is offering services or trying to sell a SaaS tool, event planner trying to sell sponsorships, research organization selling data, etc. fall into this persona.",
     "organization": {

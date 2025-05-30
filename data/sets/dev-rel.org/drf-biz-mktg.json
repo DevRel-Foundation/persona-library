@@ -1,6 +1,6 @@
 {
     "label": "Markety Mark",
-    "id": "biz-mktg",
+    "id": "drf-biz-mktg",
     "narrative": "This persona joined the DevRel Foundation because the developer segment is important for their role. They have a marketing background and contribute to marketing campaigns that are aimed at developers.",
     "organization": {
         "gtm": "*",

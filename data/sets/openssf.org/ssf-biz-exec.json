@@ -1,0 +1,55 @@
+{
+    "id": "ssf-biz-exec",
+    "label": "Charli CEO",
+    "narrative": "Leadership role for an enterprise or organization.",
+    "organization": {
+        "gtm": "*",
+        "maturity": "*"
+    },
+    "role": {
+        "function": "biz",
+        "level": "exec",
+        "experience": "*",
+        "responsibilities": [],
+        "titles": [
+            "CISO",
+            "CTO",
+            "CEO"
+        ],
+        "tools": [ ]
+    },
+    "awareness": {
+        "channels": [ ],
+        "events": [ ]
+    },
+    "motivations": {
+        "likes": [
+            "Networking, business development, and collaborating on enterprise engagement."
+        ],
+        "dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+            "Provide organization-wide visibility into contributions to make it easy for leadership to see a report of their activities."
+        ],
+        "education": [
+            "Policy summits and case studies are valuable.",
+            "Provide training and education resources that can be given to managers and engineering teams within my organization."
+        ],
+        "communications": [
+            "Integration with other Linux Foundation projects the organization also relies upon.",
+            "Cross-project engagement and enterprise adoption messaging.",
+            "Provide clear messaging on relevance of OpenSSF to achieve business outcomes for an enterprise."
+        ],
+        "sales": [
+            "Provide leadership opportunities on working groups, governing boards, or policy initiatives to further the executive's influence and visibility to cement their commitment."
+        ],
+        "marketing": [
+            "Provide opportunities for enterprise leaders to be seen as though leaders and grow awareness in the ecosystem of their contributions.",
+            "Facilitate speaking opportunities, co-authoring of content, and featuring organizations in case studies."
+        ]
+    }
+}

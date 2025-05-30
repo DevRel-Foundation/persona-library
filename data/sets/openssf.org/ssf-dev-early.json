@@ -1,0 +1,62 @@
+{
+    "id": "ssf-dev-early",
+    "label": "Stanislav the Student Maintainer",
+    "segment": "security",
+    "parent": ["ssf-dev"],
+    "narrative": "Occasional contributor part-time for passion or school project.",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "dev",
+        "level": "early",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "Software Engineer Intern",
+            "CS Student"
+        ],
+        "tools": [],
+        "technologies": {
+            "languages": [ ],
+            "environments": [
+             ],
+            "skills": [ ],
+            "education": [ ]
+        }
+    },
+    "awareness": {
+        "channels": [
+        ],
+        "events": [
+         ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": []
+    },
+    "motivations": {
+        "goals": [
+            "Learn something new to build skills and knowledge.",
+            "Build work experience through contributions for future employment."
+        ],
+        "likes": [
+        ],
+        "dislikes": [
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+        ],
+        "communications": [
+        ],
+        "sales": [
+        ],
+        "marketing": [
+        ]
+    }
+}

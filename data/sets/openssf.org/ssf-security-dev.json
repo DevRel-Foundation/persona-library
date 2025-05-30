@@ -1,0 +1,81 @@
+{
+    "id": "ssf-security-dev",
+    "label": "Finn the Finder",
+    "segment": "security",
+    "parent": ["ssf-dev"],
+    "narrative": "Finders may intentionally or unintentionally discover vulnerabilities in software. They are the hackers, security researchers, academics, bug bounty hunters, and concerned software enthusiasts.",
+    "organization": {
+        "maturity": "*",
+        "gtm": "*"
+    },
+    "role": {
+        "function": "dev",
+        "level": "*",
+        "responsibilities": ["coding", "reviewing"],
+        "titles": [
+            "Security Program Manager",
+            "Security Researcher",
+            "Security Architect",
+            "Security Engineer"
+        ],
+        "tools": [ ],
+        "technologies": {
+            "languages": [ ],
+            "environments": [
+             ],
+            "skills": [ ],
+            "education": [
+                "B.S. Cybersecurity"
+            ]
+        }
+    },
+    "awareness": {
+        "channels": [ ],
+        "events": ["drf-blackhat.com", "drf-defcon.org" ]
+    },
+    "adoption": {
+        "curve": "*",
+        "modality": []
+    },
+    "motivations": {
+        "goals": [
+            "Wants to discover vulnerabilities before any threat actors do.",
+            "Looks for recognition and credit (or monetary rewards) for the effort of discovering complex and high severity issues to grow their career and reputation."
+        ],
+        "likes": [
+        ],
+        "dislikes": [
+            "Projects that do now have well published public vulnerability disclosure policies.",
+            "Developers, vendors, and project maintainers who are not responsive to disclosed findings.",
+            "Vulnerabilities that are discovered and later exploited in the wild."
+        ]
+    },
+    "strategies": {
+        "design": [
+            "Vulnerability disclosure process that is clear, concise, and easy to follow for both novices and experts."
+        ],
+        "product": [
+            "Beginner-friendly contribution pathways, enhanced documentation, and mentorship.",
+            "Track Mean Time to Remediate (MTTR) for found vulnerabilities and disclose in scorecards. This can help consumers make automated decisions using risk metrics (scorecard) to undersatnd projects that are responsive."
+        ],
+        "education": [
+            "Tech talks, working groups, and policy summits can be effective educational opportunities.",
+            "If not a regular contributor, may be unaware of vulnerability disclosure processes or procedures to discreetly connect finders with project maintainers. Push educational resources.",
+            "Share case studies like lessons learned from not following disclosure processes. Address concerns about open vulnerabilities that are disclosed but not quickly closed/resolved by maintainers/projects."
+        ],
+        "communications": [
+            "Clear enterprise-facing communication on tool adoption and compliance is helpful.",
+            "Software security development courses should have messaging for what to do if a vulnerability is dislosed.",
+            "Provide filters for communication so that there is a high signal to noise ratio to ensure valuable critical information is seen while suppressing some engagement opportunities."
+        ],
+        "sales": [
+            "Organize a Security Incident Response Team (SIRT) to be in place and provide support to projects when high profile vulnerabilities are discovered to offset any lack of prioritization by maintainers.",
+            "Incentivize open-source projects to close vulnerabilities."
+        ],
+        "marketing": [
+            "Encourage ethical hacking and reporting vulnerability rather than sharing as a zero-day to threat actors.",
+            "Evangelize security education as part of computer science, information systems, and related academic programs.",
+            "Leverage DevRel at industry events (speaking, booths) where roles go to learn."
+        ]
+    }
+}

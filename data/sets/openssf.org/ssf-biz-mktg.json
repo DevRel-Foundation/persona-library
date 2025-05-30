@@ -1,0 +1,53 @@
+{
+    "id": "ssf-biz-mktg",
+    "label": "Product Marketing and Community Engagement",
+    "narrative": "Stays informed on open-source security trends in order to market a product or build connections between like-minded people.",
+    "organization": {
+        "gtm": "*",
+        "maturity": "*"
+    },
+    "role": {
+        "function": "biz",
+        "level": "*",
+        "experience": "*",
+        "responsibilities": [],
+        "titles": [
+            "Public Relations Manager",
+            "Community manager"
+        ],
+        "tools": [ ]
+    },
+    "awareness": {
+        "channels": [ ],
+        "events": [ ]
+    },
+    "motivations": {
+        "likes": [
+            "Networking, business development, and collaborating on go to market strategies."
+        ],
+        "dislikes": [
+            "May find OpenSSF content and projects to be too technical or specific for broader marketing goals."
+        ]
+    },
+    "strategies": {
+        "design": [
+        ],
+        "product": [
+        ],
+        "education": [
+            "Likes to learn from blog posts and case studies."
+        ],
+        "communications": [
+            "Integration with other Linux Foundation projects the organization also relies upon.",
+            "Cross-project engagement and enterprise adoption messaging.",
+            "Provide ready-to-use collateral and communications materials to share with decision-makers and other stakeholders."
+        ],
+        "sales": [
+            "Partnership opportunities and media platforms is valuable."
+        ],
+        "marketing": [
+            "Follows social media trends and supports those with professional relationships.",
+            "Storytelling and marketing content is consumed and more effective than with other technical personas."
+        ]
+    }
+}

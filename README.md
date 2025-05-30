@@ -48,8 +48,8 @@ Using your personas:
 Example sets of personas created by organizations for their use and shared as reference.
 
 - [General Collection](./data/personas)
-- [DevRel Foundation Persona Set](./data/sets/dev-rel.org/README.md)
-- OpenSSF Persona Set (_TODO_)
+- [DevRel Foundation Persona Set](./data/sets/dev-rel.org/DEVREL-FOUNDATION.md)
+- [OpenSSF Persona Set](./data/sets/openssf.org/OPENSSF.md)
 
 Run `./bin/pls-validate --data data/personas/*.json --schema ./src/schemas/persona.json` to confirm the source persona data is valid.
 
@@ -59,6 +59,14 @@ Ease of use tools such as LLMs, user-interfaces, etc. are not currently within t
 
 - [pls-validate](./bin/pls-validate): used to validate one or more personas (JSON data) with a given schema.
 - [pls-json-to-md](./bin/pls-json-to-md): used to format reference library entries into a renderable markdown file.
+
+### DEVREL-PLS Out of Scope
+
+**Product Requirements Definitions**
+
+A persona is not intended to be a requirements document.
+
+User stories, use cases, user journey, and jobs to be done are best captured by tools for that purpose. Integrating your list of personas into those systems is more appropriate.
 
 ## License
 

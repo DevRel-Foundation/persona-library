@@ -1,5 +1,5 @@
 {
-    "id": "mix-early-infl",
+    "id": "drf-mix-early-infl",
     "label": "Carl Community",
     "narrative": "This persona joined the DevRel Foundation because they want to participate in communities to connect with others. They may not have as technical a background or just may no longer focus on that skillset and instead leverage social skills to connect others and extend their network.",
     "parent": ["dev", "biz"],
