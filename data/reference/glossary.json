@@ -20,6 +20,30 @@
             ]
         },
         {
+            "term": "developer persona",
+            "definitions": [
+                "A persona that focuses on the characteristics, behaviors, and needs of software developers, often used in product development and marketing to tailor solutions to their specific requirements."
+            ]
+        },
+        {
+            "term": "demographics",
+            "definitions": [
+                "Statistical data relating to the population overall that a particular persona belongs. Includes attributes such as age, gender, income level, education, occupation, or geographic location."
+            ]
+        },
+        {
+            "term": "psychographics",
+            "definitions": [
+                "Qualitative data that describes the personality, values, interests, attitudes, and lifestyles of a persona. This helps to understand the motivations and preferences that drive behaviors."
+            ]
+        },
+        {
+            "term": "firmographics",
+            "definitions": [
+                "Attributes that describe the workplace characteristics of the organization or company for a persona. Includes attributes such as industry, company size, revenue, location, and organizational structure. This is often used to understand the business environment of a persona."
+            ]  
+        },
+        {
             "term": "customer persona",
             "definitions": [
                 "A representation of an existing customer who has already purchased your product or service, highlighting their ongoing needs, satisfaction factors, and loyalty drivers. This may be a specific instance of a persona to acknowledge an exsiting relationship."
@@ -80,6 +104,16 @@
             "definitions": [
                 "Acronym used for call to action."
             ]
+        },
+        {
+            "term": "assumptive persona", 
+            "definitions": [
+                "A persona that is created based on assumptions or generalizations rather than direct research or data, often used as a placeholder until more accurate personas can be developed. This type of persona may be based on stereotypes or common industry practices and should be validated with real user data. Lean UX methodologies often use this type of ad-hoc persona to get started with product development without deeper research."
+            ]
+        },
+        {
+            "term": "proto-persona",
+            "see": "assumptive persona"
         },
         {
             "term": "user story",

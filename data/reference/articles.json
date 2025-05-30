@@ -1,173 +1,214 @@
 {
     "description": "Blog posts, tutorials, white papers, slide decks, and other written short-form content about creating personas.",
     "data": [{
-        "type": "blog post",
-        "title": "Personas: Study Guide",
-        "authors": ["Kaplan, Kate"],
-        "publish-date": "2022-10-09",
-        "publication": "NN/g Articles & Videos",
-        "url": "https://www.nngroup.com/articles/personas-study-guide/",
-        "notes": []
+            "type": "blog post",
+            "title": "Personas: Study Guide",
+            "authors": ["Kaplan, Kate"],
+            "publish-date": "2022-10-09",
+            "publication": "NN/g Articles & Videos",
+            "url": "https://www.nngroup.com/articles/personas-study-guide/",
+            "notes": []
         }, {
-        "type": "blog post",
-        "title": "A four-step guide to building behavioral personas",
-        "authors": ["Hollingshead, Christy"],
-        "publish-date": "2023-04-17",
-        "publication": "Heap",
-        "url": "https://www.heap.io/blog/a-four-step-guide-to-building-behavioral-personas",
-        "notes": []
+            "type": "blog post",
+            "title": "A four-step guide to building behavioral personas",
+            "authors": ["Hollingshead, Christy"],
+            "publish-date": "2023-04-17",
+            "publication": "Heap",
+            "url": "https://www.heap.io/blog/a-four-step-guide-to-building-behavioral-personas",
+            "notes": []
         }, {
-        "type": "blog post",
-        "title": "UX Personas are useless. Unless created properly.",
-        "authors": ["Fard, Adam"],
-        "publish-date": "1970-01-01",
-        "publication": "adamfard",
-        "url": "https://adamfard.com/blog/ux-personas",
-        "notes": []
+            "type": "blog post",
+            "title": "UX Personas are useless. Unless created properly.",
+            "authors": ["Fard, Adam"],
+            "publish-date": "1970-01-01",
+            "publication": "adamfard",
+            "url": "https://adamfard.com/blog/ux-personas",
+            "notes": []
         }, {
-        "type": "blog post",
-        "title": "Putting names to faces - Developer Personas",
-        "authors": ["DevRel.Agency"],
-        "publish-date": "2023-05-28",
-        "publication": "DevRel.Agency Blog",
-        "url": "https://www.devrel.agency/post/personas",
-        "notes": []
+            "type": "research paper",
+            "title": "Towards Security-Focused Developer Personas",
+            "authors": ["Karanassios, Christos", "Zhang-Kennedy, Leah", "Hadan, Hilda", "Assal, Hala"],
+            "publish-date": "2024-10-13",
+            "publication": "NordiCHI '24 Proceedings",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3679318.3685406"
         }, {
-        "type": "blog post",
-        "title": "23 User Persona Examples, Templates & Tips (2025)",
-        "authors": ["McCready, Ryan"],
-        "publish-date": "2025-03-04",
-        "publication": "Venngage",
-        "url": "https://venngage.com/blog/user-persona-examples/",
-        "notes": []
+            "type": "blog post",
+            "title": "Putting names to faces - Developer Personas",
+            "authors": ["DevRel.Agency"],
+            "publish-date": "2023-05-28",
+            "publication": "DevRel.Agency Blog",
+            "url": "https://www.devrel.agency/post/personas",
+            "notes": []
         }, {
-        "type": "white paper",
-        "title": "How Developers Think: A Persona Playbook",
-        "authors": ["Developer Marketing Alliance"],
-        "publish-date": "2023-09-01",
-        "publication": "Developer Marketing Alliance",
-        "url": "https://www.developermarketing.io/how-developers-think-a-persona-playbook/",
-        "notes": [],
-        "votes": 1
+            "type": "blog post",
+            "title": "23 User Persona Examples, Templates & Tips (2025)",
+            "authors": ["McCready, Ryan"],
+            "publish-date": "2025-03-04",
+            "publication": "Venngage",
+            "url": "https://venngage.com/blog/user-persona-examples/",
+            "notes": []
         }, {
-        "type": "blog post",
-        "title": "What are developer personas? Your complete guide.",
-        "authors": ["Garanhel, Teresa"],
-        "publish-date": "2024-10-22",
-        "publication": "Developer Marketing Alliance",
-        "url": "https://www.developermarketing.io/the-complete-guide-to-developer-personas/",
-        "notes": []
+            "type": "white paper",
+            "title": "How Developers Think: A Persona Playbook",
+            "authors": ["Developer Marketing Alliance"],
+            "publish-date": "2023-09-01",
+            "publication": "Developer Marketing Alliance",
+            "url": "https://www.developermarketing.io/how-developers-think-a-persona-playbook/",
+            "notes": [],
+            "votes": 1
         }, {
-        "type": "blog post",
-        "title": "The History of Buyer Personas",
-        "authors": ["Delve AI"],
-        "publish-date": "1970-01-01",
-        "publication": "Delve AI Blog",
-        "url": "https://www.delve.ai/blog/the-history-of-buyer-personas",
-        "notes": [],
-        "retrieval-date": "2025-03-15",
-        "votes": 1
+            "type": "blog post",
+            "title": "What are developer personas? Your complete guide.",
+            "authors": ["Garanhel, Teresa"],
+            "publish-date": "2024-10-22",
+            "publication": "Developer Marketing Alliance",
+            "url": "https://www.developermarketing.io/the-complete-guide-to-developer-personas/",
+            "notes": []
         }, {
-        "type": "documentation",
-        "title": "Personas",
-        "authors": ["Gitlab"],
-        "publish-date": "1970-01-01",
-        "publication": "The GitLab Handbook",
-        "url": "https://handbook.gitlab.com/handbook/product/personas/",
-        "notes": [
-            {"source": "@j12y", "note": "Identifies 18 user personas with job summary, motivations, and frustrations."}
-        ],
-        "votes": 1
+            "type": "blog post",
+            "title": "The History of Buyer Personas",
+            "authors": ["Delve AI"],
+            "publish-date": "1970-01-01",
+            "publication": "Delve AI Blog",
+            "url": "https://www.delve.ai/blog/the-history-of-buyer-personas",
+            "notes": [],
+            "retrieval-date": "2025-03-15",
+            "votes": 1
         }, {
-        "type": "blog post",
-        "title": "How to create actionable developer personas",
-        "authors": ["Czakon, Jakub"],
-        "publish-date": "1970-01-01",
-        "publication": "Developer Markepear",
-        "url": "https://www.markepear.dev/blog/developer-personas",
-        "notes": [],
-        "votes": 1
+            "type": "documentation",
+            "title": "Personas",
+            "authors": ["Gitlab"],
+            "publish-date": "1970-01-01",
+            "publication": "The GitLab Handbook",
+            "url": "https://handbook.gitlab.com/handbook/product/personas/",
+            "notes": [{
+                "source": "@j12y",
+                "note": "Identifies 18 user personas with job summary, motivations, and frustrations."
+            }],
+            "votes": 1
         }, {
-        "type": "blog post",
-        "title": "You're Targeting Developers? So Is Everyone Else.",
-        "authors": ["Lewko, Caroline"],
-        "publish-date": "2022-03-22",
-        "publication": "Heavybit",
-        "url": "https://www.heavybit.com/library/article/heres-how-to-do-segmentation-better",
-        "notes": [
-            {"source": "@j12y", "note": "Description of Developer Segmentation Framework and Canvas."}
-        ],
-        "votes": 1
+            "type": "blog post",
+            "title": "How to create actionable developer personas",
+            "authors": ["Czakon, Jakub"],
+            "publish-date": "1970-01-01",
+            "publication": "Developer Markepear",
+            "url": "https://www.markepear.dev/blog/developer-personas",
+            "notes": [],
+            "votes": 1
         }, {
-        "type": "blog post",
-        "title": "Why Personas are Important in Software Development",
-        "authors": ["Shah, Dharnendra"],
-        "publish-date": "1970-01-01",
-        "publication": "Techblocks",
-        "url": "https://tblocks.com/articles/why-personas-are-important-in-software-development/",
-        "notes": []
+            "type": "blog post",
+            "title": "Proto-Personas VS Personas",
+            "authors": ["McMahon, Kari"],
+            "publish-date": "2018-02-18",
+            "publication": "Kari McMahon",
+            "url": "https://medium.com/@karimcmahon/proto-personas-vs-persona-s-db8873a2d2e4"
         }, {
-        "type": "blog post",
-        "title": "10 Tips for Creating Agile Personas",
-        "authors": ["Pichler, Roman"],
-        "publish-date": "2023-02-06",
-        "publication": "romanpichler",
-        "url": "https://www.romanpichler.com/blog/10-tips-agile-personas/",
-        "notes": []
+            "type": "blog post",
+            "title": "Proto-Persona: Differences and Similarities with Persona",
+            "authors": ["Liam DevSamurai"],
+            "publish-date": "2024-06-11",
+            "publication": "Atlassian Forums",
+            "url": "https://community.atlassian.com/forums/App-Central-articles/Proto-Persona-Differences-and-Similarities-with-Persona/ba-p/2723307"
         }, {
-        "type": "blog post",
-        "title": "Personas and Job Titles: Are You a Developer?",
-        "authors": ["DeLancey, Jayson"],
-        "publish-date": "2023-09-23",
-        "publication": "dev.to/j12y",
-        "url": "https://dev.to/j12y/personas-and-job-titles-are-you-a-developer-n4k",
-        "notes": [
-            {"source": "@j12y", "note": "Challenges the idea of what a developer is based on job titles."}
-        ],
-        "votes": 1
+            "type": "blog post",
+            "title": "You're Targeting Developers? So Is Everyone Else.",
+            "authors": ["Lewko, Caroline"],
+            "publish-date": "2022-03-22",
+            "publication": "Heavybit",
+            "url": "https://www.heavybit.com/library/article/heres-how-to-do-segmentation-better",
+            "notes": [{
+                "source": "@j12y",
+                "note": "Description of Developer Segmentation Framework and Canvas."
+            }],
+            "votes": 1
         }, {
-        "type": "blog post",
-        "title": "Threat Modeling - Start using evil personas",
-        "authors": ["van Stein, Dave"],
-        "publish-date": "2020-11-30",
-        "publication": "Xebia",
-        "url": "https://xebia.com/blog/threat-modeling-start-using-evil-personas/",
-        "notes": [
-            {"source": "@j12y", "note": "Some generic examples of personas who are anti-users"}
-        ]
+            "type": "blog post",
+            "title": "Why Personas are Important in Software Development",
+            "authors": ["Shah, Dharnendra"],
+            "publish-date": "1970-01-01",
+            "publication": "Techblocks",
+            "url": "https://tblocks.com/articles/why-personas-are-important-in-software-development/",
+            "notes": []
         }, {
-        "type": "blog post",
-        "title": "Targeting your API developer relations program with personas",
-        "authors": ["Spence, Ted"],
-        "publish-date": "2022-10-24",
-        "publication": "tedspence.com",
-        "url": "https://tedspence.com/marketing-personas-for-developers-a20aa3f3b1ad",
-        "notes": [
-            {"source": "@j12y", "note": "working styles with ideas to help each"}
-        ],
-        "votes": 1
+            "type": "blog post",
+            "title": "Proto-Persona: Define Your Target Users",
+            "authors": ["Sunwar, Darpan", "Stolworthy, Spencer"],
+            "publish-date": "2025-01-01",
+            "publication": "Open Practice Library",
+            "url": "https://openpracticelibrary.com/practice/proto-persona/"
         }, {
-        "type": "blog post",
-        "title": "How to Create Developer Personas that Actually Work",
-        "authors": ["Julien, Sam"],
-        "publish-date": "2025-02-01",
-        "publication": "samjulien.com",
-        "url": "https://www.samjulien.com/how-to-create-developer-personas/",
-        "notes": [
-        ],
-        "votes": 1
-        },
-        {
-        "type": "documentation",
-        "title": "Persona (user experience)",
-        "authors": [],
-        "publish-date": "2025-05-11",
-        "retrieval-date": "2025-05-11",
-        "publication": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Persona_(user_experience)",
-        "notes": [
-        ],
-        "votes": 1
+            "type": "blog post",
+            "title": "Developer Personas",
+            "authors": ["LinkedIn"],
+            "publish-date": "2023-10-01",
+            "publication": "LinkedIn Developer Productivity & Happiness Framework",
+            "url": "https://linkedin.github.io/dph-framework/developer-personas.html",
+            "notes": [{
+                "source": "@j12y",
+                "note": "Explains personas in terms of workflow differences between mobile developers, back-end developers, Machine Learning developers, etc."
+            }]
+        }, {
+            "type": "blog post",
+            "title": "10 Tips for Creating Agile Personas",
+            "authors": ["Pichler, Roman"],
+            "publish-date": "2023-02-06",
+            "publication": "romanpichler",
+            "url": "https://www.romanpichler.com/blog/10-tips-agile-personas/",
+            "notes": []
+        }, {
+            "type": "blog post",
+            "title": "Personas and Job Titles: Are You a Developer?",
+            "authors": ["DeLancey, Jayson"],
+            "publish-date": "2023-09-23",
+            "publication": "dev.to/j12y",
+            "url": "https://dev.to/j12y/personas-and-job-titles-are-you-a-developer-n4k",
+            "notes": [{
+                "source": "@j12y",
+                "note": "Challenges the idea of what a developer is based on job titles."
+            }],
+            "votes": 1
+        }, {
+            "type": "blog post",
+            "title": "Threat Modeling - Start using evil personas",
+            "authors": ["van Stein, Dave"],
+            "publish-date": "2020-11-30",
+            "publication": "Xebia",
+            "url": "https://xebia.com/blog/threat-modeling-start-using-evil-personas/",
+            "notes": [{
+                "source": "@j12y",
+                "note": "Some generic examples of personas who are anti-users"
+            }]
+        }, {
+            "type": "blog post",
+            "title": "Targeting your API developer relations program with personas",
+            "authors": ["Spence, Ted"],
+            "publish-date": "2022-10-24",
+            "publication": "tedspence.com",
+            "url": "https://tedspence.com/marketing-personas-for-developers-a20aa3f3b1ad",
+            "notes": [{
+                "source": "@j12y",
+                "note": "working styles with ideas to help each"
+            }],
+            "votes": 1
+        }, {
+            "type": "blog post",
+            "title": "How to Create Developer Personas that Actually Work",
+            "authors": ["Julien, Sam"],
+            "publish-date": "2025-02-01",
+            "publication": "samjulien.com",
+            "url": "https://www.samjulien.com/how-to-create-developer-personas/",
+            "notes": [],
+            "votes": 1
+        }, {
+            "type": "documentation",
+            "title": "Persona (user experience)",
+            "authors": [],
+            "publish-date": "2025-05-11",
+            "retrieval-date": "2025-05-11",
+            "publication": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Persona_(user_experience)",
+            "notes": [],
+            "votes": 1
         }
     ]
 }
